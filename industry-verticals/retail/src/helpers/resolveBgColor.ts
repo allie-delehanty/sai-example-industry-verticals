@@ -1,7 +1,7 @@
 export const resolveBackgroundClassFromStyles = (styles: string = ''): string => {
   const styleToClassMap: Record<string, string> = {
     'container-white-background': 'bg-background',
-    'container-gold-background': 'bg-background-accent',
+    'container-gold-background': 'bg-background-muted',
     'container-gray-background': 'bg-background-muted',
   };
   const priority = Object.keys(styleToClassMap);

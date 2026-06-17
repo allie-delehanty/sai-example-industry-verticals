@@ -7,7 +7,6 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
 } from '../../shadcn/components/ui/select';
 import { Globe } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
@@ -16,6 +15,12 @@ import { localeOptions } from '@/constants/localeOptions';
 
 export type LanguageSwitcherProps = ComponentProps & {
   params: { [key: string]: string };
+};
+
+const headerLanguageLabels: Record<string, string> = {
+  en: 'English',
+  'fr-FR': 'Français',
+  'es-ES': 'Español',
 };
 
 export default function LanguageSwitcher(props: LanguageSwitcherProps) {
@@ -50,25 +55,25 @@ export default function LanguageSwitcher(props: LanguageSwitcherProps) {
     ? activeLocale
     : 'en';
 
+  const headerLabel = headerLanguageLabels[selectedLocale] ?? selectedLocale;
+
   return (
     <div className={`component language-switcher ${styles}`} id={id}>
       <Select value={selectedLocale} onValueChange={(value) => changeLanguage(value as string)}>
         <SelectTrigger
           id="language-select"
-          aria-label={`Current Language: ${selectedLocale}`}
-          className="border-0 shadow-none [&>svg]:hidden [.component.header_&]:px-1"
+          aria-label={`Current Language: ${headerLabel}`}
+          className="text-foreground hover:text-accent h-auto border-0 bg-transparent p-1 shadow-none [&>svg]:hidden"
         >
           <div className="flex items-center gap-2">
-            <Globe className="size-5" />
-            <span className="max-lg:hidden">
-              <SelectValue placeholder="Language" />
-            </span>
+            <Globe className="size-5 shrink-0" strokeWidth={1.75} />
+            <span className="text-sm font-bold">{headerLabel}</span>
           </div>
         </SelectTrigger>
-        <SelectContent className="min-w-44 border-0">
+        <SelectContent className="min-w-44 border">
           {localeOptions.map((language) => (
             <SelectItem key={language.code} value={language.code}>
-              <span>{language.label}</span>
+              <span>{headerLanguageLabels[language.code] ?? language.label}</span>
             </SelectItem>
           ))}
         </SelectContent>

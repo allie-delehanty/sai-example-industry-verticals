@@ -19,10 +19,10 @@ export const ProductSizeControl = ({
         <button
           key={size.id}
           onClick={() => onSelect(size)}
-          className={`size-8 rounded text-sm transition-colors ${
+          className={`size-8 border text-sm transition-colors ${
             selectedSize?.id === size.id
               ? 'bg-accent text-background'
-              : 'bg-background-accent hover:bg-accent/20'
+              : 'bg-background-muted hover:bg-accent/10 text-foreground border-border border'
           }`}
         >
           {size.fields?.ProductSize?.value ?? '-'}

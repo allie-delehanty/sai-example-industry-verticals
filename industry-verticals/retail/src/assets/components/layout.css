@@ -29,6 +29,7 @@
   }
 }
 
+/* NWMO blue content block */
 .container-color-background {
   > .component-content {
     @apply border-background-accent;
@@ -36,33 +37,63 @@
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-background-accent border-background-accent;
-  }
-}
-
-.container-dark-background {
-  > .component-content {
-    @apply border-accent;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-accent border-accent text-background;
+    @apply bg-background-accent border-background-accent text-background;
 
     * {
       @apply text-inherit;
     }
 
-    .arrow-btn {
-      @apply border-b-background;
+    p {
+      @apply text-background/90;
+    }
 
-      &::after {
-        @apply bg-background;
-      }
+    .eyebrow {
+      @apply text-background/80;
+    }
+
+    .arrow-btn {
+      @apply bg-background text-accent hover:bg-background/90 inline-flex px-6 py-3 no-underline;
+    }
+
+    .main-btn {
+      @apply bg-background text-accent hover:bg-background/90;
     }
   }
 }
 
+/* NWMO charcoal/dark content block */
+.container-dark-background {
+  > .component-content {
+    @apply border-charcoal;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-charcoal border-charcoal text-background;
+
+    * {
+      @apply text-inherit;
+    }
+
+    p {
+      @apply text-background/90;
+    }
+
+    .eyebrow {
+      @apply text-background/80;
+    }
+
+    .arrow-btn {
+      @apply bg-accent text-background hover:bg-accent/90 inline-flex px-6 py-3;
+    }
+
+    .main-btn {
+      @apply bg-accent text-background hover:bg-accent/90;
+    }
+  }
+}
+
+/* NWMO light grey section */
 .container-gray-background {
   > .component-content {
     @apply border-background-muted;
@@ -117,11 +148,11 @@
 }
 
 .container-dark-background .shim {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
 }
 
 .shim {
-  background: rgba(255, 255, 255, 0.4);
-  padding: 50px;
+  background: rgba(26, 54, 93, 0.55);
+  padding: 2rem;
 }

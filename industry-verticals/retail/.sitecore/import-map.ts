@@ -8,7 +8,7 @@ import {
 // end of built-in imports
 
 import { Link, Text, useSitecore, RichText, NextImage, Placeholder, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, CdpHelper, withDatasourceCheck, DateField } from '@sitecore-content-sdk/nextjs';
-import { useMemo, useRef, useState, useEffect, useId, useCallback } from 'react';
+import { useMemo, useRef, useState, useEffect, useId, useCallback, useLayoutEffect } from 'react';
 import React from 'react';
 import Head from 'next/head';
 import { useI18n } from 'next-localization';
@@ -30,7 +30,6 @@ import SearchResultsWidget from 'src/components/non-sitecore/search/SearchResult
 import { SEARCH_WIDGET_ID, HIGHLIGHTED_ARTICLES_RFKID, DEFAULT_IMG_URL, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from '@/constants/search';
 import CarouselButton from 'src/components/non-sitecore/CarouselButton';
 import ReviewCard from 'src/components/non-sitecore/ReviewCard';
-import clsx from 'clsx';
 import { Quote } from '@/assets/icons/quote/Quote';
 import { usePagination } from '@/hooks/usePagination';
 import { ProductCard } from '@/components/non-sitecore/ProductCard';
@@ -45,9 +44,9 @@ import { ProductDescription } from 'src/components/non-sitecore/ProductDescripti
 import { ProductSizeControl } from 'src/components/non-sitecore/ProductSizeControl';
 import { ProductColorControl } from 'src/components/non-sitecore/ProductColorControl';
 import { EmailIcon, EmailShareButton, FacebookIcon as FacebookIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, FacebookShareButton, LinkedinIcon as LinkedinIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, LinkedinShareButton, PinterestIcon, PinterestShareButton, TwitterIcon as TwitterIcon_9cb8204ac12fcef03c9ff3e4b02fa570c6e7630c, TwitterShareButton } from 'react-share';
-import StarRating from 'src/components/non-sitecore/StarRating';
 import { ProductReviews } from 'src/components/non-sitecore/ProductReviews';
 import SocialShare from 'src/components/non-sitecore/SocialShare';
+import StarRating from 'src/components/non-sitecore/StarRating';
 import { useLocale } from '@/hooks/useLocaleOptions';
 import { ProductCard as ProductCard_1c3beebee643aa9e58bfc4ec64964849bfb9dc1b } from 'src/components/non-sitecore/ProductCard';
 import { getCart } from '@/lib/cart';
@@ -79,8 +78,9 @@ import { useClickAway } from '@/hooks/useClickAway';
 import { useStopResponsiveTransition } from '@/hooks/useStopResponsiveTransition';
 import { extractMediaUrl } from '@/helpers/extractMediaUrl';
 import { getLinkContent, getLinkField, isNavLevel, isNavRootItem, prepareFields } from '@/helpers/navHelpers';
+import clsx from 'clsx';
 import { useRouter as useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be } from 'next/router';
-import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'src/shadcn/components/ui/select';
+import { Select as Select_4a7098778d43a9b4dcd5871ec48ea51b5a246850, SelectContent, SelectItem, SelectTrigger } from 'src/shadcn/components/ui/select';
 import { localeOptions } from '@/constants/localeOptions';
 import { generateIndexes } from '@/helpers/generateIndexes';
 import client from 'lib/sitecore-client';
@@ -116,6 +116,7 @@ const importMap = [
       { name: 'useEffect', value: useEffect },
       { name: 'useId', value: useId },
       { name: 'useCallback', value: useCallback },
+      { name: 'useLayoutEffect', value: useLayoutEffect },
       { name: 'default', value: React },
     ]
   },
@@ -278,12 +279,6 @@ const importMap = [
     ]
   },
   {
-    module: 'clsx',
-    exports: [
-      { name: 'default', value: clsx },
-    ]
-  },
-  {
     module: '@/assets/icons/quote/Quote',
     exports: [
       { name: 'Quote', value: Quote },
@@ -378,12 +373,6 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/non-sitecore/StarRating',
-    exports: [
-      { name: 'default', value: StarRating },
-    ]
-  },
-  {
     module: 'src/components/non-sitecore/ProductReviews',
     exports: [
       { name: 'ProductReviews', value: ProductReviews },
@@ -393,6 +382,12 @@ const importMap = [
     module: 'src/components/non-sitecore/SocialShare',
     exports: [
       { name: 'default', value: SocialShare },
+    ]
+  },
+  {
+    module: 'src/components/non-sitecore/StarRating',
+    exports: [
+      { name: 'default', value: StarRating },
     ]
   },
   {
@@ -612,6 +607,12 @@ const importMap = [
     ]
   },
   {
+    module: 'clsx',
+    exports: [
+      { name: 'default', value: clsx },
+    ]
+  },
+  {
     module: 'next/router',
     exports: [
       { name: 'useRouter', value: useRouter_0e8a928699f624a3ad05eb9c9906b0e7ce1a00be },
@@ -624,7 +625,6 @@ const importMap = [
       { name: 'SelectContent', value: SelectContent },
       { name: 'SelectItem', value: SelectItem },
       { name: 'SelectTrigger', value: SelectTrigger },
-      { name: 'SelectValue', value: SelectValue },
     ]
   },
   {

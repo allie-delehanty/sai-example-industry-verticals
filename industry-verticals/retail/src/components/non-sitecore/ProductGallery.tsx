@@ -44,10 +44,10 @@ export const ProductGallery = ({ product }: ProductGalleryProps) => {
         {images[mainImageIndex] ? (
           <ContentSdkImage
             field={images[mainImageIndex]}
-            className="bg-background-muted aspect-square w-full rounded-md object-contain p-4"
+            className="bg-background-muted aspect-square w-full object-contain p-4"
           />
         ) : (
-          <div className="bg-background-muted aspect-square w-full rounded-md" />
+          <div className="bg-background-muted aspect-square w-full" />
         )}
       </div>
     </div>

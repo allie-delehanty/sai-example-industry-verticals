@@ -8,7 +8,7 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { ReviewFields } from '@/types/review';
 import CarouselButton from '../non-sitecore/CarouselButton';
@@ -38,47 +38,34 @@ export const Default = (props: ReviewsProps) => {
   const hideAccentLine = styles?.includes(CommonStyles.HideAccentLine);
 
   return (
-    <div className={`${styles}`} id={id}>
-      <div className="container py-20">
-        {/* Heading Section */}
-        <div className="text-center">
-          <p className="eyebrow pb-4">
+    <div className={`bg-background ${styles}`} id={id}>
+      <div className="container py-16 lg:py-20">
+        <div className="mb-10 text-center lg:mb-14">
+          <p className="eyebrow pb-3">
             <Text field={sectionEyebrow} />
           </p>
-          <div className="flex flex-col items-center justify-center gap-2">
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="section-title">
-              <Text field={sectionTitle} />
-            </h2>
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="accent-line">
-              {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
-            </h2>
-          </div>
+          <h2 className="inline-block font-bold" aria-label="section-title">
+            <Text field={sectionTitle} />
+          </h2>
+          {!hideAccentLine && <AccentLine className="mx-auto w-16" />}
         </div>
 
-        {/* Slider Section */}
-        <div className="relative mt-11 px-3">
-          {/* Slider Component */}
+        <div className="relative px-2">
           <CarouselButton
             direction="prev"
             name="Previous Review"
             aria-label="Previous Review"
-            className={`swiper-btn-prev-${uid} absolute top-1/3 -left-2 -translate-y-1/2`}
+            className={`swiper-btn-prev-${uid} absolute top-1/2 -left-2 z-10 -translate-y-1/2`}
           />
 
           <Swiper
-            modules={[Navigation, Pagination]}
-            spaceBetween={20}
-            slidesPerView={4}
+            modules={[Navigation]}
+            spaceBetween={32}
+            slidesPerView={1}
             navigation={{
               prevEl: `.swiper-btn-prev-${uid}`,
               nextEl: `.swiper-btn-next-${uid}`,
               disabledClass: 'pointer-events-none opacity-50',
-            }}
-            breakpoints={{
-              320: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
             }}
           >
             {reviews.map((review) => (
@@ -92,7 +79,7 @@ export const Default = (props: ReviewsProps) => {
             direction="next"
             name="Next Review"
             aria-label="Next Review"
-            className={`swiper-btn-next-${uid} absolute top-1/3 -right-2 -translate-y-1/2`}
+            className={`swiper-btn-next-${uid} absolute top-1/2 -right-2 z-10 -translate-y-1/2`}
           />
         </div>
       </div>

@@ -126,7 +126,7 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
           return (
             <div className="flex flex-col items-center justify-start 2xl:w-80" key={index}>
               {/* Image */}
-              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full">
+              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center">
                 <Image field={image} />
               </div>
               {/* Title and Description */}
@@ -158,19 +158,19 @@ export const NumberedGrid = (props: FeaturesProps) => {
           const description = item?.featureDescription.jsonValue;
           return (
             <div
-              className="group text-background hover:bg-accent cursor-pointer rounded-xl p-6"
+              className="group bg-background-surface hover:bg-accent border-border cursor-pointer border p-6 transition-colors"
               key={index}
             >
               {/* Generated Number */}
-              <h1 className="group-hover:text-background text-background-muted-dark mb-2 text-7xl leading-24">
+              <h1 className="group-hover:text-background text-foreground-muted mb-2 text-6xl leading-none font-bold">
                 {generateIndexes(index)}
               </h1>
               {/* Title and Description */}
               <div>
-                <div className="text-accent group-hover:text-background mb-4 text-2xl leading-8 font-bold">
+                <div className="text-accent group-hover:text-background mb-4 text-xl leading-8 font-bold">
                   <Text field={title} />
                 </div>
-                <div className="text-background-muted-dark group-hover:text-background leading-7">
+                <div className="text-foreground-light group-hover:text-background leading-7">
                   <Text field={description} />
                 </div>
               </div>
@@ -196,7 +196,7 @@ export const FourColGrid = (props: FeaturesProps) => {
           return (
             <div className="grid grid-cols-[1fr_2fr] gap-2.5" key={index}>
               {/* Image */}
-              <div className="flex items-center justify-center rounded-full">
+              <div className="flex items-center justify-center">
                 <Image field={image} />
               </div>
               {/* Title and Description */}
@@ -228,7 +228,7 @@ export const ImageCardGrid = (props: FeaturesProps) => {
           const image = item.featureImage.jsonValue;
           return (
             <div key={index}>
-              <div className="mb-7 aspect-4/3 w-full overflow-hidden rounded-lg bg-white">
+              <div className="mb-7 aspect-4/3 w-full overflow-hidden bg-white">
                 <Image field={image} className="h-full w-full object-cover" />
               </div>
 

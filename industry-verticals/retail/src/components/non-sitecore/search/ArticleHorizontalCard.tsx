@@ -22,18 +22,18 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
   return (
     <Link
       href={article.url}
-      className="focus:outline-accent"
+      className="focus:outline-accent group"
       aria-label={article.name || article.title}
     >
       <ArticleCard.Root
         key={article.id}
-        className={`group border-border hover:shadow-accent/20 bg-background relative my-4 flex max-h-52 w-full flex-row flex-nowrap rounded-md border p-6 shadow-sm transition-shadow hover:shadow-md ${className}`}
+        className={`group border-border bg-background relative my-4 flex max-h-52 w-full flex-row flex-nowrap border p-4 transition-shadow hover:shadow-md ${className}`}
       >
         {validImageUrl && (
-          <div className="bg-background-surface w-1/4 flex-none overflow-hidden rounded">
+          <div className="bg-background-surface w-1/4 flex-none overflow-hidden">
             <Image
               src={validImageUrl}
-              className="h-full w-full rounded object-cover object-center lg:h-full lg:w-full"
+              className="h-full w-full object-cover object-center lg:h-full lg:w-full"
               alt="alt"
               width={500}
               height={115}
@@ -42,15 +42,15 @@ const ArticleHorizontalItemCard = ({ className = '', article }: ArticleCardItemC
         )}
         <div className="grow flex-col pl-4">
           <span aria-hidden="true" className="absolute inset-0"></span>
-          <ArticleCard.Title className="text-foreground mb-2 text-lg font-semibold">
+          <span className="text-accent mb-1 text-xs font-semibold tracking-widest uppercase">
+            {article.type}
+          </span>
+          <ArticleCard.Title className="text-foreground mb-2 text-lg font-bold">
             {article.name || article.title}
           </ArticleCard.Title>
-          <ArticleCard.Subtitle className="text-foreground-light mt-3 line-clamp-2 text-sm">
+          <ArticleCard.Subtitle className="text-foreground-light mt-2 line-clamp-2 text-sm">
             {article.description}
           </ArticleCard.Subtitle>
-          <div className="text-foreground bg-background-accent absolute top-4 right-4 rounded-md px-2.5 py-0.5 text-xs font-semibold">
-            {article.type}
-          </div>
         </div>
       </ArticleCard.Root>
     </Link>

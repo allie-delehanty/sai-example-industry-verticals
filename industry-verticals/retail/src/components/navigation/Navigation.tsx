@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useLayoutEffect } from 'react';
 import { Link, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ChevronDown } from 'lucide-react';
@@ -34,6 +34,7 @@ interface NavigationListItemProps {
   handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
   logoSrc?: string;
   isSimpleLayout?: boolean;
+  variant?: 'default' | 'header-primary';
 }
 
 export interface NavigationProps extends ComponentProps {
@@ -45,6 +46,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
   handleClick,
   logoSrc,
   isSimpleLayout,
+  variant = 'default',
 }) => {
   const { page } = useSitecore();
   const [isActive, setIsActive] = useState(false);
@@ -54,6 +56,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
 
   const isRootItem = isNavRootItem(fields);
   const isTopLevelPage = isNavLevel(fields, 1);
+  const isHeaderPrimary = variant === 'header-primary';
 
   const hasChildren = !!fields.Children?.length;
   const isLogoRootItem = isRootItem && logoSrc;
@@ -72,9 +75,14 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           handleClick={clickHandler}
           isSimpleLayout={isSimpleLayout}
           logoSrc={logoSrc}
+          variant={variant}
         />
       ))
     : null;
+
+  const linkClassName = isHeaderPrimary
+    ? 'hover:text-background/85 text-background text-sm font-bold whitespace-nowrap transition-colors'
+    : 'hover:text-foreground-light text-foreground whitespace-nowrap transition-colors';
 
   return (
     <li
@@ -83,8 +91,8 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
       role="menuitem"
       className={clsx(
         fields?.Styles?.join(' '),
-        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-14',
-        isRootItem && 'lg:flex-row',
+        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-10',
+        isRootItem && !isHeaderPrimary && 'lg:flex-row',
         isLogoRootItem && 'shrink-0 max-lg:hidden',
         isLogoRootItem && isSimpleLayout && 'lg:mr-auto'
       )}
@@ -94,7 +102,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="hover:text-foreground-light whitespace-nowrap transition-colors"
+          className={linkClassName}
         >
           {getLinkContent(fields, logoSrc)}
         </Link>
@@ -104,7 +112,10 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
             aria-label="Toggle submenu"
             aria-haspopup="true"
             aria-expanded={isActive}
-            className="flex h-6 w-6 cursor-pointer items-center justify-center"
+            className={clsx(
+              'flex h-6 w-6 cursor-pointer items-center justify-center',
+              isHeaderPrimary ? 'text-background' : 'text-foreground'
+            )}
             onClick={() => setIsActive((a) => !a)}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
@@ -127,13 +138,16 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
         <ul
           role="menu"
           className={clsx(
-            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-14',
-            isRootItem && 'lg:flex-row',
+            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-10',
+            isRootItem && !isHeaderPrimary && 'lg:flex-row',
             hasDropdownMenu &&
               clsx(
                 'z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
-                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
-                'lg:bg-background lg:rounded-xl lg:shadow-md',
+                isHeaderPrimary ? 'max-lg:border-background/20' : 'max-lg:border-border',
+                'lg:absolute lg:top-full lg:left-0 lg:p-4 lg:transition-all lg:duration-300',
+                isHeaderPrimary
+                  ? 'lg:bg-navy lg:border-border lg:border lg:shadow-lg'
+                  : 'lg:bg-background lg:border-border lg:border lg:shadow-lg',
                 isActive
                   ? 'max-lg:flex'
                   : 'max-lg:hidden lg:pointer-events-none lg:translate-y-2 lg:scale-95 lg:opacity-0'
@@ -149,10 +163,16 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
 
 export const Default = ({ params, fields }: NavigationProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isInHeader, setIsInHeader] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id, Logo: logoImage, SimpleLayout: simpleLayout } = params;
 
   useStopResponsiveTransition();
+
+  useLayoutEffect(() => {
+    setIsInHeader(!!rootRef.current?.closest('.component.header'));
+  }, []);
 
   if (!Object.values(fields).some((v) => !!v)) {
     return (
@@ -170,13 +190,17 @@ export const Default = ({ params, fields }: NavigationProps) => {
   };
 
   const isSimpleLayout = isParamEnabled(simpleLayout);
-  const preparedFields = prepareFields(fields, !isSimpleLayout);
+  const preparedFields = prepareFields(fields, !isSimpleLayout && !isInHeader);
   const rootItem = Object.values(preparedFields).find((item) => isNavRootItem(item));
   const logoSrc = extractMediaUrl(logoImage);
   const hasLogoRootItem = rootItem && logoSrc;
 
   const navigationItems = Object.values(preparedFields)
-    .filter((item): item is NavItemFields => !!item)
+    .filter((item): item is NavItemFields => {
+      if (!item) return false;
+      if (isInHeader && hasLogoRootItem && isNavRootItem(item)) return false;
+      return true;
+    })
     .map((item) => (
       <NavigationListItem
         key={item.Id}
@@ -184,14 +208,91 @@ export const Default = ({ params, fields }: NavigationProps) => {
         handleClick={(event) => handleToggleMenu(event, false)}
         logoSrc={logoSrc}
         isSimpleLayout={!!isSimpleLayout}
+        variant={isInHeader ? 'header-primary' : 'default'}
       />
     ));
 
+  const logoLink = hasLogoRootItem ? (
+    <Link
+      field={getLinkField(rootItem!)}
+      editable={page.mode.isEditing}
+      className="inline-flex shrink-0 items-center"
+      onClick={(event) => handleToggleMenu(event, false)}
+    >
+      {getLinkContent(rootItem!, logoSrc)}
+    </Link>
+  ) : null;
+
+  if (isInHeader) {
+    return (
+      <div ref={rootRef} className={`component navigation ${styles}`} id={id}>
+        {/* Mobile: logo + hamburger */}
+        <div className="navigation-mobile-utility">
+          <div className="container">
+            {logoLink}
+            <HamburgerIcon
+              isOpen={isMenuOpen}
+              onClick={handleToggleMenu}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  handleToggleMenu();
+                }
+              }}
+              className="navigation-mobile-trigger"
+              variant="dark"
+            />
+          </div>
+        </div>
+
+        {/* Desktop tier 1: logo (utilities overlay via Header) */}
+        <div className="navigation-utility-tier hidden lg:block">
+          <div className="container">{logoLink}</div>
+        </div>
+
+        {/* Tier 2: primary navigation — desktop */}
+        <div className="navigation-primary-tier hidden lg:block">
+          <nav className="flex w-full">
+            <ul
+              role="menubar"
+              className="container flex flex-row flex-wrap items-center justify-start gap-x-6 py-0 xl:gap-x-8"
+            >
+              {navigationItems}
+            </ul>
+          </nav>
+        </div>
+
+        {/* Mobile menu overlay */}
+        <nav
+          className={clsx(
+            'bg-background border-border fixed inset-0 top-14 z-100 flex border-b duration-300 lg:hidden',
+            !isMenuOpen && 'pointer-events-none -translate-y-full opacity-0'
+          )}
+        >
+          <ul role="menubar" className="container flex flex-col items-start gap-y-4 py-6">
+            {Object.values(preparedFields)
+              .filter((item): item is NavItemFields => !!item)
+              .map((item) => (
+                <NavigationListItem
+                  key={item.Id}
+                  fields={item}
+                  handleClick={(event) => handleToggleMenu(event, false)}
+                  logoSrc={logoSrc}
+                  isSimpleLayout={!!isSimpleLayout}
+                  variant="default"
+                />
+              ))}
+          </ul>
+        </nav>
+      </div>
+    );
+  }
+
   return (
-    <div className={`component navigation bg-background ${styles}`} id={id}>
+    <div ref={rootRef} className={`component navigation bg-background ${styles}`} id={id}>
       <div
         className={clsx(
-          'relative z-150 container flex items-center py-4 lg:hidden',
+          'relative z-150 container flex items-center py-3 lg:hidden',
           !isSimpleLayout &&
             '[.component.header_&]:grid-cols-2 [.component.header_&]:px-0 [.component.header_&]:max-lg:grid',
           !isSimpleLayout ? 'flex-row-reverse' : '',
@@ -236,11 +337,21 @@ export const Default = ({ params, fields }: NavigationProps) => {
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
+            'container flex flex-col items-center justify-center gap-x-6 gap-y-4 py-6 text-sm lg:flex-row xl:gap-x-10',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >
-          {navigationItems}
+          {Object.values(preparedFields)
+            .filter((item): item is NavItemFields => !!item)
+            .map((item) => (
+              <NavigationListItem
+                key={item.Id}
+                fields={item}
+                handleClick={(event) => handleToggleMenu(event, false)}
+                logoSrc={logoSrc}
+                isSimpleLayout={!!isSimpleLayout}
+              />
+            ))}
         </ul>
       </nav>
     </div>

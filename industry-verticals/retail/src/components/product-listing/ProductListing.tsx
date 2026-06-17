@@ -123,7 +123,7 @@ export const Default = (props: ProductListingProps) => {
               <input
                 type="number"
                 id="items-per-page"
-                className="bg-background outline-border text-foreground-light size-14 rounded-md text-center text-lg [&::-webkit-inner-spin-button]:appearance-none"
+                className="border-border bg-background text-foreground-light size-14 border text-center text-lg [&::-webkit-inner-spin-button]:appearance-none"
                 value={displayCount}
                 onChange={handleDisplayCountChange}
               />
@@ -136,7 +136,7 @@ export const Default = (props: ProductListingProps) => {
               <div className="relative">
                 <select
                   id="sort-by"
-                  className="bg-background text-foreground-light outline-border h-14 w-full appearance-none rounded-md px-7 pr-17 text-lg"
+                  className="border-border bg-background text-foreground-light outline-border h-14 w-full appearance-none border px-7 pr-17 text-lg"
                   value={sortOption}
                   onChange={(e) => setSortOptions(e.target.value)}
                 >

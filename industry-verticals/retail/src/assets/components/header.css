@@ -1,0 +1,87 @@
+@layer components {
+  .component.header {
+    @apply relative w-full;
+  }
+
+  .component.header .header-utility-bar {
+    min-height: 3.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .component.header .header-utility-bar {
+      min-height: 4.5rem;
+    }
+  }
+
+  /* Top utility tier — white bar */
+  .component.header .navigation-utility-tier {
+    @apply border-border bg-background border-b;
+  }
+
+  .component.header .navigation-utility-tier .container {
+    @apply flex min-h-[4.5rem] items-center justify-between gap-4 py-3;
+  }
+
+  /* Primary nav tier — NWMO blue bar */
+  .component.header .navigation-primary-tier {
+    @apply bg-accent w-full;
+  }
+
+  .component.header .navigation-primary-tier .container {
+    @apply flex items-center py-2.5;
+  }
+
+  .component.header .navigation-primary-tier [role='menubar'] {
+    @apply w-full flex-row flex-wrap items-center justify-start gap-x-6 gap-y-2 py-0 xl:gap-x-8;
+  }
+
+  .component.header .navigation-primary-tier [role='menuitem'] > .flex > a {
+    @apply text-background hover:text-background/85 text-sm font-bold normal-case tracking-normal;
+  }
+
+  .component.header .navigation-primary-tier [role='menuitem'] button {
+    @apply text-background;
+  }
+
+  /* Utility placeholders — dark text on white bar */
+  .component.header .header-utility-bar .component.language-switcher,
+  .component.header .header-utility-bar .component.navigation-icons {
+    @apply text-foreground;
+  }
+
+  .component.header .header-utility-bar .component.navigation-icons > div {
+    @apply p-0;
+  }
+
+  /* Mobile utility row */
+  .component.header .navigation-mobile-utility {
+    @apply border-border bg-background border-b lg:hidden;
+  }
+
+  .component.header .navigation-mobile-utility .container {
+    @apply flex min-h-14 items-center justify-between gap-3 py-2;
+  }
+
+  /* Utility link list when placed in header placeholders */
+  .component.header .link-list.utility-bar,
+  .component.header .header-utility-bar .component.link-list {
+    @apply text-foreground;
+
+    h3 {
+      @apply sr-only;
+    }
+
+    ul {
+      @apply flex flex-row flex-wrap items-center gap-4 lg:gap-6;
+    }
+
+    a {
+      @apply text-foreground hover:text-accent text-xs font-bold lg:text-sm;
+    }
+  }
+
+  /* Hide breadcrumb inside header region on homepage-style layouts */
+  .component.header + .component.breadcrumb {
+    @apply border-border border-b;
+  }
+}

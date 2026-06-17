@@ -10,9 +10,8 @@
 
   /* bordered */
   .sxa-bordered {
-    @apply rounded-xl;
     > .component-content {
-      @apply rounded-xl border p-6;
+      @apply border p-6;
     }
   }
 }

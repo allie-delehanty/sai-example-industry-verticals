@@ -17,7 +17,7 @@ export const Pagination = ({
   currentPage,
   setCurrentPage,
   windowSize = 3,
-  paginationButtonClasses = 'px-3 py-2 md:px-4 md:py-3 rounded-md',
+  paginationButtonClasses = 'px-3 py-2 md:px-4 md:py-3',
 }: PaginationProps) => {
   const { totalPages, startPage, endPage, visiblePages } = usePagination({
     totalItems,
@@ -38,7 +38,7 @@ export const Pagination = ({
       {currentPage > 1 && (
         <button
           onClick={() => handlePageChange(currentPage - 1)}
-          className={`${paginationButtonClasses} bg-background-accent`}
+          className={`${paginationButtonClasses} bg-background-muted`}
         >
           <span className="md:hidden">
             <ChevronLeft size={16} />
@@ -52,7 +52,7 @@ export const Pagination = ({
           <button
             onClick={() => handlePageChange(1)}
             className={`${paginationButtonClasses} ${
-              currentPage === 1 ? 'bg-accent text-background' : 'bg-background-accent'
+              currentPage === 1 ? 'bg-accent text-background' : 'bg-background-muted'
             }`}
           >
             1
@@ -66,7 +66,7 @@ export const Pagination = ({
           key={page}
           onClick={() => handlePageChange(page)}
           className={`${paginationButtonClasses} ${
-            page === currentPage ? 'bg-accent text-background' : 'bg-background-accent'
+            page === currentPage ? 'bg-accent text-background' : 'bg-background-muted'
           }`}
         >
           {page}
@@ -79,7 +79,7 @@ export const Pagination = ({
           <button
             onClick={() => handlePageChange(totalPages)}
             className={`${paginationButtonClasses} ${
-              currentPage === totalPages ? 'bg-accent text-background' : 'bg-background-accent'
+              currentPage === totalPages ? 'bg-accent text-background' : 'bg-background-muted'
             }`}
           >
             {totalPages}
@@ -90,7 +90,7 @@ export const Pagination = ({
       {currentPage < totalPages && (
         <button
           onClick={() => handlePageChange(currentPage + 1)}
-          className={`${paginationButtonClasses} bg-background-accent`}
+          className={`${paginationButtonClasses} bg-background-muted`}
         >
           <span className="md:hidden">
             <ChevronRight size={16} />

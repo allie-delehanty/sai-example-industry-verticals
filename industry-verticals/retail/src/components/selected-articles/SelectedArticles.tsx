@@ -90,7 +90,7 @@ export const Default = (props: CarouselProps) => {
               <ContentSdkRichText field={props.fields.Description} />
             </div>
 
-            <ContentSskLink field={props.fields.ExploreLink} className="arrow-btn" />
+            <ContentSskLink field={props.fields.ExploreLink} className="main-btn" />
           </div>
 
           <div className={cn('w-full', 'md:w-2/3', 'lg:transform', translateClass)}>
@@ -120,7 +120,7 @@ export const Default = (props: CarouselProps) => {
                         return (
                           <SwiperSlide key={article.id}>
                             <Link href={article.url}>
-                              <div className={`overflow-hidden rounded-lg`}>
+                              <div className="overflow-hidden">
                                 <ContentSdkImage
                                   field={article.fields.Image}
                                   className={cn(
@@ -198,7 +198,7 @@ export const Default = (props: CarouselProps) => {
                           {articles.map((article) => (
                             <SwiperSlide key={article.id}>
                               <Link href={article.url}>
-                                <div className="overflow-hidden rounded-lg">
+                                <div className="overflow-hidden">
                                   <ContentSdkImage
                                     field={article.fields.Image}
                                     className={`h-full w-full object-cover ${articles.length >= 3 ? 'aspect-4/5' : 'aspect-[3/1.8]'}`}

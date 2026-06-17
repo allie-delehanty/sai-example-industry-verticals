@@ -6,7 +6,6 @@ import {
   NextImage as ContentSdkImage,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
-import StarRating from './StarRating';
 import { SitecoreItem } from '@/types/common';
 import { User } from 'lucide-react';
 
@@ -21,44 +20,36 @@ type ReviewCardProps = SitecoreItem<{
 
 const ReviewCard = (props: ReviewCardProps) => {
   return (
-    <>
-      <div className="aspect-square min-h-96 w-full rounded-2xl">
-        <ContentSdkImage className="image-cover rounded-2xl" field={props.fields.ReviewImage} />
-      </div>
-      <div className="px-5">
-        <div className="bg-background relative -top-15 flex min-h-70 flex-col items-center justify-between rounded-2xl p-8 text-center shadow-xl">
-          {/* Image */}
-          <div className="bg-background absolute -top-10 flex h-[66px] w-[66px] items-center justify-center rounded-full">
-            {props.fields.Avatar.value?.src || props.isPageEditing ? (
-              <ContentSdkImage
-                width={50}
-                height={50}
-                field={props.fields.Avatar}
-                className="h-[50px] w-[50px] rounded-full"
-              />
-            ) : (
-              <div className="!text-foreground bg-background-muted flex h-[50px] w-[50px] items-center justify-center rounded-full">
-                <User className="size-8" />
-              </div>
-            )}
-            <div className="wavy-bottom-left bg-background absolute top-5 -left-7 h-[30px] w-[30px]"></div>
-            <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
-          </div>
-          <div className="!text-background-muted-light">
-            <div className="text-center text-xl leading-normal font-bold capitalize">
-              <Text field={props.fields.ReviewerName} />
+    <div className="grid grid-cols-1 items-center gap-8 py-6 lg:grid-cols-[1fr_auto] lg:gap-12">
+      <blockquote className="text-foreground text-xl leading-relaxed font-medium md:text-2xl lg:text-3xl">
+        <Text field={props.fields.Description} />
+      </blockquote>
+
+      <div className="flex items-center gap-4 lg:flex-col lg:gap-3">
+        <div className="border-accent shrink-0 overflow-hidden border-2">
+          {props.fields.Avatar.value?.src || props.isPageEditing ? (
+            <ContentSdkImage
+              width={80}
+              height={80}
+              field={props.fields.Avatar}
+              className="size-20 object-cover"
+            />
+          ) : (
+            <div className="bg-background-muted text-foreground flex size-20 items-center justify-center">
+              <User className="size-10" />
             </div>
-            <div className="text-center text-sm leading-normal font-normal">
-              <Text field={props.fields.Caption} />
-            </div>
+          )}
+        </div>
+        <div className="text-left lg:text-center">
+          <div className="text-foreground text-base font-bold">
+            <Text field={props.fields.ReviewerName} />
           </div>
-          <div className="!text-background-muted-light text-center text-sm leading-5 font-normal">
-            <Text field={props.fields.Description} />
+          <div className="text-foreground-muted text-sm">
+            <Text field={props.fields.Caption} />
           </div>
-          <StarRating rating={props.fields.Rating.value} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
