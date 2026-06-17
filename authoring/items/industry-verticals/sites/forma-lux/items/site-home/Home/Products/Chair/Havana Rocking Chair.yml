@@ -12,7 +12,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0003
+  Value: "NWMO-015"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9354afd5-94f6-4571-8bf1-77c4f0f58103"
+  Value: "7b82b93d-0e86-4a90-b7c9-9a54da3e3613"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -68,19 +68,19 @@ Languages:
       Value: 20251016T125659Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Havana Rocking Chair | Forma Lux – Modern Wooden Rocking Chair in Teak
+      Value: Indigenous consultation in regulation | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A classic wooden rocking chair with a contemporary twist.
+      Value: Indigenous consultation is required throughout the regulatory process, respecting Indigenous rights and integrating Indigenous Knowledge.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Havana Rocking Chair, wooden rocking chair, teak chair, modern rocking chair, nursery furniture, classic chair design, Forma Lux shop, handcrafted furniture
+      Value: Indigenous consultation, NWMO, deep geological repository, used nuclear fuel, regulatory process, Indigenous rights, reconciliation
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 319.75
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Havana Rocking Chair
+      Value: Indigenous consultation in regulation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -91,26 +91,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Havana Rocking Chair by Forma Lux blends classic craftsmanship with contemporary style. Made from solid teak wood and featuring plush cushions, it offers comfort and elegance in any room.
+      Value: Learn about Indigenous consultation requirements in the regulatory process for Canada's deep geological repository.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89073d0b-9dcb-4228-a5a3-c25d109fe53e"
+      Value: "f4f08d01-270a-4607-b1b0-4dda5c05f636"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Havana Rocking Chair
+      Value: Indigenous consultation in regulation
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094556Z
+      Value: 20260617T184811Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Havana Rocking Chair is crafted from solid teak wood with a smooth rocking motion. Its cushioned seat and backrest provide comfort, while its timeless design makes it a versatile addition to nurseries, living rooms, or porches.</p>
+      Value: |
+        <div class="ck-content"><p>Indigenous consultation is a legal and ethical requirement throughout Canada's regulatory process for the deep geological repository. The NWMO and federal regulators must consult with Indigenous peoples whose rights may be affected by the project.</p><p>Consultation involves meaningful dialogue with First Nations, Métis, and other Indigenous communities, respecting their rights, traditions, and governance structures. Indigenous Knowledge and perspectives are integrated into project planning and regulatory reviews.</p><p>Indigenous consultation in regulation reflects Canada's commitment to reconciliation and ensures that Indigenous rights are respected throughout the repository project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "The Havana Rocking Chair reimagines a timeless form through the lens of modern craftsmanship. Built from solid teak wood, it delivers a smooth, balanced rocking motion and enduring strength. The cushioned seat and backrest provide inviting comfort, while the design’s sculptural simplicity suits nurseries, living rooms, or covered porches alike. Available in Black and Medium size, Havana embodies Forma Lux’s design philosophy: tradition refined by modern sensibility — where every curve invites rest and rhythm."
+      Value: Indigenous consultation in regulation ensures Indigenous rights and Knowledge are respected throughout the repository project.
 - Language: "es-ES"
   Versions:
   - Version: 1

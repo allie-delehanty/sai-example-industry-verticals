@@ -12,7 +12,7 @@ SharedFields:
     {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0007
+  Value: "NWMO-014"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -45,7 +45,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3516ad64-eaba-4025-bc6a-a6da4a460e36"
+  Value: "3c42aee0-9b7e-4908-98ea-d092e7288351"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,19 +74,19 @@ Languages:
       Value: 20251016T125528Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Milan Office Chair | Forma Lux – Ergonomic Office Chair with Adjustable Design
+      Value: Public participation in regulation | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A modern ergonomic office chair with adjustable features
+      Value: "The regulatory process includes multiple opportunities for public review, input, and participation in decision-making."
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Milan Office Chair, ergonomic office chair, adjustable desk chair, modern workspace furniture, mesh office chair, Forma Lux shop, luxury office seating
+      Value: public participation, NWMO, nuclear regulation, deep geological repository, used nuclear fuel, CNSC, community engagement
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 229.99
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Milan Office Chair
+      Value: Public participation in regulation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -97,26 +97,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Milan Office Chair by Forma Lux merges ergonomic function with modern elegance. Adjustable height, tilt, and armrests deliver personalized comfort, while a breathable mesh back keeps you cool and focused.
+      Value: Learn about public participation opportunities in the regulatory process for Canada's deep geological repository.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c4e1c5e4-aa13-4b0f-8df4-c0bd25758b42"
+      Value: "9746b882-964f-4882-8133-d54c682af63a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Milan Office Chair
+      Value: Public participation in regulation
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T100107Z
+      Value: 20260617T184811Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Milan Office Chair combines sleek design with functionality. Featuring adjustable height, tilt, and armrests, it ensures maximum comfort during long work hours. The breathable mesh back promotes airflow, keeping you cool and focused.</p>
+      Value: |
+        <div class="ck-content"><p>Public participation is a cornerstone of Canada's regulatory process for the deep geological repository. The Canadian Nuclear Safety Commission and other authorities provide multiple opportunities for the public to review project information, ask questions, and provide input.</p><p>Public participation mechanisms include open houses, hearings, written submissions, and online engagement. These opportunities ensure that community perspectives and concerns are considered in regulatory decision-making.</p><p>Meaningful public participation strengthens trust, improves project outcomes, and ensures that regulatory decisions reflect the interests of all Canadians.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Designed for productivity and poise, the Milan Office Chair exemplifies Forma Lux’s philosophy of intelligent comfort. Its adjustable features—including height, tilt, and armrests—create a customized ergonomic experience, while the breathable mesh back enhances airflow for long hours of focus. Available in Black, Gold, and White, and in Medium, Large, and Extra Large sizes, Milan transforms any workspace into a refined environment of balance, performance, and contemporary design.
+      Value: Public participation in regulation ensures community perspectives are considered in decisions about the deep geological repository.
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -56,10 +56,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "39f593d5-4c17-493e-a754-44869cdb391e"
+    Value: "97ae9483-0300-4351-aedb-e883b6c67722"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Exploring new ways of decorating
+    Value: Deep geological repository
   Versions:
   - Version: 1
     Fields:
@@ -71,13 +71,13 @@ Languages:
       Value: 
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Forma Lux invites you to rethink how rooms come to life. Exploring New Ways of Decorating examines design as conversation—between structure and softness, heritage and innovation. Sculptural lighting, driftwood textures, and artisan pottery ground the space in tactile beauty, while thoughtful restraint keeps every detail purposeful. This article celebrates interiors not as static displays, but as evolving expressions of craftsmanship, emotion, and modern harmony.
+      Value: On December 22, 2025, the NWMO celebrated more than 20 years of youth engagement including classroom presentations, science fair partnerships, internships, and workshops on geoscience and environmental stewardship. Programs connect young people in host communities and nationwide with Canada's Adaptive Phased Management approach. The NWMO remains committed to expanding outreach for future generations.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250917T090300Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Exploring new ways of decorating
+      Value: NWMO youth engagement milestone
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -85,30 +85,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><figure class="image image_resized image-style-align-right" style="width:42.48%;"><img class="image_resized" style="aspect-ratio:520/282;" src="-/media/949C1CB9D30246B0AB197E5E2F4B611C.ashx" alt="pexels-vecislavas-popa-1571453 1" width="520" height="282" /></figure><h3>Statement Pieces That Spark Conversation</h3><p>A suspended iron light fixture draws the eye, hovering above a low-profile coffee table crafted from driftwood. Nearby, a sculptural bookshelf holds a curated mix of art, plants, and ceramics, offering both function and flair.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p><p>It is a well-thought-out layout that naturally guides the eye through the room. Every design element—whether structural or decorative—feels intentional, contributing to the room’s harmonious vibe. A neutral palette dominates, but touches of terracotta and navy add personality without overwhelming the senses. Artisanal details, like hand-thrown pottery and textured wall panels, infuse warmth and authenticity.</p>
+        <div class="ck-content"><p>On December 22, 2025, the Nuclear Waste Management Organization celebrated more than two decades of meaningful youth engagement across Canada. Since the early 2000s, the NWMO has worked with schools, universities, and youth organizations to foster understanding of Canada's plan for used nuclear fuel and to inspire the next generation of scientists, engineers, and informed citizens.</p><p>Programs include classroom presentations, science fair partnerships, internship opportunities, and interactive workshops that explore geoscience, engineering, and environmental stewardship. By connecting with young people in potential host communities and across the country, the NWMO helps build awareness of the Adaptive Phased Management approach and the importance of responsible nuclear waste management.</p><p>Looking ahead, the NWMO remains committed to expanding youth outreach and creating pathways for young Canadians to contribute to one of the nation's most significant environmental and infrastructure projects. Investing in youth engagement today strengthens public dialogue and ensures that future decisions reflect the values and aspirations of coming generations.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.
+      Value: The NWMO celebrates over 20 years of youth engagement programs that inspire understanding of Canada's used nuclear fuel management plan.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "December 22, 2025: The NWMO marks more than two decades of youth engagement through schools, universities, and community programs across Canada."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c8ab09c2-a4a7-4f13-80ed-b74af7994f3d"
+      Value: "4e68ba23-af4e-4282-ac08-41ec0becc303"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: Exploring new ways of decorating
+      Value: The NWMO marks more than two decades of youth engagement
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260617T195902Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: Exploring New Ways of Decorating | Forma Lux Journal – Modern Perspectives on Interior Design
+      Value: The NWMO marks more than two decades of youth engagement
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: interior design, modern home decor, furniture styling, contemporary interiors, Forma Lux journal, design inspiration, artisan craftsmanship, home trends

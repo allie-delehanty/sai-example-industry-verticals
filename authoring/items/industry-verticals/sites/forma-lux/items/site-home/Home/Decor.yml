@@ -60,10 +60,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "3608f367-b664-4f33-9de3-617931997bd1"
+    Value: "433c9d2b-0fc1-401f-a52d-61f44de98664"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Decor
+    Value: Communities & Engagement
   Versions:
   - Version: 1
     Fields:
@@ -75,23 +75,29 @@ Languages:
       Value: 20250821T102837Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: Decor
+      Value: A safe approach | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Decor
+      Value: A safe approach
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Contact us
+      Value: A safe approach
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Safety is the NWMO's top priority. Learn about the multiple-barrier system and international best practices that underpin Canada's plan."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ea0273ec-e134-4fb4-a3a0-877489833c5f"
+      Value: "9381778c-0f8c-4855-9a89-dbca73224051"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Canada's plan uses a multiple-barrier system to safely contain and isolate used nuclear fuel in a deep geological repository."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260617T194500Z
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

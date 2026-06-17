@@ -13,7 +13,7 @@ SharedFields:
   Value: "{7AFDCBA4-D6AA-4AF4-9CE8-C404256E7702}"
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: PLW0001
+  Value: "NWMO-027"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -43,7 +43,7 @@ SharedFields:
   Value: "{95692043-DF4D-4E60-9271-511BE5096297}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8d1fbaeb-44be-4d19-8266-51cbfff2fdeb"
+  Value: "1f2af9b9-5625-49c5-93ea-cffa18b4ae8e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -79,19 +79,19 @@ Languages:
       Value: 20250922T091111Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Pilspinnare Pillow | Forma Lux – Soft Cotton Feather Pillow for Restful Sleep
+      Value: "How much used nuclear fuel is there? | NWMO FAQs"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A soft cotton pillow with a perfectly plump 90% feather filling. The materials allow air to circulate, so you get a comfortable sleeping environment. The low loft is comfiest for stomach sleepers.
+      Value: Canada has approximately 3.2 million used nuclear fuel bundles, stored safely at reactor sites until a permanent repository is ready.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Pilspinnare pillow, feather pillow, cotton pillow, breathable bedding, luxury pillow, stomach sleeper pillow, Forma Lux home decor, sleep comfort
+      Value: used nuclear fuel inventory, NWMO, nuclear fuel bundles, deep geological repository, nuclear waste, Canada, FAQ
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 15
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Pilspinnare
+      Value: "How much used nuclear fuel is there?"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -100,25 +100,29 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Learn how much used nuclear fuel Canada has and how it is currently stored safely at nuclear reactor sites.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8d435a00-a152-4da9-89c8-b6eee80c0741"
+      Value: "f996e54e-8d23-4fff-a517-894da37bb68b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Pilspinnare
+      Value: "How much used nuclear fuel is there?"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T092432Z
+      Value: 20260617T184819Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>Discover unparalleled comfort with our premium soft cotton pillow. Each pillow is meticulously crafted with a generous filling composed of 90% high-quality feathers, designed to gently contour to the unique shape of your head and neck. This ensures that you achieve a genuinely restful and uninterrupted sleep.&nbsp;</p><p>The use of breathable materials in its design guarantees exceptional air circulation, keeping the pillow cool and offering a refreshing sleep environment all night long. Tailored with a low loft, this pillow provides ideal support, particularly for stomach sleepers who seek maximum comfort without any added strain on their neck or spine.</p>"
+      Value: |
+        <div class="ck-content"><p>Canada has approximately 3.2 million used nuclear fuel bundles, with more added each year as nuclear power plants continue to generate electricity. Used nuclear fuel is currently stored safely at nuclear reactor sites in wet and dry storage facilities.</p><p>Each bundle is about the size of a fireplace log and contains ceramic fuel pellets sealed inside metal tubes. The total volume of all used fuel produced in Canada to date would fill about seven hockey rinks stacked to the boards.</p><p>Understanding the scale of Canada's used nuclear fuel inventory helps inform discussions about the need for a permanent solution and the scope of the deep geological repository project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Engineered for comfort and crafted with care, the Pilspinnare Pillow elevates everyday rest to an experience of quiet luxury. Its soft cotton shell and 90% feather filling offer a perfect balance of plushness and breathability, maintaining a cool, refreshing sleep climate. Designed with a low loft to support stomach sleepers, Pilspinnare reflects Forma Lux’s philosophy of mindful design — where materials, craftsmanship, and comfort converge to create true rest. Available in White, and in Small, Medium, and Large sizes, it’s the finishing touch for a serene modern bedroom.
+      Value: Canada has about 3.2 million used nuclear fuel bundles, safely stored at reactor sites pending permanent disposal in a deep geological repository.
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

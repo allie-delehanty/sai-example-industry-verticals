@@ -16,7 +16,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0004
+  Value: "NWMO-010"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -45,7 +45,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "3a00ee0d-8ed8-4a33-ae1a-eb838489dadc"
+  Value: "4c18af99-fbfd-4bcc-9601-28c5a8e808ce"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -81,19 +81,19 @@ Languages:
       Value: 20250922T091111Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Sakarias Armchair | Forma Lux – Elegant Armchair with Plush Cushions
+      Value: Environmental assessment process | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Discover the perfect blend of comfort and style with the Sakarias Armchair. This elegant piece features a sleek design with plush cushions, offering an inviting seat for relaxation. Ideal for any living space, the Sakarias Armchair adds a touch of sophistication to your home decor.
+      Value: Environmental assessment evaluates potential effects of the repository project and identifies measures to protect the environment.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Sakarias Armchair, luxury armchair, modern accent chair, upholstered armchair, living room furniture, comfortable seating, Forma Lux shop, contemporary decor
+      Value: environmental assessment, NWMO, deep geological repository, used nuclear fuel, environmental protection, regulatory process
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 392
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sakarias Armchair
+      Value: Environmental assessment process
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -104,26 +104,27 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Sakarias Armchair by Forma Lux combines contemporary design with plush comfort. Its sleek silhouette, premium upholstery, and sturdy frame create a sophisticated seating experience for any home.
+      Value: Learn about the environmental assessment process for Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3b3f481c-7f74-42f9-9887-826a8bc0e588"
+      Value: "33b0a134-a70e-4de3-abb9-8173bc68e519"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Sakarias Armchair
+      Value: Environmental assessment process
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T100540Z
+      Value: 20260617T184805Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>Introducing the Sakarias Armchair, a perfect blend of style and comfort that elevates any living space. Crafted with precision, this armchair features a sleek design that complements both modern and traditional decor. Its sturdy frame and plush cushioning provide exceptional support and relaxation, making it the ideal spot for unwinding after a long day.</p><p>&nbsp;Experience unparalleled luxury with the Sakarias Armchair’s premium upholstery, available in a range of colors to match your personal style. Whether you're enjoying a quiet moment with a book or entertaining guests, this armchair not only meets but exceeds expectations for durability and elegance. The Sakarias Armchair is truly an exquisite addition to any home, offering both aesthetic appeal and practical comfort.</p>
+      Value: |
+        <div class="ck-content"><p>Environmental assessment is a key part of Canada's regulatory process for the deep geological repository. It evaluates the potential environmental effects of the project and identifies measures to avoid or mitigate adverse impacts.</p><p>The NWMO must demonstrate that the repository can be built and operated without unacceptable effects on the environment, including air, water, land, and wildlife. Environmental assessment also considers cumulative effects and the project's interaction with other activities in the region.</p><p>A thorough environmental assessment process ensures that environmental protection is integrated into every stage of planning and decision-making for the repository.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Refined yet welcoming, the Sakarias Armchair embodies Forma Lux’s pursuit of beauty through comfort. Designed with plush cushioning, premium upholstery, and a sleek, supportive frame, it delivers both visual elegance and everyday relaxation. Ideal for modern or traditional interiors, Sakarias transforms any corner into a retreat of calm sophistication. Available in Black and White, and in Extra Small size, it’s an essential piece for those who appreciate craftsmanship, durability, and quiet luxury.
+      Value: Environmental assessment ensures the deep geological repository is planned and built with full consideration of environmental protection.
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

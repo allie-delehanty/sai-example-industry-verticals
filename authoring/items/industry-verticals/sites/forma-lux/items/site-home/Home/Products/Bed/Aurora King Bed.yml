@@ -11,7 +11,7 @@ SharedFields:
     {831305F5-99B0-4746-B09A-42C67FE37EC5}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: BED0002
+  Value: "NWMO-017"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -42,7 +42,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "26e73c7d-b33b-4b6a-a79b-ba3c313413c6"
+  Value: "6e738d0e-065e-4911-862c-8f8dc89b0721"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,19 +74,19 @@ Languages:
       Value: 20251016T125955Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Aurora King Bed | Forma Lux – Luxury Velvet Bed with Tufted Headboard
+      Value: Indigenous Knowledge integration | NWMO Reconciliation
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A luxurious king-size bed with a tufted headboard."
+      Value: The NWMO integrates Indigenous Knowledge into site studies, environmental monitoring, and project planning.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Aurora King Bed, luxury bedroom furniture, tufted headboard, velvet bed, king bed gold, black velvet bed, modern bed design, Forma Lux shop
+      Value: Indigenous Knowledge, NWMO, reconciliation, deep geological repository, used nuclear fuel, site selection, environmental stewardship
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1299
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Aurora King Bed
+      Value: Indigenous Knowledge integration
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -97,26 +97,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Sleep in style with the Aurora King Bed by Forma Lux. A tall tufted headboard, premium velvet upholstery, and a solid wooden frame bring refined comfort and timeless elegance to your bedroom.
+      Value: Learn how the NWMO integrates Indigenous Knowledge into Canada's plan for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "157e5661-3352-46a7-b293-cd0ffe92f9ac"
+      Value: "8b544934-c3e7-4878-8127-0d9f0b9886ec"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Aurora King Bed
+      Value: Indigenous Knowledge integration
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093224Z
+      Value: 20260617T184812Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Aurora King Bed is designed for ultimate comfort and elegance. Its tall, tufted headboard adds a touch of grandeur, while the sturdy wooden frame ensures durability. Upholstered in premium velvet, it transforms any bedroom into a sanctuary.</p>
+      Value: |
+        <div class="ck-content"><p>Indigenous Knowledge integration is central to the NWMO's approach to Canada's plan for used nuclear fuel. Indigenous Knowledge Holders bring generations of understanding about the land, water, and environment that enriches technical studies and project planning.</p><p>The NWMO works with Indigenous communities to ensure Indigenous Knowledge is respectfully gathered, protected, and incorporated into site selection, environmental monitoring, and safety assessments. This integration strengthens the scientific basis for decisions and honours Indigenous ways of knowing.</p><p>Integrating Indigenous Knowledge reflects the NWMO's commitment to reconciliation and ensures that Canada's plan benefits from diverse perspectives on environmental stewardship.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "The Aurora King Bed represents the pinnacle of Forma Lux’s craftsmanship—where luxury meets serenity. Designed to be both a statement and a sanctuary, its grand tufted headboard and plush velvet finish evoke boutique-hotel sophistication. Available in Gold or Black, and in Large or Extra Large sizes, Aurora transforms everyday rest into an experience of indulgence and artistry, grounding modern interiors in warmth, texture, and lasting quality."
+      Value: Indigenous Knowledge integration enriches technical studies and honours Indigenous ways of knowing in Canada's repository plan.
 - Language: "es-ES"
   Versions:
   - Version: 1

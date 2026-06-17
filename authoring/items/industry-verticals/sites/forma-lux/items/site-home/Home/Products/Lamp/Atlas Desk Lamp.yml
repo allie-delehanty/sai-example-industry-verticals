@@ -11,7 +11,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: LMP0002
+  Value: "NWMO-022"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -42,7 +42,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "456f0a26-33c5-4922-bf78-c99bd83a8249"
+  Value: "9429f63d-b4ed-48b2-809d-51704186f0c0"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -71,19 +71,19 @@ Languages:
       Value: 20251016T151233Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Atlas Desk Lamp | Forma Lux – Adjustable Industrial Task Light for Modern Workspaces
+      Value: "Triennial report 2023-25 | NWMO Reports"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A functional desk lamp with adjustable arms.
+      Value: "The NWMO's 2023-25 triennial report provides a comprehensive update on progress implementing Canada's plan for used nuclear fuel."
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Atlas Desk Lamp, adjustable desk lamp, industrial lighting, task light, workspace lamp, modern office decor, Forma Lux shop, focused lighting
+      Value: triennial report, NWMO, used nuclear fuel, deep geological repository, site selection, accountability, Canada
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 25
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Atlas Desk Lamp
+      Value: "Triennial report 2023-25"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -94,23 +94,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Brighten your workspace with the Atlas Desk Lamp by Forma Lux — an adjustable industrial lamp with pivoting arms that combines precision lighting and sculptural design.
+      Value: "Read the NWMO's 2023-25 triennial report on progress toward Canada's plan for used nuclear fuel."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "37d8c4e0-5fb4-4596-b78a-cb3306bf175b"
+      Value: "03fa65d5-4b95-457b-9830-27072db87865"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Atlas Desk Lamp
+      Value: "Triennial report 2023-25"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093602Z
+      Value: 20260617T184816Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Atlas Desk Lamp is designed for productivity. With adjustable arms and a pivoting head, it provides focused task lighting. Its industrial design adds character to workspaces.</p>
+      Value: |
+        <div class="ck-content"><p>The NWMO's 2023-25 triennial report provides a comprehensive update on progress toward implementing Canada's plan for the safe, long-term management of used nuclear fuel. Published in March 2026, the report covers site selection, technical development, engagement, and organizational performance.</p><p>Key highlights include continued advancement in two potential siting areas, progress on repository design and safety case development, and ongoing engagement with communities and Indigenous peoples. The report demonstrates the NWMO's commitment to transparency and accountability.</p><p>The triennial report is a key accountability document that keeps Canadians informed about progress on this generational national infrastructure project.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "The 2023-25 triennial report covers site selection progress, technical development, and engagement with communities and Indigenous peoples."
 - Language: "es-ES"
   Versions:
   - Version: 1

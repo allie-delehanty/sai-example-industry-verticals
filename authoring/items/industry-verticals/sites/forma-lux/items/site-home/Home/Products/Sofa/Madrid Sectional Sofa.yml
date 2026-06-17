@@ -12,7 +12,7 @@ SharedFields:
     {831305F5-99B0-4746-B09A-42C67FE37EC5}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: SOF0006
+  Value: "NWMO-005"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -44,7 +44,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cb231a65-9d56-4606-945e-b940f3aea3b7"
+  Value: "d16116b4-e906-4e1e-b1b5-543d08d9e112"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -73,19 +73,19 @@ Languages:
       Value: 20251016T130943Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Madrid Sectional Sofa | Forma Lux – Spacious L-Shaped Sofa with Chaise Lounge"
+      Value: Informed and willing hosts | NWMO Site Selection
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A spacious sectional sofa with a chaise lounge.
+      Value: The NWMO will only proceed with a site where the host community is informed about the project and willing to accept it.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: "Madrid Sectional Sofa, L-shaped sofa, sectional couch, chaise lounge, family sofa, modern living room furniture, durable upholstery, Forma Lux shop"
+      Value: informed and willing hosts, NWMO, site selection, deep geological repository, used nuclear fuel, community consent
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1499
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Madrid Sectional Sofa
+      Value: Informed and willing hosts
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -96,26 +96,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "The Madrid Sectional Sofa by Forma Lux combines generous seating with refined design. Its L-shaped form and chaise lounge create the perfect balance of comfort, versatility, and modern style."
+      Value: Learn about the principle of informed and willing hosts in Canada's site selection process for the deep geological repository.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d79f3994-7dad-409b-bd2c-2064592097e0"
+      Value: "ffd948f7-4fd8-4abb-8cea-db8c901ab034"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Madrid Sectional Sofa
+      Value: Informed and willing hosts
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094708Z
+      Value: 20260617T184803Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Madrid Sectional Sofa offers ample seating with its L-shaped design. Upholstered in durable polyester, it’s perfect for family gatherings and movie nights. The chaise lounge adds extra comfort.</p>"
+      Value: |
+        <div class="ck-content"><p>A fundamental principle of Canada's plan for used nuclear fuel is that the NWMO will only proceed with a site where the host community is both informed and willing. This means communities have access to comprehensive information and make their own decision about whether to host the repository.</p><p>The NWMO provides communities with technical, social, and economic information through open houses, workshops, presentations, and ongoing dialogue. Communities can ask questions, review studies, and take the time they need to understand the project before making a decision.</p><p>Informed and willing hosts are essential to the success of Canada's plan and reflect a commitment to respect, transparency, and community autonomy in this generational project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "Expansive and inviting, the Madrid Sectional Sofa embodies Forma Lux’s philosophy of effortless comfort and crafted function. Its L-shaped silhouette and integrated chaise lounge provide ample space for gatherings, while durable polyester upholstery ensures longevity and softness. Available in Black, Indigo, and White, and in Large or Extra Large sizes, Madrid is designed for connection — whether for lively family moments or quiet evenings in. It’s a study in balance: generous proportions, minimalist form, and enduring comfort."
+      Value: Canada's plan requires that host communities be fully informed and willing before the NWMO proceeds with a deep geological repository site.
 - Language: "es-ES"
   Versions:
   - Version: 1

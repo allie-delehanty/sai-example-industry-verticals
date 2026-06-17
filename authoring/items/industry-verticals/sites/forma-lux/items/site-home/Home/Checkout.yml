@@ -50,6 +50,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "608c8986-776c-48f6-a269-e492221be651"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Careers
   Versions:
   - Version: 1
     Fields:
@@ -75,26 +82,32 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251016T101038Z
+    - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
+      Hint: metadataTitle
+      Value: Careers | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Checkout
+      Value: Careers
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Checkout
+      Value: Careers
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: |
-        <p style="text-align:center;">This page is part of a demo experience.&nbsp;</p><p style="text-align:center;">Right now, the website isn’t connected to a live e-commerce system — but it can be fully integrated with one.&nbsp;</p><p style="text-align:center;">When it is, this is where your visitors will land to review their selected products and complete their purchase.</p><p style="text-align:center;">&nbsp;</p>
+        <p style="text-align:center;">Explore career opportunities at the Nuclear Waste Management Organization.</p><p style="text-align:center;">Join a team of world-class scientists, engineers and professionals working on one of Canada's most important environmental infrastructure projects.</p>
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: Explore career opportunities at the NWMO. Join our team of scientists, engineers and professionals.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "57e7cbb7-65b4-4916-aaa2-3c9b105092d9"
+      Value: "85d011fd-8aaa-4424-86ac-244dec0207bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082514Z
+      Value: 20260617T194554Z
 - Language: "es-ES"
   Versions:
   - Version: 1

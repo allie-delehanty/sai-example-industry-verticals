@@ -15,10 +15,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Seat Height
+    Value: Elevation
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "7cca05a7-e091-45b3-8f02-ef3f3cbe5156"
+    Value: "bc4ab521-3612-4306-a01f-0434a4450001"
   Versions:
   - Version: 1
     Fields:
@@ -35,14 +35,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b93d1314-2da8-431b-a739-bf30b9c95b5e"
+      Value: "b69953f1-8f25-421f-8f3e-dc0f63ceed11"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T122552Z
+      Value: 20260617T184655Z
 - Language: "es-ES"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"

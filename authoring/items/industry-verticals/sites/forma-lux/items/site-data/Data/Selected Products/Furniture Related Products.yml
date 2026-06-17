@@ -29,7 +29,7 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
       Hint: Title
-      Value: Redefining the modern home
+      Value: Explore Canada's plan
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -37,17 +37,17 @@ Languages:
     - ID: "7a6784c9-46c6-4781-86c3-c482f3ef62e6"
       Hint: ProductsLink
       Value: |
-        <link linktype="external" url="" target="" text="View All" title="" class=""/>
+        <link class="" querystring="" id="a247bd3c-53cc-44c2-b7b3-a7cf418097ef" anchor="" target="" title="" linktype="internal" text="Explore Canada's plan" url="/industry-verticals/forma-lux/Home/Furniture" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "727a0f92-d427-4fe5-a325-a6c393c9195d"
+      Value: "40b48849-c366-4197-8cc3-309423a1f233"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T113826Z
+      Value: 20260617T184626Z
 - Language: "es-ES"
   Versions:
   - Version: 1

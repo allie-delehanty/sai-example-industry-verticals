@@ -15,10 +15,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Depth
+    Value: Depth (m)
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "20e1c3d3-120b-45c6-b0ab-b1e003ef2d5c"
+    Value: "e792223a-0330-446d-9920-ea116e59d317"
   Versions:
   - Version: 1
     Fields:
@@ -35,14 +35,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3dcad9a-a64e-42ac-9a1d-3daaffdee4f0"
+      Value: "cf7c7ded-4d09-4be6-b006-ecf9713bb77f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T122503Z
+      Value: 20260617T184655Z
 - Language: "es-ES"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"

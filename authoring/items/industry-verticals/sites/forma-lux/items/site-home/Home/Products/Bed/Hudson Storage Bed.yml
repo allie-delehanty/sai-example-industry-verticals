@@ -11,7 +11,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: BED0003
+  Value: "NWMO-021"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -42,7 +42,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "973bfe4a-d831-414a-8d6e-403651d450e9"
+  Value: "3194d0fb-915f-4db0-b43e-728156de1af9"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -71,19 +71,19 @@ Languages:
       Value: 20251016T130527Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Hudson Storage Bed | Forma Lux – Modern Bed with Built-In Storage Drawers"
+      Value: Indigenous Knowledge Holders | NWMO Reconciliation
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A modern bed with built-in storage drawers."
+      Value: Indigenous Knowledge Holders contribute deep understanding of the land and environment to site selection and project planning.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: "Hudson Storage Bed, storage bed, modern bed design, walnut bed, engineered wood bed, space-saving furniture, bedroom storage, Forma Lux shop"
+      Value: Indigenous Knowledge Holders, NWMO, reconciliation, deep geological repository, used nuclear fuel, site selection, environmental stewardship
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1197
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Hudson Storage Bed
+      Value: Indigenous Knowledge Holders
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -94,26 +94,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "Discover the Hudson Storage Bed by Forma Lux – crafted from engineered wood with walnut veneer, featuring four spacious under-bed drawers for elegant, space-saving living."
+      Value: Learn about the role of Indigenous Knowledge Holders in Canada's plan for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c16c34b-a012-46c4-ba2c-9b15909e5456"
+      Value: "5f06d0a9-9250-4d46-9280-c55f0a9821a0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Hudson Storage Bed
+      Value: Indigenous Knowledge Holders
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093310Z
+      Value: 20260617T184816Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Hudson Storage Bed maximizes space with its four under-bed drawers. Crafted from engineered wood with a walnut veneer, it combines practicality with style. Ideal for apartments and compact bedrooms.</p>"
+      Value: |
+        <div class="ck-content"><p>Indigenous Knowledge Holders play a vital role in Canada's plan for used nuclear fuel. They bring deep understanding of the land, water, wildlife, and cultural heritage that informs site selection, environmental studies, and project planning.</p><p>The NWMO works with Indigenous Knowledge Holders through respectful protocols that protect the integrity and ownership of Indigenous Knowledge. Their insights complement scientific studies and help ensure that the repository is planned with full understanding of the environment and community values.</p><p>Honouring Indigenous Knowledge Holders reflects the NWMO's commitment to reconciliation and the integration of diverse ways of knowing into Canada's generational project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Form meets function in the Hudson Storage Bed, a celebration of modern design for smaller spaces. Engineered from durable wood and finished in rich walnut, Hudson offers four hidden drawers that bring order without compromise. Available in Black or White, and in Medium or Large sizes, it exemplifies Forma Lux’s vision of contemporary craftsmanship—streamlined, smart, and enduringly beautiful.
+      Value: Indigenous Knowledge Holders enrich site selection and planning with deep understanding of land, water, and cultural heritage.
 - Language: "es-ES"
   Versions:
   - Version: 1

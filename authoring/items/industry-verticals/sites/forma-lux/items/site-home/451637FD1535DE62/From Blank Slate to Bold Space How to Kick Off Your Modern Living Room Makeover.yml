@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+      Value: "Reconciliation and Indigenous engagement are foundational to the NWMO's work on Canada's deep geological repository. Engagement agreements support independent technical review, cultural heritage studies, and community-led research. The NWMO embeds reconciliation through capacity building, employment, and collaborative research that respects Indigenous rights."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: Reconciliation and Indigenous engagement
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,35 +50,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you </span></span><em style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid rgb(232, 232, 232);box-sizing:border-box;color:rgb(80, 80, 80);font-family:Manrope, sans-serif;font-size:18px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;max-width:100%;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;" data-start="1248" data-end="1254"><em>feel</em></em><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"> modern.</span></span></p></div>
+        <div class="ck-content"><p>Reconciliation and meaningful engagement with Indigenous Nations and Métis communities are foundational to the Nuclear Waste Management Organization's work. The NWMO recognizes that the lands being studied for a potential deep geological repository are the traditional territories of Indigenous peoples, and that respectful, nation-to-nation dialogue is essential to the success of Canada's plan for used nuclear fuel.</p><p>The NWMO has established engagement agreements with multiple Indigenous communities, providing resources for independent technical review, cultural heritage studies, and community-led research. Elders, knowledge keepers, and youth are invited to participate in discussions about the project, ensuring that Indigenous perspectives inform every stage of site evaluation and repository planning.</p><p>Reconciliation at the NWMO goes beyond consultation to active partnership. The organization supports capacity building, employment opportunities, and collaborative research that respects Indigenous rights and traditions. By embedding reconciliation into its governance and operations, the NWMO strives to build trust and ensure that Indigenous voices shape the future of one of Canada's most important environmental and infrastructure initiatives.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: |
-        Transform a tired, neutral room into a curated modern haven with just a few smart moves.
-        
+      Value: The NWMO embeds reconciliation and meaningful Indigenous engagement at the heart of Canada's deep geological repository program.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+      Value: Learn how the NWMO integrates reconciliation and Indigenous engagement into site selection and repository planning for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3cb20bd1-6579-4c82-9a33-92aab0ba15a7"
+      Value: "8c74780c-8ebe-4f52-a749-ffa86fe4b327"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+      Value: Reconciliation and Indigenous engagement at the NWMO
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260617T183851Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+      Value: Reconciliation and Indigenous engagement at the NWMO
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern living room, modern furniture, living room design, home décor, interior design inspiration, sleek sectional, bold color palette, architectural coffee table, clean lines, geometric rug, sculptural accessories, soft textiles, warm wood tones, cool metal finishes, high gloss surfaces, matte surfaces, furniture balance, layering textures, statement décor, personalized home style, contemporary living space, airy room design

@@ -27,7 +27,7 @@ Languages:
       Value: 20251128T103332Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Designed to minimize waste and maximize lifespan with modular parts and replaceable covers.
+      Value: "Used nuclear fuel is a byproduct of nuclear power generation that requires safe, long-term management."
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,21 +38,21 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Sustainable Living
+      Value: Canada's used nuclear fuel
     - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
       Hint: FeatureLink
       Value: |
-        <link linktype="external" url="" target="" text="Discover More" title="" class=""/>
+        <link class="" id="a247bd3c-53cc-44c2-b7b3-a7cf418097ef" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/Furniture" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cd82365-aac2-4ed8-94db-88d494642b35"
+      Value: "0fbcd1b1-8ea0-4cb8-b093-9869e1236c52"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T103702Z
+      Value: 20260617T184622Z
 - Language: "es-ES"
   Versions:
   - Version: 1

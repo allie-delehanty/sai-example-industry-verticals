@@ -25,11 +25,11 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="external" url="" target="" text="The Lumina Sofa" title="" class=""/>
+        <link class="" id="a247bd3c-53cc-44c2-b7b3-a7cf418097ef" querystring="" anchor="" target="" title="" linktype="internal" text="Discover more" url="/industry-verticals/forma-lux/Home/Furniture" />
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p>Explore a hallmark piece from the Lumina Collection, showcasing timeless elegance, versatile design, and sustainable innovation.</p></div>
+        <div class="ck-content"><p>Used nuclear fuel is a byproduct of nuclear power generation. Canada has been using nuclear energy for more than half a century and has a plan for its safe, long-term management.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -40,20 +40,20 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: Rediscover Comfort
+      Value: Discover more
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "63fe6dcd-088f-476c-aad3-80a3fdea7e18"
+      Value: "0cc40594-00d6-4bce-b28e-c7401ae3d4f3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082515Z
+      Value: 20260617T184617Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: Lumina Sofa Luxury
+      Value: Canada's used nuclear fuel
 - Language: "es-ES"
   Versions:
   - Version: 1

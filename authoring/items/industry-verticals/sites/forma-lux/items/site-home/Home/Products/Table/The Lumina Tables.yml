@@ -6,7 +6,7 @@ Path: "/sitecore/content/industry-verticals/forma-lux/Home/Products/Table/The Lu
 SharedFields:
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: "FL-LT-1003"
+  Value: "NWMO-008"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -24,7 +24,7 @@ SharedFields:
   Value: "{6EB2E9EB-0CAE-4B98-9A9B-7A960A0DBE1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e343df09-186a-424e-8f17-b2834059d828"
+  Value: "64ef9077-a0ac-4ae0-b8df-80f1ac4e746a"
 Languages:
 - Language: en
   Versions:
@@ -38,16 +38,19 @@ Languages:
       Value: 20251128T094442Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: The Lumina Tables | Sustainable Nesting Tables by Forma Lux
+      Value: Canada's plan for used nuclear fuel | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A pair of nesting tables crafted in natural oak, offering versatile surfaces that complement the Lumina Collection’s soft forms and warm palette.
+      Value: "Canada's plan calls for safe, long-term management of used nuclear fuel through a deep geological repository in a willing host community."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: Canada's plan, used nuclear fuel, NWMO, deep geological repository, site selection, nuclear waste management
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 632
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: The Lumina Tables
+      Value: Canada's plan for used nuclear fuel
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -58,27 +61,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Discover The Lumina Tables from Forma Lux — a pair of handcrafted nesting tables designed with timeless simplicity and sustainable materials. Elegant proportions, natural oak, and enduring craftsmanship define this modern living essential.
+      Value: "Learn about Canada's plan for the safe, long-term management of used nuclear fuel through a deep geological repository."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0c0ebc68-0031-43d3-8fd9-a986913fcbbc"
+      Value: "ecc22b8a-59ed-4e11-9a35-a3e26a37697e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: The Lumina Tables
+      Value: Canada's plan for used nuclear fuel
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T092324Z
+      Value: 20260617T184804Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
-        <div class="ck-content"><p>Designed to harmonize with the Lumina Sofa and Chair, the Lumina Tables are a study in balance and proportion. Each table is handcrafted from sustainably sourced oak with a satin finish that highlights the wood’s natural character. The larger coffee table provides a generous surface for everyday living, while the smaller side table adds functional elegance beside a sofa or reading chair. Together, they create a layered sense of texture and rhythm — an understated centerpiece that completes the Lumina living space.</p></div>
+        <div class="ck-content"><p>Canada's plan for used nuclear fuel is a national infrastructure project to safely manage the country's used nuclear fuel over the long term. The plan calls for containment and isolation of used fuel in a deep geological repository in a willing host community.</p><p>The approach is based on decades of international research and is endorsed by the Government of Canada. It involves interim storage at reactor sites, safe transportation to the repository, and permanent isolation deep underground in stable rock formations.</p><p>Canada's plan reflects a generational commitment to responsible stewardship of used nuclear fuel and ensures that this material is managed safely for current and future generations.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: The Lumina Tables bring harmony and balance to any space, uniting form and function through elegant simplicity. Handcrafted in natural oak with refined proportions and a smooth satin finish, this nesting set complements the Lumina Collection’s serene aesthetic. Designed for versatility and made to last, the Lumina Tables embody the Forma Lux philosophy — timeless design, sustainable craftsmanship, and enduring beauty.
+      Value: Canada's plan is a national infrastructure project to safely contain and isolate used nuclear fuel in a deep geological repository.
 - Language: "es-ES"
   Versions:
   - Version: 1

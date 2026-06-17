@@ -16,7 +16,7 @@ SharedFields:
   Value: "{EA0C996A-ABFD-4E4F-96E1-AE4DB6125B8A}"
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0001
+  Value: "NWMO-009"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -57,7 +57,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "32ea9e60-5ac9-4e22-a422-650ed345a4ab"
+  Value: "a2a758ab-fc24-4196-8241-4f79d6544d17"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -93,19 +93,19 @@ Languages:
       Value: 20250923T122113Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Baltsar Chair | Forma Lux – Modern Ergonomic Chair with Timeless Elegance
+      Value: Canadian Nuclear Safety Commission oversight | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Setting the standard as a leader in modern seating, the Baltsar Chair combines elegance with ergonomic excellence. Its sleek design and superior comfort make it a standout piece in any space.
+      Value: The CNSC is Canada's independent nuclear regulator, overseeing licensing and safety for the deep geological repository.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Baltsar Chair, modern chair, ergonomic seating, luxury furniture, contemporary chair design, comfortable accent chair, Forma Lux furniture, designer chair
+      Value: Canadian Nuclear Safety Commission, CNSC, NWMO, nuclear regulation, deep geological repository, used nuclear fuel, licensing
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 392
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Baltsar Chair
+      Value: Canadian Nuclear Safety Commission oversight
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -116,26 +116,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "The Baltsar Chair by Forma Lux combines modern sophistication with ergonomic design. Its sculpted form, durable frame, and high-quality upholstery deliver lasting comfort and timeless appeal."
+      Value: Learn how the Canadian Nuclear Safety Commission oversees licensing and safety for Canada's deep geological repository.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "403da6bf-81fe-496e-8011-5a1a4afc43ec"
+      Value: "058132ad-bc31-4751-b3ce-1022af5ce70e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Baltsar Chair
+      Value: Canadian Nuclear Safety Commission oversight
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094340Z
+      Value: 20260617T184805Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>Exuding modern sophistication, the Baltsar Chair effortlessly combines sleek design with unparalleled comfort. Its ergonomic structure ensures superior support, making it a perfect addition to both contemporary and classic interiors. </p><p>Crafted with precision, the Baltsar Chair features a durable frame and high-quality upholstery that promise long-lasting use. Its elegant contours not only add a touch of luxury but also provide a welcoming embrace that invites you to sit and unwind. Ideal for any setting, the Baltsar Chair is more than just a seat; it's an invitation to experience style and relaxation like never before.</p>"
+      Value: |
+        <div class="ck-content"><p>The Canadian Nuclear Safety Commission (CNSC) is Canada's independent nuclear regulator. It oversees all aspects of nuclear safety, including the licensing and regulation of Canada's deep geological repository for used nuclear fuel.</p><p>The NWMO must obtain licences from the CNSC at multiple stages of the project, including for site preparation, construction, operation, and eventual decommissioning. The CNSC conducts rigorous reviews to ensure the repository meets the highest standards of safety and environmental protection.</p><p>CNSC oversight provides independent assurance that Canada's plan for used nuclear fuel is implemented safely and in the public interest.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: The Baltsar Chair embodies the perfect balance of design precision and human comfort. Its fluid lines and ergonomic contours reflect Forma Lux’s commitment to craftsmanship that serves both form and function. Upholstered in premium materials and built on a robust frame, Baltsar offers enduring support and elegance. Available in Black and Indigo, and in Extra Small, Large, and Extra Large sizes, it elevates any interior — from refined office settings to serene living spaces — as a symbol of thoughtful modern design.
+      Value: The CNSC provides independent regulatory oversight of Canada's deep geological repository through rigorous licensing and safety reviews.
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

@@ -26,7 +26,7 @@ Languages:
     - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
       Hint: Description
       Value: |
-        <div class="ck-content"><p>A curated collection of modern pieces that blend elegance and functionality.</p></div>
+        <div class="ck-content"><p>Nuclear energy has powered our homes, businesses and cities for decades. Today, Canada is also actively exploring emerging nuclear technologies and the role they may play in meeting the country's climate goals.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250909T080217Z
@@ -40,21 +40,21 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ef8c49e6-c08c-4ec6-9260-82624fb1e277"
+      Value: "e0d04ef3-ab58-4f22-8a70-db07bb7b31d6"
     - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
       Hint: Title
-      Value: Discover Design
+      Value: Canada's plan
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260617T184601Z
     - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
       Hint: CtaLink
       Value: |
-        <link class="" querystring="" id="4e869961-efef-4b47-bb69-170a251d689b" anchor="" target="" title="" linktype="internal" text="See what's new" url="/industry-verticals/forma-lux/Home" />
+        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/Products" />
 - Language: "es-ES"
   Versions:
   - Version: 1

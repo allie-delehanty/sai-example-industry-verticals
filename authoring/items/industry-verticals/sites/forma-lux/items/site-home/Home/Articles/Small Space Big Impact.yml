@@ -18,7 +18,10 @@ SharedFields:
     <image mediaid="{C629B8C2-73E2-46C7-AEF7-5067351697A8}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "62dce0b4-605d-417e-88fe-21b5957709c3"
+  Value: "c9e4d4b6-5851-4f81-a57c-4d47c1e7d791"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: Environment and safety
 Languages:
 - Language: en
   Fields:
@@ -34,12 +37,15 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "On February 13, 2026, the NWMO shared updates on multi-barrier repository design combining copper-coated containers, bentonite buffers, and stable host rock. Advances include refined fabrication, quality assurance, and thermal-hydraulic-mechanical models reviewed by independent experts. Environmental baseline studies and stewardship remain central to the safe design approach."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T083248Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Small Space Big Impact
+      Value: Safe repository design innovation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -47,33 +53,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>When your space is modest, every inch counts. Choose furniture that serves more than one purpose—a sleeper sofa for guests, a coffee table with hidden storage, or nesting tables that tuck away when you don’t need them. Opt for pieces with light visual weight: open legs, transparent surfaces, slimmer profiles. Keep your color palette consistent so the eye flows easily. Vertical accents draw attention upward and create a sense of height: consider tall shelving, floor lamps, or hung artwork. Don’t cram—leave breathing room around key pieces so your space still feels spacious. With smart selections, even the smallest home can feel luxurious and modern.</p></div>
+        <div class="ck-content"><p>On February 13, 2026, the Nuclear Waste Management Organization shared updates on engineering innovations underpinning the safe design of Canada's first deep geological repository. The multi-barrier system combines durable copper-coated steel containers, bentonite clay buffers, and stable host rock to contain and isolate used nuclear fuel for hundreds of thousands of years, protecting people and the environment.</p><p>Recent advances include refined container fabrication techniques, enhanced quality assurance protocols, and updated thermal-hydraulic-mechanical models that simulate how the repository will perform under geological conditions. Independent experts and regulatory bodies review these designs to ensure they meet or exceed international safety standards established by the International Atomic Energy Agency and the Nuclear Energy Agency.</p><p>Environmental protection remains at the core of repository design. The NWMO conducts extensive environmental baseline studies and monitors potential impacts throughout the project lifecycle. By integrating cutting-edge engineering with rigorous environmental stewardship, the NWMO is innovating a repository design that Canadians can trust for generations to come.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "Make the most of limited square footage with multi-functional, thoughtfully scaled furniture."
+      Value: "The NWMO advances multi-barrier engineering and environmental protection in the safe design of Canada's first deep geological repository."
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Live large in a small space. Explore clever, modern furniture ideas that maximize every inch — from hidden storage to sleek, multifunctional designs.
+      Value: "February 13, 2026: The NWMO shares engineering innovations in multi-barrier repository design and environmental protection for Canada's first deep geological repository."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8650afa5-a437-491d-9811-cb14cc41bf1c"
+      Value: "aeac0636-b329-423a-907c-30626ed155cf"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+      Value: Innovating the safe design for Canada's first deep geological repository
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260617T183839Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Small Space, Big Impact: Smart Furniture Choices for Compact Homes"
+      Value: Innovating the safe design for Canada's first deep geological repository
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "small space furniture, modern small apartment design, space-saving furniture ideas, multifunctional furniture, compact living room design, small home décor, sleeper sofa for guests, coffee table with hidden storage, nesting tables, open-leg furniture design, transparent surfaces, slim furniture profiles, consistent color palette, vertical accents, tall shelving ideas, modern floor lamps, wall art placement, airy modern interiors, smart furniture selections, luxurious small space"

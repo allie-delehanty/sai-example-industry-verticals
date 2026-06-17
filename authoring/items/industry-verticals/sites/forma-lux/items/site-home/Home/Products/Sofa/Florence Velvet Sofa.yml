@@ -12,7 +12,7 @@ SharedFields:
     {FD74A159-FC1F-48F8-88C8-5703D830E00D}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: SOF0004
+  Value: "NWMO-004"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -41,7 +41,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "9e35c2f0-2841-4a33-90d3-103acb29b0ad"
+  Value: "aaa87d4a-0f4c-46b1-ab1d-bf4724976a40"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -70,19 +70,19 @@ Languages:
       Value: 20251016T131147Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Florence Velvet Sofa | Forma Lux – Luxurious Chesterfield-Inspired Velvet Sofa"
+      Value: "Saugeen Ojibway Nation-South Bruce area | NWMO Site Selection"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A luxurious velvet sofa with deep button tufting.
+      Value: "The Saugeen Ojibway Nation-South Bruce area is one of two potential sites being considered for Canada's deep geological repository."
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Florence Velvet Sofa, velvet sofa, Chesterfield sofa, tufted couch, luxury living room furniture, hardwood frame, Forma Lux shop, modern classic design
+      Value: Saugeen Ojibway Nation, South Bruce, site selection, deep geological repository, NWMO, used nuclear fuel, Ontario
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1299
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Florence Velvet Sofa
+      Value: "Saugeen Ojibway Nation-South Bruce area"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -93,23 +93,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Florence Velvet Sofa by Forma Lux brings refined luxury to modern interiors. Featuring deep tufting, rolled arms, and rich velvet upholstery, it’s a timeless statement of comfort and sophistication.
+      Value: "Learn about the Saugeen Ojibway Nation-South Bruce area as a potential site for Canada's deep geological repository for used nuclear fuel."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e35e217-90a0-4a1c-84ae-31e3323910e0"
+      Value: "88d7a89a-0bb7-4f0a-a033-06b002f085cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Florence Velvet Sofa
+      Value: "Saugeen Ojibway Nation-South Bruce area"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094533Z
+      Value: 20260617T184802Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Florence Velvet Sofa exudes sophistication with its Chesterfield-inspired design. Upholstered in rich velvet, it features rolled arms, deep tufting, and a sturdy hardwood frame.</p>"
+      Value: |
+        <div class="ck-content"><p>The Nuclear Waste Management Organization is working with the Saugeen Ojibway Nation and the Municipality of South Bruce in southern Ontario to explore whether this area could host Canada's deep geological repository for used nuclear fuel.</p><p>Site selection activities in the South Bruce area include geological studies, environmental monitoring, and ongoing engagement with community members and Indigenous Knowledge Holders. The NWMO is committed to working collaboratively with the Saugeen Ojibway Nation throughout this process.</p><p>Together, the NWMO and local communities are assessing whether the South Bruce area has the right geology, community support, and conditions to safely host the repository for generations to come.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "The Saugeen Ojibway Nation-South Bruce area is one of two communities being considered to host Canada's deep geological repository."
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -25,7 +25,7 @@ Languages:
       Value: 20251120T122514Z
     - ID: "42ae28c2-1616-415c-bb0d-e79d7690f6f6"
       Hint: Eyebrow
-      Value: Testimonials
+      Value: Leadership
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -36,17 +36,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eafd63c1-7774-44c7-8aa7-239f28ff94d5"
+      Value: "34312664-8704-4460-bfca-c8d31001d17c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\lYgvRRBc1cAdrl67diXJp6wW5rWpAHDs
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251125T111803Z
+      Value: 20260617T183759Z
     - ID: "db8ea901-ced9-4d54-81c0-5e3cb48863c2"
       Hint: Title
-      Value: Our client reviews
+      Value: Voices from the NWMO
 - Language: "es-ES"
   Versions:
   - Version: 1

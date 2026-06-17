@@ -8,13 +8,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="cbc2ef16-a679-40e9-82f2-54028c76fdca" />
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/cea6f8614435471b9bf09b9493e133fe?v=90593209" dam-id="7w9i6mM7ThumgXLam0Gsvw" alt="imgi_8_240515_NWMO_SouthBruce_0456 1200 x 639.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/92220/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "39b7f18d-cbee-4215-8f98-04c9b4a7a2fc"
+  Value: "95291f0d-be90-49d3-81e5-8762c38835c0"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{FC2A5072-99B8-4D58-B5E0-B96C40680096}"
@@ -31,7 +31,7 @@ Languages:
       Value: 20250915T102914Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: "A reading nook tucked beside a floor-to-ceiling bookcase balances coziness with utility. The room flows effortlessly into the dining area, delineated by a shift in lighting and the tone of the wood flooring."
+      Value: The NWMO is working with communities and Indigenous peoples to identify a willing and informed host for Canada's deep geological repository.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -42,17 +42,21 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Designed for Function & Flow
+      Value: Site selection process
+    - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
+      Hint: FeatureLink
+      Value: |
+        <link linktype="internal" id="baa0704bc6b141fc9fc501c79ff5ddc4" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "683ee929-f980-4a32-916c-253924cdc8e6"
+      Value: "3b356e81-1a66-4f32-9215-c72459a7a8e9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250915T104826Z
+      Value: 20260617T195941Z
 - Language: "es-ES"
   Versions:
   - Version: 1

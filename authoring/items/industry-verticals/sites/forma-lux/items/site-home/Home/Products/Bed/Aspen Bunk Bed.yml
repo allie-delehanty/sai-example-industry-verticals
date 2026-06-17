@@ -11,7 +11,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: BED0001
+  Value: "NWMO-019"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -44,7 +44,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e5e9abd6-2c0d-4ae9-88be-b853ffbdd803"
+  Value: "31393fc5-8ed6-481a-952c-c5c7e7734c8c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -73,19 +73,19 @@ Languages:
       Value: 20251016T130300Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Aspen Bunk Bed | Forma Lux – Sturdy Wooden Bunk Bed for Kids’ Rooms
+      Value: First Nation and Métis partnerships | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A sturdy wooden bunk bed perfect for kids’ rooms.
+      Value: The NWMO builds partnerships with First Nation and Métis communities based on trust, respect, and shared prosperity.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Aspen bunk bed, wooden bunk bed, kids room furniture, pine wood bed, luxury children’s furniture, shared bedroom furniture, Forma Lux shop
+      Value: First Nation partnerships, Métis partnerships, NWMO, reconciliation, deep geological repository, used nuclear fuel, Indigenous communities
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 748.99
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Aspen Bunk Bed
+      Value: First Nation and Métis partnerships
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -96,26 +96,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "Discover the Aspen Bunk Bed by Forma Lux – a durable pine-wood design with natural finish, safety rails, and built-in ladder. The perfect blend of craftsmanship, safety, and timeless style for shared or guest bedrooms."
+      Value: Learn about First Nation and Métis partnerships in Canada's plan for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a46f220-4a33-4e92-adcc-cc3af0c46895"
+      Value: "804824da-db66-49d7-90a8-509e17d73272"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Aspen Bunk Bed
+      Value: First Nation and Métis partnerships
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093134Z
+      Value: 20260617T184813Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Aspen Bunk Bed is crafted from durable pine wood and finished in a natural tone. With safety rails and a built-in ladder, it’s designed for both safety and style. Ideal for shared bedrooms or sleepovers.</p>"
+      Value: |
+        <div class="ck-content"><p>First Nation and Métis partnerships are essential to the success of Canada's plan for used nuclear fuel. The NWMO works collaboratively with Indigenous communities in potential siting areas and across Canada to build relationships based on trust and mutual respect.</p><p>Partnerships may include economic development opportunities, employment and training programs, and collaborative research initiatives. The NWMO is committed to ensuring that Indigenous communities benefit from the project and have meaningful roles in its development.</p><p>Building strong First Nation and Métis partnerships reflects the NWMO's commitment to reconciliation and shared prosperity.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Built to last and crafted to inspire play and rest alike, the Aspen Bunk Bed embodies Forma Lux’s philosophy of thoughtful design for modern families. Each frame is shaped from solid pine, offering warm natural grain and dependable structure. Available in Indigo, Black, White, or Gold and in Small and Medium sizes, Aspen pairs function with elevated aesthetics—turning every kids’ room into a timeless, welcoming space that grows with them.
+      Value: First Nation and Métis partnerships ensure Indigenous communities are partners in Canada's repository plan.
 - Language: "es-ES"
   Versions:
   - Version: 1

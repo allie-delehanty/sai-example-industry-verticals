@@ -83,6 +83,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "ebe6166b-3b8b-477c-acb0-9fbcb18b5ac7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: About NWMO
   Versions:
   - Version: 1
     Fields:
@@ -94,38 +101,38 @@ Languages:
       Value: 
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
-      Value: Forma Lux story, luxury furniture brand, craftsmanship heritage, sustainable materials
+      Value: NWMO, who we are, nuclear waste management, organization, leadership, mandate
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250821T102854Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: About Forma Lux – Heritage & Modern Craftsmanship
+      Value: Who we are | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: About us
+      Value: Who we are
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Shaping Spaces with Soul and Substance
+      Value: Who we are
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
-      Value: "<p>At Forma Lux, we blend timeless design with modern expression to create interiors that reflect individuality and elegance. Guided by a passion for curated living, we design furnishings that go beyond trend — crafted for those who live boldly and style deeply. Our philosophy is rooted in balance: between form and function, subtlety and statement, simplicity and richness.</p>"
+      Value: "<p>The Nuclear Waste Management Organization (NWMO) is a not-for-profit organization tasked with the safe, long-term management of Canada's used nuclear fuel inside a deep geological repository. Founded in 2002, the NWMO has been guided for more than 20 years by a dedicated team of world-class scientists, engineers and Indigenous Knowledge Holders developing innovative and collaborative solutions for nuclear waste management.</p><p>Canada's plan will only proceed in an area with informed and willing hosts, where the municipality, First Nation and Métis communities, and others in the area are working together to implement it.</p>"
     - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
       Hint: metadataDescription
-      Value: Learn how Forma Lux blends artisan craftsmanship, premium materials and modern design philosophy to create timeless furniture.
+      Value: Learn about the Nuclear Waste Management Organization — our mandate, leadership, and commitment to safely managing Canada's used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "494547e9-e2cd-434d-a50b-43b5acf51656"
+      Value: "e5e41904-5fb2-4643-81ab-5079fb2976d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
-      Value: Our heritage, materials, and design ethos—Forma Lux is where tradition meets modernity for pieces that last.
+      Value: "The NWMO is responsible for implementing Canada's plan for the safe, long-term management of used nuclear fuel."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260617T194522Z
 - Language: "es-ES"
   Versions:
   - Version: 1

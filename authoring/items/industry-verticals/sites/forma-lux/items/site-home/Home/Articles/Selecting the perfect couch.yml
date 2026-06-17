@@ -29,22 +29,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: |
-        In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
-        
-        Choosing the perfect couch involves reflecting on your space's soul, advocating for designs that inspire calm and redefine luxury through timeless artistry. Consider form and function's dialogue, where bold elements meet graceful curves.
-        
-        Sustainability and integrity drive our ethos, offering couches crafted with natural materials and ethical practices that resonate with your values and endure time. Whether you're a 'Conscious Minimalist' or an 'Urban Visionary,' our collection caters to diverse tastes.
-        
-        Integrating Forma Lux's timeless pieces elevates living beautifully, as a couch transcends furniture and becomes self-expression. True luxury focuses on beauty and functionality over fleeting trends.
-        
-        Reflect your unique taste and tranquility with couches echoing refined modern design principles, shaping spaces with soul and substance, where elegance and functionality coexist harmoniously.
+      Value: "In April 2026, the NWMO signed a memorandum of understanding with Canadian Nuclear Laboratories to strengthen scientific collaboration on Canada's plan for safe, long-term management of used nuclear fuel. The agreement covers joint research in geoscience, engineered barriers, and safety assessments. Both organizations share a commitment to rigorous science and public confidence as site selection advances."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: NWMO signs MOU with CNL
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -52,33 +43,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>In the pursuit of tranquil spaces that echo sophistication, the couch remains a cornerstone, harmonizing style with purpose. At Forma Lux, we believe that selecting the ideal couch is an embodiment of elegance and functionality, seamlessly blending aesthetic appeal and practical ease. Our philosophy is rooted in creating pieces that embody modern European design, craftsmanship, and minimalism, capturing the essence of refined living.</p><p>The journey to choosing the perfect couch begins with a thoughtful reflection on your space's soul and substance. As purveyors of quiet luxury, we advocate for designs that inspire calm, redefining the traditional notion of luxury with timeless artistry and simplicity. Consider the dialogue between form and function, where bold sculptural elements meet the graceful curves of artisanal craftsmanship.</p><p>Pivotal to our ethos is the commitment to sustainability and integrity. Opt for couches crafted with natural materials and ethical production practices, ensuring that each piece not only resonates with your values but also stands the test of time. Whether you align with the 'Conscious Minimalist' who cherishes clean lines and natural textures, or the 'Urban Visionary' who seeks modular designs, our collection caters to diverse personas.</p><p>Incorporating Forma Lux's timeless pieces into your living environment elevates the art of living beautifully. The couch becomes more than just a piece of furniture; it evolves into a canvas of self-expression, blending elegance with everyday livability. As you explore the perfect piece, remember that true luxury transcends fleeting trends and focuses on enduring beauty and functionality.</p><p>Let your home reflect your unique taste and tranquil sensibility, with couches that echo the principles of refined modern design. At Forma Lux, we invite you to shape your space with soul and substance, nurturing an atmosphere where elegance and functionality coexist harmoniously.</p></div>
+        <div class="ck-content"><p>In April 2026, the Nuclear Waste Management Organization (NWMO) signed a memorandum of understanding with Canadian Nuclear Laboratories (CNL) to strengthen scientific collaboration on Canada's plan for the safe, long-term management of used nuclear fuel. The agreement establishes a framework for joint research, technical exchange, and shared expertise in areas critical to deep geological repository development.</p><p>Under the MOU, the NWMO and CNL will work together on geoscience, engineered barrier systems, and safety assessment methodologies. CNL's extensive experience in nuclear science and its Chalk River Laboratories facilities complement the NWMO's mandate to implement Canada's Adaptive Phased Management approach, which calls for containment and isolation of used fuel in a deep geological repository.</p><p>Both organizations emphasized that this partnership reflects a shared commitment to rigorous science, transparency, and public confidence. By combining resources and knowledge, the NWMO and CNL aim to advance technical understanding and support informed decision-making as Canada progresses toward selecting a willing and informed host community for the repository.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "Choosing the Perfect Couch: A Reflection of Elegance and Functionality"
+      Value: The Nuclear Waste Management Organization and Canadian Nuclear Laboratories formalize collaboration to advance Canada's deep geological repository program.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: In pursuit of tranquil sophistication, Forma Lux offers couches embodying elegance and functionality. Our pieces blend modern European design, craftsmanship, and minimalism, creating refined living spaces.
+      Value: The NWMO and Canadian Nuclear Laboratories sign an MOU in April 2026 to advance collaborative research on Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "20335489-a443-4052-a192-fe11a656597b"
+      Value: "c3040e12-c46d-480a-96bd-f4de7bc17097"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: Selecting the perfect couch
+      Value: The NWMO signs memorandum of understanding with Canadian Nuclear Laboratories
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260617T183827Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: Selecting the perfect couch
+      Value: The NWMO signs memorandum of understanding with Canadian Nuclear Laboratories
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "Tranquil spaces, sophistication, couch cornerstone, style and purpose, Forma Lux, ideal couch, elegance and functionality, aesthetic appeal, practical ease, modern European design, craftsmanship, minimalism, refined living, thoughtful reflection, soul and substance, quiet luxury, designs that inspire calm, traditional luxury, timeless artistry, simplicity, form and function, bold sculptural elements, graceful curves, artisanal craftsmanship, sustainability, integrity, natural materials, ethical production practices, resonate values, test of time, Conscious Minimalist, clean lines, natural textures, Urban Visionary, modular designs, diverse personas, timeless pieces, living environment, art of living beautifully, canvas of self-expression, elegance and livability, true luxury, fleeting trends, enduring beauty and functionality, unique taste, tranquil sensibility, refined modern design, shape your space, soul and substance, elegance and functionality coexist."

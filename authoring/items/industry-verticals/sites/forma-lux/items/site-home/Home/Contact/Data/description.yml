@@ -25,17 +25,17 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <div class="ck-content"><h1 style="text-align:center;">&nbsp;</h1><h3 style="text-align:center;"><strong>Let’s start a conversation</strong></h3><p style="text-align:center;">Whether you’re ready to launch a project or just exploring ideas, send us a message below.</p><p style="text-align:center;">Our team will get back to you within one business day.</p><p style="text-align:center;">&nbsp;</p></div>
+        <div class="ck-content"><h3 style="text-align:center;"><strong>Contact the NWMO</strong></h3><p style="text-align:center;">Have questions about Canada's plan for used nuclear fuel? We'd like to hear from you.</p><p style="text-align:center;">Phone: 416-934-9814 | Toll-free: 1-866-249-6966 | Email: contactus@nwmo.ca</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "92099217-767d-43b0-ae3f-20c33b1deb7e"
+      Value: "9eb8d990-bed3-4f21-84da-04815a72e6ab"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251009T063830Z
+      Value: 20260617T184043Z
 - Language: "es-ES"
   Versions:
   - Version: 1

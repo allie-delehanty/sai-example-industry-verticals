@@ -13,14 +13,14 @@ Languages:
       Value: <r />
     - ID: "17316dee-ddb8-43ec-9d7e-596c4f7662ad"
       Hint: Title
-      Value: Browse The Range
+      Value: Discover more
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250924T121746Z
     - ID: "3d343ddf-0de2-41e7-8bf5-fadeafd484c7"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="View All" url="/industry-verticals/forma-lux/Home/Products" />
+        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="Explore Canada's plan" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,14 +31,14 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55e12fb8-6593-4e95-9c79-1f9ca81f678f"
+      Value: "1832efaf-7605-4bfd-a6c2-69132031f487"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260617T184615Z
 - Language: "es-ES"
   Versions:
   - Version: 1

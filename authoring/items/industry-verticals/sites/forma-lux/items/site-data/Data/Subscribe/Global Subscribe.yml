@@ -16,7 +16,7 @@ Languages:
       Value: 20250910T092534Z
     - ID: "4b87c00c-c58b-41a6-9e09-16610db8d8c5"
       Hint: ButtonText
-      Value: Subscribe
+      Value: Sign up
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,19 +25,23 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\ranula.gamage@sitecore.com
+    - ID: "63b13fd4-2c5f-43c2-be76-cb87fa206066"
+      Hint: ConsentText
+      Value: |
+        <div class="ck-content"><p>By checking this box, you confirm that you have read and agree to the NWMO privacy policy regarding the storage of data submitted through this form.</p></div>
     - ID: "73961b41-7cfe-4909-9593-1a695e998e38"
       Hint: Title
-      Value: Subscribe to get attractive offers on our products
+      Value: Subscribe to receive updates from the NWMO
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c122940b-3f51-42d4-8aa1-2ae989238546"
+      Value: "8208cbb5-c880-4f6e-b818-c5a11e939d85"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250910T093959Z
+      Value: 20260617T184628Z
 - Language: "es-ES"
   Versions:
   - Version: 1

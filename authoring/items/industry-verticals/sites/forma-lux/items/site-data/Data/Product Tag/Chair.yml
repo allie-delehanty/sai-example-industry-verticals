@@ -21,17 +21,17 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e5ae9ca-51d6-415f-844a-73bc4e580cef"
+      Value: "0125ee08-cb70-4fff-b2c6-f35cde8dd3c5"
     - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
       Hint: Tag
-      Value: Chair
+      Value: Regulatory process
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250929T103132Z
+      Value: 20260617T184839Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -23,7 +23,7 @@ Languages:
       Value: 20251128T103701Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Engineered for daily living with plush support and breathable, durable textiles that enhance over time.
+      Value: Canada's plan involves containing and isolating all the country's used nuclear fuel underground in a deep geological repository.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,21 +34,21 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Enhanced Comfort
+      Value: Canada's plan
     - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
       Hint: FeatureLink
       Value: |
-        <link linktype="external" url="" target="" text="Find Out Why" title="" class=""/>
+        <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "87f1d7e9-4230-4d4b-af32-63aae08fb26c"
+      Value: "53a1a63e-8e7c-4158-8cd7-6bb929925575"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T103807Z
+      Value: 20260617T184623Z
 - Language: "es-ES"
   Versions:
   - Version: 1

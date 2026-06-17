@@ -11,7 +11,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: LMP0003
+  Value: "NWMO-024"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7dc91a77-5115-4821-a6b0-4cfd5d3a355c"
+  Value: "2a0943bd-f44f-4ea0-a624-4f64272b4614"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -68,19 +68,19 @@ Languages:
       Value: 20251016T131920Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Capri Table Lamp | Forma Lux – Hand-Glazed Ceramic Lamp with Linen Shade"
+      Value: Transportation planning framework | NWMO Reports
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A ceramic table lamp with a linen shade.
+      Value: The transportation planning framework outlines safe transport of used nuclear fuel from storage facilities to the repository.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Capri Table Lamp, ceramic table lamp, linen shade, handmade lighting, modern home decor, bedside lamp, Forma Lux shop, artisan craftsmanship
+      Value: transportation planning, NWMO, used nuclear fuel, deep geological repository, nuclear transport safety, Canada
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 129.5
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Capri Table Lamp
+      Value: Transportation planning framework
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -91,26 +91,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "The Capri Table Lamp by Forma Lux features a hand-glazed ceramic base and neutral linen shade — a versatile lighting piece that adds warmth and elegance to any room."
+      Value: Learn about the NWMO's transportation planning framework for safely moving used nuclear fuel to the repository.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f59eee68-0ded-4531-ba14-28a46e499929"
+      Value: "d77c1c7d-23cc-4e48-903f-39ecacc025b2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Capri Table Lamp
+      Value: Transportation planning framework
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093641Z
+      Value: 20260617T184818Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Capri Table Lamp adds warmth and charm to any space. Its hand-glazed ceramic base paired with a neutral linen shade makes it versatile for bedrooms and living rooms.</p>"
+      Value: |
+        <div class="ck-content"><p>The transportation planning framework outlines how used nuclear fuel will be safely transported from interim storage facilities to the deep geological repository. Developed by the NWMO, the framework addresses safety, security, routing, and community engagement for transportation.</p><p>Used nuclear fuel has been transported safely in Canada for decades. The framework builds on this experience and international best practices to plan for the larger-scale transportation program that will support the repository. It includes detailed safety analyses and emergency response planning.</p><p>A robust transportation planning framework ensures that used nuclear fuel can be moved safely and securely when the repository is ready to receive it.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "Effortlessly blending texture and tone, the Capri Table Lamp captures Forma Lux’s approach to handcrafted illumination. The ceramic base, finished in a rich hand-glazed sheen, anchors the lamp with organic charm, while the linen shade diffuses a soft, natural light. Available in White, Indigo, Gold, and Black, Capri complements both modern and classic interiors — transforming bedrooms, reading corners, and living spaces into calm, luminous retreats."
+      Value: The transportation planning framework addresses safety, security, and community engagement for moving used nuclear fuel.
 - Language: "es-ES"
   Versions:
   - Version: 1

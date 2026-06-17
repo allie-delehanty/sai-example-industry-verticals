@@ -36,17 +36,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="external" url="https://www.google.com/" target="_blank" text="Google Search"/>
+        <link class="" id="57f77a21-6c37-43f0-999a-3912b3ed172c" querystring="" anchor="" target="" title="" linktype="internal" text="Centre of Expertise" url="/industry-verticals/forma-lux/Home/Landing Pages/The Google Search" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ca0f741-8ae3-4bae-a7d3-735307135697"
+      Value: "e72e8a2f-ff35-4323-99ff-d1fe9f20b0c0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T092934Z
+      Value: 20260617T184633Z
 - Language: "es-ES"
   Versions:
   - Version: 1

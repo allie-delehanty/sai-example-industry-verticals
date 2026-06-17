@@ -13,6 +13,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "06c1be05-0572-4c4e-87db-519b03c19055"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Integrity, excellence, accountability and transparency guide everything we do at the NWMO.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250904T103649Z
@@ -26,14 +30,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9b486fb9-7096-46f1-b84b-6e0d05c77180"
+      Value: "47cbf75d-5bb3-42b3-a721-53bb6a702319"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T100020Z
+      Value: 20260617T184618Z
+    - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
+      Hint: Title
+      Value: Core values
 - Language: "es-ES"
   Versions:
   - Version: 1

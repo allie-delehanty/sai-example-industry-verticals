@@ -31,7 +31,7 @@ Languages:
       Value: 20250904T103649Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Order over 150 $
+      Value: We take responsibility for our actions and are accountable to Canadians for implementing Canada's plan.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -42,17 +42,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Free Shipping
+      Value: Accountability
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42fa7e1a-f328-4078-be85-05b12df558d1"
+      Value: "d7a76cf4-578b-4d98-ba6e-cf5433abba85"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T100011Z
+      Value: 20260617T184618Z
 - Language: "es-ES"
   Versions:
   - Version: 1

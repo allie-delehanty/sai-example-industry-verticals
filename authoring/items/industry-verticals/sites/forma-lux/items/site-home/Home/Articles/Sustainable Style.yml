@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
+      Value: "On February 19, 2026, the NWMO announced a grant of advanced microscopy and analytical equipment to support local geoscience research in potential repository host areas. The investment enables high-resolution imaging and elemental analysis of rock and groundwater samples. The initiative reflects the NWMO's commitment to community-led science and lasting research infrastructure."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T082739Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sustainable Style
+      Value: NWMO research equipment grant
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,33 +50,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p>More consumers are choosing furniture that not only looks good, but does good. Look for pieces made from responsibly-sourced wood, low-VOC finishes, recycled metal, and textiles certified for sustainability. Modern design is an ideal match: its emphasis on material honesty and simplicity fits sustainably‐made furniture beautifully. Choose solid construction — high-quality joinery, durable materials — so your investment lasts. When you buy less, buy well, you reduce waste. The result: a home that reflects your values and your style, both at once.</p></div>
+        <div class="ck-content"><p>On February 19, 2026, the Nuclear Waste Management Organization announced a grant providing advanced microscopy and analytical equipment to support local geoscience research in potential repository host areas. The investment strengthens the capacity of regional institutions to conduct independent analysis of rock samples, groundwater chemistry, and mineral composition data gathered during the site evaluation process.</p><p>The advanced microscope and analyzer enable high-resolution imaging and precise elemental analysis, tools essential for understanding the geological characteristics that will inform the safety case for a deep geological repository. By equipping local researchers with state-of-the-art instrumentation, the NWMO supports community-led science and builds lasting research infrastructure that benefits the region beyond the repository program.</p><p>This initiative reflects the NWMO's broader commitment to knowledge sharing and capacity building in communities engaged in the site selection process. Investing in local research capabilities ensures that technical decisions are grounded in robust, independently verifiable data while fostering long-term partnerships between the NWMO, academic institutions, and community stakeholders.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: "Green design doesn’t mean compromising look—explore eco-friendly materials and methods."
+      Value: The NWMO grants advanced microscopy and analytical equipment to strengthen local geoscience research capacity in potential host communities.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Discover how to choose furniture that looks good and does good. Explore responsibly-sourced wood, low-VOC finishes, recycled materials, and durable construction for a stylish, sustainable home."
+      Value: "February 19, 2026: The NWMO grants advanced microscopy and analytical equipment to support local geoscience research in potential repository host areas."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f4df6df-317e-485e-b857-1c84af059163"
+      Value: "efcf049b-6145-4eb9-859f-4f5d2d67e51f"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Sustainable Style: Modern Furniture That’s Good for the Planet"
+      Value: The NWMO strengthens local research capacity with grant of advanced microscope and analyzer
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260617T183838Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Sustainable Furniture Choices: Modern Design That Reflects Your Values"
+      Value: The NWMO strengthens local research capacity with grant of advanced microscope and analyzer
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: "sustainable furniture design, eco-friendly furniture choices, responsibly sourced wood, low-VOC finishes, recycled metal furniture, sustainable textiles, certified sustainable fabrics, modern sustainable furniture, material honesty in design, simplicity in furniture design, durable furniture construction, high-quality joinery, long-lasting furniture investment, reduce waste home design, buy less buy well philosophy, sustainable home decor, ethical furniture production, green interior design trends, eco-conscious furniture ideas, modern eco-friendly living"

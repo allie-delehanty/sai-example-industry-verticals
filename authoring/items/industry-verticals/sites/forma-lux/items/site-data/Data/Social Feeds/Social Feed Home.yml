@@ -56,7 +56,7 @@ Languages:
       Value: 20250916T071650Z
     - ID: "4d62e9d8-ceaf-4d6d-a3f3-89744b715490"
       Hint: Heading
-      Value: #FormaLuxDécor
+      Value: #NWMO
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -67,17 +67,17 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b40ff895-0ca0-40a3-9418-6592cb1b26f7"
+      Value: "1e23b8bf-5067-4a54-95d1-653b195305c3"
     - ID: "a652162f-5821-4fe0-b373-2c7a03ab362d"
       Hint: Eyebrow
-      Value: Share your own setup with
+      Value: Connect with us
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeffrey.isham@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250930T092415Z
+      Value: 20260617T184020Z
 - Language: "es-ES"
   Versions:
   - Version: 1

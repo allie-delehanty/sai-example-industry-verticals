@@ -14,10 +14,10 @@ Languages:
     - ID: "20c5fd56-620f-43ea-9ac9-962a19ff4615"
       Hint: FacebookLink
       Value: |
-        <link linktype="external" url="" target="" text="Facebook" title="" class=""/>
+        <link linktype="external" url="https://www.facebook.com/nwmo" target="" text="Facebook" title="" class=""/>
     - ID: "24cc1760-4aac-4105-818f-4a17ffd733b7"
       Hint: SocialTitle
-      Value: Follow us
+      Value: Connect with us
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250901T114411Z
@@ -28,7 +28,7 @@ Languages:
     - ID: "4c020db1-8c7e-4576-9fad-2c44483c5954"
       Hint: TwitterLink
       Value: |
-        <link linktype="external" url="" target="" text="Twitter" title="" class=""/>
+        <link linktype="external" url="https://twitter.com/nwmo" target="" text="Twitter" title="" class=""/>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -40,21 +40,21 @@ Languages:
     - ID: "82a5236e-7ffe-45e4-a987-437a3e9ed5fe"
       Hint: YoutubeLink
       Value: |
-        <link linktype="external" url="" target="" text="Youtube" title="" class=""/>
+        <link linktype="external" url="https://www.youtube.com/user/nwmo" target="" text="YouTube" title="" class=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "48d6fb7c-c9b4-439f-af94-2badb6270ba1"
+      Value: "8c739fc0-1092-4a29-92cd-b0bbde65b173"
     - ID: "8eb52c3f-0da7-4370-97b4-6660650496c5"
       Hint: LinkedinLink
       Value: |
-        <link linktype="external" url="" target="" text="Linkedin" title="" class=""/>
+        <link linktype="external" url="https://www.linkedin.com/company/nwmo" target="" text="LinkedIn" title="" class=""/>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250901T114714Z
+      Value: 20260617T184633Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -60,6 +60,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a9a35caf-7d31-4df9-b4f8-2dde50455c07"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Our Plan
   Versions:
   - Version: 1
     Fields:
@@ -74,26 +81,32 @@ Languages:
       Value: 20250821T083005Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: Furniture
+      Value: Canada's used nuclear fuel | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Furniture
+      Value: Canada's used nuclear fuel
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: About us
+      Value: Canada's used nuclear fuel
     - ID: "581d7a02-ce94-4a73-9add-258867a8b60f"
       Hint: Content
       Value: 
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "Learn about Canada's used nuclear fuel — what it is, how it is stored today, and why Canada has a plan for its safe, long-term management."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "343a5471-8f0c-424d-b1b6-658f45b6a84e"
+      Value: "383c4f96-e6ed-406b-9857-e8d0fe47508b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: "Used nuclear fuel is a byproduct of nuclear power and must be safely managed long-term. Canada has been using nuclear energy for more than half a century."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260617T194452Z
 - Language: "es-ES"
   Versions:
   - Version: 1

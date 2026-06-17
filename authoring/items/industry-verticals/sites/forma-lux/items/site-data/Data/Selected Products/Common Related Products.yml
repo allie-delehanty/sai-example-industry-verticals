@@ -28,7 +28,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
       Hint: Title
-      Value: Related Products
+      Value: Related topics
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -36,17 +36,17 @@ Languages:
     - ID: "7a6784c9-46c6-4781-86c3-c482f3ef62e6"
       Hint: ProductsLink
       Value: |
-        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="View All" url="/industry-verticals/forma-lux/Home/Products" />
+        <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="View all" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88b463d8-7f5a-45af-9fdd-49ae3bf83fb7"
+      Value: "c7fbfc68-9cf2-47ec-8e79-d7418907d577"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260617T184625Z
 - Language: "es-ES"
   Versions:
   - Version: 1

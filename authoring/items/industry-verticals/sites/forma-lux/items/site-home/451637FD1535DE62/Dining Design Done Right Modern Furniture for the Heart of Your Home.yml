@@ -24,10 +24,10 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "26958910-c8d5-44b1-bd18-98172720a4bf"
+    Value: "1a5c123c-9ce3-4dba-9b98-4af1170f2c1b"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Dining Design Done Right Modern Furniture for the Heart of Your Home
+    Value: Reconciliation
   Versions:
   - Version: 1
     Fields:
@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
+      Value: Canada's deep geological repository faces rigorous CNSC regulatory oversight from site preparation through closure. The NWMO must demonstrate safety through geoscience data, barrier testing, and environmental assessments at public hearings. Continuous CNSC oversight includes inspections, reporting, and licence renewals throughout the repository lifecycle.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: Repository regulatory process
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,35 +50,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends.</span></span></p></div>
+        <div class="ck-content"><p>Canada's deep geological repository will be subject to one of the most rigorous regulatory processes in the world. The Canadian Nuclear Safety Commission serves as the independent regulator, responsible for licensing every phase of the repository from site preparation through construction, operation, extended monitoring, and eventual decommissioning and closure.</p><p>The NWMO must demonstrate to the CNSC that the repository design, site characteristics, and operational plans meet strict safety and environmental protection requirements. This includes submitting comprehensive safety cases supported by geoscience data, engineered barrier testing, environmental impact assessments, and emergency preparedness plans. Public hearings provide opportunities for Canadians to participate in the regulatory review process.</p><p>Regulatory approval is not a single event but an ongoing commitment. The NWMO will operate under continuous CNSC oversight throughout the repository's lifecycle, with regular inspections, reporting, and licence renewals. This robust regulatory framework ensures that Canada's deep geological repository meets the highest standards of safety, accountability, and environmental stewardship before any used nuclear fuel is placed underground.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: |
-        Transform your dining area into a sleek, inviting stage for everyday and entertaining.
-        
+      Value: The CNSC provides rigorous independent oversight of Canada's deep geological repository from licensing through closure and monitoring.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
+      Value: Understand the CNSC regulatory process for licensing and overseeing Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bdd12a0-a8cc-4419-bc05-11a1e3e80d08"
+      Value: "746783fd-961c-4896-a09c-fb538709192d"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
+      Value: Regulatory process for Canada's deep geological repository
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082512Z
+      Value: 20260617T195910Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: Dining Design Done Right Modern Furniture for the Heart of Your Home
+      Value: Regulatory process for Canada's deep geological repository
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern dining space, dining room design tips, dining table ideas, clean lines dining table, durable dining furniture, expandable dining table, comfortable dining chairs, slim profile chairs, quality upholstery chairs, shell material chairs, dining lighting height, dining room ambiance, dining rug ideas, acoustic softening rug, minimal dining accessories, sculptural bowl decor, simple table runner, dining room art, modern dining decor, come together dining concept, family dining ideas, dinner party dining space

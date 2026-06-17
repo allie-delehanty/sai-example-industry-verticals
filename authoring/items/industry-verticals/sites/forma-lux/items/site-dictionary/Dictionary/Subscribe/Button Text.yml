@@ -15,10 +15,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Subscribe
+    Value: Sign up
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "ee233483-8ea9-49fb-9724-7ba27b786526"
+    Value: "2f59451c-af85-4f6d-be96-e5a688da68b6"
   Versions:
   - Version: 1
     Fields:
@@ -35,14 +35,14 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89fb2e1d-3b74-4d50-a794-5bd9428c36ae"
+      Value: "26e7a23a-a824-42c2-9138-ef1ca1169066"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250918T111806Z
+      Value: 20260617T184644Z
 - Language: "es-ES"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"

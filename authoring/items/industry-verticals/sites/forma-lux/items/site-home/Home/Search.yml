@@ -57,13 +57,13 @@ Languages:
       Value: 20251217T115000Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: Search | Forma Lux Furniture and Home Design
+      Value: Documents search | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Search
+      Value: Documents search
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Search
+      Value: Documents search
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -74,20 +74,20 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
       Hint: metadataDescription
-      Value: Explore the Forma Lux collection and find the perfect piece for your home. Search our range of handcrafted, sustainable furniture designed to bring warmth, balance, and timeless beauty to every space.
+      Value: Search the NWMO's comprehensive library of technical reports, planning documents, and publications on Canada's plan for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "54c706b6-7d21-44a1-b597-e23579ff4250"
+      Value: "445f049c-78e5-4746-9e16-79052357f896"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
-      Value: The Forma Lux Search page helps you discover our curated selection of modern, sustainable furniture. Whether you’re looking for a modular sofa, an accent chair, or a refined table design, every piece reflects Forma Lux’s philosophy of intentional living and enduring craftsmanship.
+      Value: Search NWMO documents, reports and technical publications.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260617T183719Z
 - Language: "es-ES"
   Versions:
   - Version: 1

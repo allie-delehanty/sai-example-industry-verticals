@@ -25,11 +25,11 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="external" url="" target="" text="Experience More" title="" class=""/>
+        <link class="" id="46e2c765-75bc-499c-b9a1-390ce3b07a10" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/Decor" />
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Complete your Lumina Collection with these versatile nesting tables, designed in natural oak for harmonious proportions and a refined finish.</span></span></p></div>
+        <div class="ck-content"><p>Transportation of used nuclear fuel will follow strict safety protocols developed with input from communities, regulators and technical experts.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -40,20 +40,20 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: Attention to Elegance
+      Value: Learn more
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5234d367-7762-4737-a2f7-7aef858f68b5"
+      Value: "3697c593-c516-466b-8457-ba2e4f384f83"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082515Z
+      Value: 20260617T184618Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: Nesting Tables Perfection
+      Value: Transporting used nuclear fuel
 - Language: "es-ES"
   Versions:
   - Version: 1

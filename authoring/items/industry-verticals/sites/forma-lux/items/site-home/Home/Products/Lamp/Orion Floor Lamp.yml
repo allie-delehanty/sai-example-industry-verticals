@@ -11,7 +11,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: LMP0004
+  Value: "NWMO-025"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -43,7 +43,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7ef7a8ed-ca4c-4218-8b5f-366616482e24"
+  Value: "cd2ab000-22af-4a5a-8ecf-2933ba067008"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -72,19 +72,19 @@ Languages:
       Value: 20251016T131822Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Orion Floor Lamp | Forma Lux – Minimalist Metal Floor Lamp with Adjustable Head
+      Value: Safety case documentation | NWMO Reports
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A tall floor lamp with a sleek metal frame
+      Value: Safety case documentation demonstrates the repository will safely contain and isolate used nuclear fuel for the long term.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Orion Floor Lamp, modern floor lamp, adjustable light, minimalist lighting, metal lamp, reading light, living room lighting, Forma Lux shop
+      Value: "safety case, NWMO, deep geological repository, used nuclear fuel, long-term safety, nuclear waste management, Canada"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 199.99
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Orion Floor Lamp
+      Value: Safety case documentation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -95,26 +95,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Illuminate your space with the Orion Floor Lamp by Forma Lux – a tall, sleek metal design with an adjustable head that provides focused light for reading or relaxation.
+      Value: Learn about safety case documentation for Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bfe3e0c2-a623-46ec-93e6-71247fa1a5b0"
+      Value: "410d2e36-c7e9-4aee-9286-8bd7392e5907"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Orion Floor Lamp
+      Value: Safety case documentation
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093711Z
+      Value: 20260617T184818Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: <p>The Orion Floor Lamp features a slim, minimalist design with an adjustable head for directional lighting. Perfect for reading corners or modern living rooms.</p>
+      Value: |
+        <div class="ck-content"><p>Safety case documentation is the comprehensive body of evidence demonstrating that the deep geological repository will safely contain and isolate used nuclear fuel for the long term. The NWMO develops the safety case through rigorous scientific analysis and international peer review.</p><p>The safety case covers repository design, geological suitability, engineered barriers, and long-term performance predictions. It addresses scenarios over hundreds of thousands of years and demonstrates that the repository meets regulatory requirements for radiation protection and environmental safety.</p><p>Robust safety case documentation provides the scientific foundation for regulatory approvals and public confidence in Canada's plan for used nuclear fuel.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Streamlined and sophisticated, the Orion Floor Lamp exemplifies Forma Lux’s mastery of purposeful minimalism. Its slim metal frame and adjustable head deliver directional illumination that adapts to mood and moment. Perfect beside a sofa or armchair, Orion adds quiet structure and soft glow to modern interiors. Available in Gold, Black, and White, and in Small or Medium sizes, it’s an elegant statement of light, balance, and craftsmanship.
+      Value: Safety case documentation provides scientific evidence that the repository will safely isolate used nuclear fuel over the long term.
 - Language: "es-ES"
   Versions:
   - Version: 1

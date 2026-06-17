@@ -15,10 +15,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Color
+    Value: Region
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "870048c6-5d1c-41d7-b5f1-9b5a6cf3fc4d"
+    Value: "15aac8d3-9c91-4833-b7ec-f90874da1b8a"
   Versions:
   - Version: 1
     Fields:
@@ -35,14 +35,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "20f1256d-99d3-418c-bc7e-f2b7bb3fe095"
+      Value: "1bd48822-91f4-4d98-b448-27ad7810d460"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T121049Z
+      Value: 20260617T184657Z
 - Language: "es-ES"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"

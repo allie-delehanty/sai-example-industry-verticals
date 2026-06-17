@@ -12,7 +12,7 @@ SharedFields:
     {FD74A159-FC1F-48F8-88C8-5703D830E00D}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: SOF0005
+  Value: "NWMO-006"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -43,7 +43,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "7b8b525e-8553-49e3-a1bf-9023c972bbf8"
+  Value: "5eabaa32-46cb-47a2-93c1-1e47739be97e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -72,19 +72,19 @@ Languages:
       Value: 20251016T131426Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Lisbon Recliner Sofa | Forma Lux – Luxury Reclining Sofa with Plush Comfort
+      Value: Site selection timeline | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A reclining sofa with plush cushioning.
+      Value: Canada's site selection process has evolved over more than a decade, narrowing from an open invitation to two potential siting areas.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Lisbon Recliner Sofa, reclining sofa, home theater sofa, luxury recliner couch, modern living room furniture, cup holder sofa, Forma Lux shop, plush seating
+      Value: site selection timeline, NWMO, deep geological repository, used nuclear fuel, site selection process, Canada
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1599
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Lisbon Recliner Sofa
+      Value: Site selection timeline
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -95,26 +95,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "Relax in style with the Lisbon Recliner Sofa by Forma Lux. Featuring built-in recliners, plush cushions, and integrated cup holders, it brings modern comfort to home theaters and cozy living spaces."
+      Value: Explore the timeline of Canada's site selection process for the deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a5921b9-883e-4409-ae1b-44c789b812b4"
+      Value: "3977dafa-c9af-40a6-ac37-b812568b3154"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Lisbon Recliner Sofa
+      Value: Site selection timeline
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094611Z
+      Value: 20260617T184803Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Lisbon Recliner Sofa combines comfort and convenience. With built-in recliners and cup holders, it’s perfect for home theaters and cozy nights in.</p>"
+      Value: |
+        <div class="ck-content"><p>Canada's site selection process for the deep geological repository has evolved over more than a decade of engagement with communities and Indigenous peoples across the country. The NWMO began with an open invitation and has narrowed to two potential siting areas.</p><p>Key milestones include the initiation of the site selection process in 2010, the transition to focused assessments in potential siting areas, and ongoing technical and social studies. The timeline reflects Canada's commitment to a thorough, deliberate process that respects community decision-making.</p><p>Understanding the site selection timeline helps communities and stakeholders track progress and anticipate next steps in this multi-generational national infrastructure project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "Designed for indulgent comfort, the Lisbon Recliner Sofa transforms relaxation into an experience of quiet sophistication. Its built-in recliners and cup holders merge function with form, while plush cushioning and a refined silhouette reflect Forma Lux’s commitment to craftsmanship. Available in Black and White, and in Large or Extra Large sizes, Lisbon is ideal for home theaters or cozy nights in — a statement of modern luxury designed to move with you."
+      Value: "Canada's site selection timeline reflects a deliberate, community-driven process that has evolved over more than a decade."
 - Language: "es-ES"
   Versions:
   - Version: 1

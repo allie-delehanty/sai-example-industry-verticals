@@ -21,17 +21,17 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "655ee303-9aad-459c-9deb-a26afa86b46d"
       Hint: Tag
-      Value: Home Décor
+      Value: Environment and safety
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "41c033bd-540b-459c-9072-235c8962b60d"
+      Value: "004cebb6-d18a-4757-b18b-0d83ffd26a1f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250923T121935Z
+      Value: 20260617T184733Z
 - Language: "es-ES"
   Versions:
   - Version: 1

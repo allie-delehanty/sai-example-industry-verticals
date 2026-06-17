@@ -34,40 +34,40 @@ Languages:
       Value: 20251016T154824Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Designer Sofas
+      Value: Site selection | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Sofa
+      Value: Site selection
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
-      Value: This sofa collection blends form and function to create living pieces built for life. Each design features clean lines, deep comfort, and adaptable modularity — a perfect balance of sophistication and everyday ease.
+      Value: "The site selection process began in 2010. Twenty-two municipalities and Indigenous communities expressed interest in learning more about hosting the project."
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Sofa
+      Value: Site selection
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "221403b2-f8de-41c5-abc8-d816272eb51f"
+      Value: "aabbf2e4-a8ad-4dc9-8007-6b8204a662bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
-      Value: Explore modern sofas crafted for comfort and longevity. Modular designs, soft textures, and refined silhouettes bring elegance and relaxation to contemporary interiors.
+      Value: "Learn about the multi-year, community-driven process to identify a site for Canada's deep geological repository."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082510Z
+      Value: 20260617T183722Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Sofa
+      Value: Site selection
 - Language: "es-ES"
   Versions:
   - Version: 1

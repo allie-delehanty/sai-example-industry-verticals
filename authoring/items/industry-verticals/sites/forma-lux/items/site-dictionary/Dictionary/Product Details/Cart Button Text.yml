@@ -15,10 +15,10 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Add to Cart
+    Value: View details
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "bb586991-8e8e-48b1-8f85-088b617dac8e"
+    Value: "e63edf32-2a46-4cad-a150-323b4ded2aef"
   Versions:
   - Version: 1
     Fields:
@@ -35,14 +35,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c35007f8-7992-4b12-aa0f-6cf7e0cd308d"
+      Value: "f2faa9de-a8c9-4330-94c5-6cd78df87b84"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250925T121349Z
+      Value: 20260617T184643Z
 - Language: "es-ES"
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"

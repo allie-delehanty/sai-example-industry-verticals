@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="f9aa0bbe-a308-4ded-a641-8cef763ef70e" />
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/e26077dfa5504ca09cdf3cbd5a352798?v=094f06ca" dam-id="fGMMDtXMQB2MYiv-Ph_8IA" alt="imgi_6_IWF_OPG_1000X600.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/92196/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "806acabf-bdd8-42fa-a082-ec6e7669a8a8"
+  Value: "a97a127c-19fc-4f31-9eaf-7f2c44df12d5"
 Languages:
 - Language: en
   Versions:
@@ -27,7 +27,7 @@ Languages:
       Value: 20250915T104825Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Large indoor plants flank the room’s corners, echoing the view outside and breathing life into the interior. Organic elements are repeated throughout, from stone planters to rattan light shades, uniting the design.
+      Value: Canada's plan involves containing and isolating all the country's used nuclear fuel in a deep geological repository, built to a depth of 500 to 800 metres.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,17 +38,21 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Bringing the Outdoors In 
+      Value: Deep geological repository
+    - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
+      Hint: FeatureLink
+      Value: |
+        <link linktype="internal" id="53dfd979e8684b4fbb9e366626d11e69" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a63c2a88-9871-4568-aa6b-60f50ba506d7"
+      Value: "078414de-fd21-41dd-a61e-aebf549c1256"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250915T105549Z
+      Value: 20260617T195953Z
 - Language: "es-ES"
   Versions:
   - Version: 1

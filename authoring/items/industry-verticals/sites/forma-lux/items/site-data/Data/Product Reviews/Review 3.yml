@@ -32,27 +32,28 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "52f7ed6b-3e64-453f-9499-1a7281a05dc9"
       Hint: Description
-      Value: “I never imagined my home could look this refined without a full renovation. Forma Lux made luxury feel accessible and effortless.”
+      Value: |
+        "Reconciliation and engagement with Indigenous Peoples are fundamental to implementing Canada's plan for the safe, long-term management of used nuclear fuel."
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\isuru.bandara@sitecore.com
     - ID: "8bb0daa9-d77b-4c79-99c1-4d12e8d8a623"
       Hint: Caption
-      Value: Art Consultant, Milan
+      Value: Manager of Indigenous Knowledge and Reconciliation
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97051366-3c3e-4239-9721-96e8c250e078"
+      Value: "e712c6d9-1d43-4ca6-8d82-5a24a32fecb8"
     - ID: "997e5f9c-d7b6-4704-9add-8e2ffcd15c2c"
       Hint: ReviewerName
-      Value: Elena D.
+      Value: Rebekah Wilson
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251121T111154Z
+      Value: 20260617T184008Z
 - Language: "es-ES"
   Versions:
   - Version: 1

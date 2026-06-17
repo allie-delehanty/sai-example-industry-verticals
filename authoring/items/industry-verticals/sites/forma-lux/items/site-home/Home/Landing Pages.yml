@@ -41,6 +41,13 @@ SharedFields:
     </r>
 Languages:
 - Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "f4830e8c-07cc-4531-9883-c5ed5c2c7e54"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Publications & Reports
   Versions:
   - Version: 1
     Fields:
@@ -52,13 +59,13 @@ Languages:
       Value: 20251128T094251Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: Browse our latest and greatest campaigns and content
+      Value: New projects | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Landing Pages
+      Value: New projects
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
-      Value: Landing Pages
+      Value: New projects
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -67,16 +74,22 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\isuru.bandara@sitecore.com
+    - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
+      Hint: metadataDescription
+      Value: "The NWMO is exploring new projects including Canada's second deep geological repository for intermediate-level and non-fuel high-level waste."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2a2dc78d-8419-4512-8686-9e9d94d12e78"
+      Value: "5e148361-7198-4cbb-b7e4-6c97f896b9a5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
+      Hint: pageSummary
+      Value: The NWMO is advancing Canada's second repository project and exploring new nuclear energy projects.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251210T073952Z
+      Value: 20260617T194601Z
 - Language: "es-ES"
   Versions:
   - Version: 1

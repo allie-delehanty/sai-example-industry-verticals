@@ -36,13 +36,13 @@ Languages:
       Value: <r />
     - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
       Hint: pageSummary
-      Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
+      Value: Transportation is critical to Canada's used nuclear fuel plan. The NWMO develops routes and uses certified containers tested for severe accident scenarios. Route selection involves communities, Indigenous Nations, and regulators under CNSC requirements. Transparent communication with communities along potential routes remains a priority.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084006Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Selecting the perfect couch
+      Value: Safe nuclear fuel transportation
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -50,35 +50,33 @@ Languages:
     - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
       Hint: Content
       Value: |
-        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(80,80,80);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:Manrope, sans-serif;font-size:18px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Minimal design doesn’t mean flat. Texture can bring depth, warmth and intrigue. Start with a base material – say, a walnut dining table – and layer in contrast: a brushed steel base, a wool throw, a leather accent chair. Each material tells a story and adds richness. Think about tactile qualities too – the softness of upholstery, coolness of metal, natural irregularity of stone. The goal: a palette of feeling as much as appearance. Keep the overall color scheme restrained so the textures shine through rather than compete. The result is a modern space that invites touch, not just looks slick.</span></span></p></div>
+        <div class="ck-content"><p>Transportation is a critical component of Canada's plan for the safe, long-term management of used nuclear fuel. The Nuclear Waste Management Organization is developing a comprehensive transportation plan to move used fuel from interim storage facilities to a deep geological repository, using specially designed containers and proven transport methods refined over decades of international experience.</p><p>Used nuclear fuel will be transported in robust, certified packages tested to withstand severe accident scenarios including fire, collision, and immersion. Transport routes will be selected through a collaborative process involving communities, Indigenous Nations, emergency responders, and regulatory authorities. The NWMO conducts detailed route assessments, emergency planning exercises, and public information sessions to ensure preparedness at every step.</p><p>Safety remains the overriding priority in transportation planning. Canada's regulatory framework, administered by the Canadian Nuclear Safety Commission, sets stringent requirements for packaging, routing, and emergency response. The NWMO is committed to transparent communication with communities along potential transport routes, providing accurate information and addressing concerns as the transportation plan is developed and implemented.</p></div>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
       Hint: ShortDescription
-      Value: |
-        Combine materials like wood, wool, metal and glass for a layered yet minimalist look.
-        
+      Value: The NWMO develops a comprehensive transportation plan using certified containers and collaborative route selection for used nuclear fuel.
     - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
       Hint: metadataDescription
-      Value: Minimal doesn’t mean flat. Discover how mixing textures—wood, wool, metal, and glass—creates depth, warmth, and personality in modern furniture design.
+      Value: Learn about the NWMO's transportation planning for safely moving used nuclear fuel to a deep geological repository using certified containers and proven methods.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9561a261-6a19-4d69-9050-a0be6cd50b6c"
+      Value: "408c7927-9864-453b-ac6e-4b5a19d1e019"
     - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
       Hint: Title
-      Value: "Play With Texture: Why Material Mixes Make Modern Furniture Pop"
+      Value: Safe transportation of Canada's used nuclear fuel
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082513Z
+      Value: 20260617T183852Z
     - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
       Hint: metadataTitle
-      Value: "Play With Texture: Material Mixes That Elevate Modern Design"
+      Value: Safe transportation of Canada's used nuclear fuel
     - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
       Hint: metadataKeywords
       Value: modern furniture texture, material mix design, layered modern interiors, wood and metal furniture, glass and fabric combinations, tactile home décor, texture in interior design, modern material palette, furniture contrast ideas, warm wood tones, brushed steel accents, wool and leather textures, minimalist home warmth, modern mixed materials, how to add texture to décor, contemporary furniture styling, modern layering techniques, interior design materials, modern texture ideas

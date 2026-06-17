@@ -20,10 +20,7 @@ Languages:
       Value: 20250904T104220Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: |
-        Leverage agile frameworks to provide a robust synopsis for high level overviews.
-        Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-        Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+      Value: Canada's approach to managing used nuclear fuel through a phased, adaptive process that responds to new information and technology.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -34,17 +31,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: News Publishing
+      Value: Adaptive Phased Management
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cb70a3bf-d4ce-4c96-b30e-237db29c18d8"
+      Value: "6b0cfcfe-2f5e-448d-aa7b-e77933861abf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T100159Z
+      Value: 20260617T184621Z
 - Language: "es-ES"
   Versions:
   - Version: 1

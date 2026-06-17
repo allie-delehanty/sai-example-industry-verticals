@@ -34,40 +34,40 @@ Languages:
       Value: 20251016T155045Z
     - ID: "2b03e37f-61d7-4f3c-95fa-7277bfcbff6d"
       Hint: metadataTitle
-      Value: Luxury Beds
+      Value: Reconciliation | NWMO
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Bed
+      Value: Reconciliation
     - ID: "4ff0b19e-04d3-454f-9e63-421c84e00477"
       Hint: pageSummary
-      Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
+      Value: Reconciliation and engagement with Indigenous Peoples are fundamental to Canada's plan for used nuclear fuel.
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "5cad19bf-f251-4273-9578-1393c0f00d5d"
       Hint: Title
-      Value: Bed
+      Value: Reconciliation
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec74e5f3-5c79-46bd-90d1-d138106a24ec"
+      Value: "cb1e1781-2b55-4345-96a1-ae9185a642e8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "ca87ddf9-ad6a-47ad-aaea-f411377684a1"
       Hint: metadataDescription
-      Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
+      Value: The NWMO is committed to reconciliation with Indigenous Peoples as part of implementing Canada's plan.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082508Z
+      Value: 20260617T183727Z
     - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
       Hint: CategoryName
-      Value: Bed
+      Value: Reconciliation
 - Language: "es-ES"
   Versions:
   - Version: 1

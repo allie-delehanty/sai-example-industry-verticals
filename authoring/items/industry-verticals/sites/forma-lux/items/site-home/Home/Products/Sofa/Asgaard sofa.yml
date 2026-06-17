@@ -19,7 +19,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: SOF0001
+  Value: "NWMO-001"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -64,7 +64,7 @@ SharedFields:
     <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/82926ae579f24fbc95925ed2b6a0948e?v=58dfdba9" dam-id="pS2b73_mQ5WFG2Kmm82qpw" width="4096" height="2725" alt="asgaard-sofa-3.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79346/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "84a247a2-c200-4a43-979b-f3cd7a6d6678"
+  Value: "16400b22-7fd7-4d5e-bfd1-9c725df10cd5"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -100,22 +100,22 @@ Languages:
       Value: 20250923T122113Z
     - ID: "29f7d409-6f68-447d-8d7a-ce16df1761f3"
       Hint: Height
-      Value: 76 cm
+      Value: 
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Asgaard Sofa | Forma Lux – Modern Modular Sofa with Timeless Craftsmanship
+      Value: "Wabigoon Lake Ojibway Nation-Ignace area | NWMO Site Selection"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound."
+      Value: "The Wabigoon Lake Ojibway Nation-Ignace area is one of two potential sites being considered for Canada's deep geological repository for used nuclear fuel."
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Asgaard Sofa, modular sofa, luxury couch, modern living room furniture, handcrafted upholstery, Forma Lux shop, contemporary sofa design, sustainable furniture
+      Value: Wabigoon Lake Ojibway Nation, Ignace, site selection, deep geological repository, NWMO, used nuclear fuel, Ontario
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 2499.56
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Asgaard sofa
+      Value: "Wabigoon Lake Ojibway Nation-Ignace area"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -126,42 +126,42 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Asgaard Sofa by Forma Lux combines modern modular design with artisan craftsmanship. Elegant lines, premium materials, and deep comfort make it the centerpiece of any contemporary living space.
+      Value: "Learn about the Wabigoon Lake Ojibway Nation-Ignace area as a potential site for Canada's deep geological repository for used nuclear fuel."
     - ID: "67259fe9-9fcd-46f4-b330-5865618a3b8c"
       Hint: Width
-      Value: 265.32 cm
+      Value: 
     - ID: "7d125aa9-e5f4-4163-a68c-31686d582866"
       Hint: Depth
-      Value: 167 cm
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bdb021b9-0ddb-468e-a908-7be9e00597b2"
+      Value: "6be9440c-ecf7-4574-85e3-074b2ba19d1a"
     - ID: "acbcb630-e684-43ae-bb85-9fc89052c8a9"
       Hint: Weight
-      Value: 45 KG
+      Value: 
     - ID: "b5f6bc28-f8db-489f-b95e-43638b3d3ddc"
       Hint: LegHeight
-      Value: 5.46 cm
+      Value: 
     - ID: "b98a779c-b7a3-4617-96a8-85f21897d0d0"
       Hint: SeatHeight
-      Value: 41.52 cm
+      Value: 
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Asgaard sofa
+      Value: "Wabigoon Lake Ojibway Nation-Ignace area"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093840Z
+      Value: 20260617T184801Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
-        <div class="ck-content"><p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p><p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p></div>
+        <div class="ck-content"><p>The Nuclear Waste Management Organization (NWMO) is working with the Wabigoon Lake Ojibway Nation and the Township of Ignace in northwestern Ontario to explore whether this area could host Canada's deep geological repository for used nuclear fuel.</p><p>Site selection in this area follows a community-driven process grounded in respect for Indigenous rights, environmental protection, and the principle that a willing host community is essential. Technical studies assess the suitability of the local geology, while ongoing engagement ensures community members have the information they need to make informed decisions.</p><p>Learn more about how the NWMO is advancing site selection through collaboration, transparency, and rigorous science.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: A statement in both comfort and craft, the Asgaard Sofa represents the essence of Forma Lux living. Designed with modular flexibility and sculpted precision, Asgaard’s clean geometry is softened by rich upholstery and a balanced silhouette. Available in Black, Gold, and Indigo, and in Extra Small, Small, and Medium sizes, it adapts effortlessly to urban lofts or spacious homes. Each detail—from the tailored stitching to the sustainable frame—reflects Forma Lux’s dedication to timeless design and modern comfort.
+      Value: "The Wabigoon Lake Ojibway Nation-Ignace area is one of two communities being considered to host Canada's deep geological repository, with ongoing technical studies and community engagement."
 - Language: "es-ES"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"

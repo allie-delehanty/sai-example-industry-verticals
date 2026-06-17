@@ -12,7 +12,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0005
+  Value: "NWMO-012"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -41,7 +41,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5fca8589-3fab-4500-aa1a-2afda6151f35"
+  Value: "1b52b346-00e9-4903-b3d9-cc00e427585a"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -70,19 +70,19 @@ Languages:
       Value: 20251016T125004Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Verona Dining Chair | Forma Lux – Elegant Curved-Back Chair with Upholstered Seat"
+      Value: "Regulatory decision-making | NWMO"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Elegant dining chair with a curved backrest and upholstered seat.
+      Value: Regulatory decisions for the repository are based on technical reviews, environmental assessments, and public input.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Verona Dining Chair, dining room furniture, upholstered dining chair, walnut dining chair, modern dining design, comfortable seating, Forma Lux shop, curved back chair
+      Value: "regulatory decision-making, NWMO, deep geological repository, used nuclear fuel, CNSC, public participation, nuclear regulation"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 179.5
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Verona Dining Chair
+      Value: "Regulatory decision-making"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -91,22 +91,29 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Learn how regulatory decision-making ensures Canada's deep geological repository meets all safety and legal requirements."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "991d981b-c952-4f1c-b886-d56d8f6c3c6c"
+      Value: "c679b127-75d7-42a9-a5af-49a91a9ff492"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Verona Dining Chair
+      Value: "Regulatory decision-making"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094751Z
+      Value: 20260617T184808Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Verona Dining Chair is designed for both comfort and sophistication. Its curved backrest provides excellent lumbar support, while the cushioned seat ensures long-lasting comfort during meals. The walnut finish adds warmth to any dining room.</p>"
+      Value: |
+        <div class="ck-content"><p>Regulatory decision-making for Canada's deep geological repository involves multiple federal authorities working together to ensure the project meets all legal and safety requirements. The Canadian Nuclear Safety Commission is the primary regulator, with input from other federal departments.</p><p>Decisions are based on comprehensive technical reviews, environmental assessments, and public input. The regulatory process is designed to be transparent, with opportunities for stakeholders and the public to participate and provide feedback.</p><p>Sound regulatory decision-making ensures that Canada's plan for used nuclear fuel proceeds only when all safety, environmental, and legal requirements have been fully met.</p></div>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: "Regulatory decision-making for the repository involves transparent reviews by federal authorities with public participation."
 - Language: "es-ES"
   Versions:
   - Version: 1

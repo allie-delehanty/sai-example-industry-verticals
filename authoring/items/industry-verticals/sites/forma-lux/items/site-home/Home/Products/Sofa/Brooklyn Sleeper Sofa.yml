@@ -12,7 +12,7 @@ SharedFields:
     {FD74A159-FC1F-48F8-88C8-5703D830E00D}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: SOF0002
+  Value: "NWMO-003"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
   Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f4113483-a8b4-4844-be17-babc911eb65e"
+  Value: "d0c5f166-2b58-4ef5-ae87-b301cb05d14e"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -68,19 +68,19 @@ Languages:
       Value: 20251016T131324Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Brooklyn Sleeper Sofa | Forma Lux – Convertible Sofa Bed for Modern Living
+      Value: "Community-driven site selection | NWMO"
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A convertible sofa that doubles as a bed.
+      Value: "Canada's site selection process is community-driven, requiring informed and willing host communities before the NWMO proceeds."
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Brooklyn Sleeper Sofa, convertible sofa bed, sleeper sofa, modern furniture, compact living, durable upholstery, Forma Lux shop, multifunctional furniture
+      Value: "community-driven site selection, NWMO, deep geological repository, used nuclear fuel, willing host community, site selection process"
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 1099
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Brooklyn Sleeper Sofa
+      Value: "Community-driven site selection"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -89,25 +89,29 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "Learn about Canada's community-driven approach to selecting a site for the deep geological repository for used nuclear fuel."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b108b1ff-3abd-4fbd-8367-bca705c21257"
+      Value: "4f577b9b-4853-4c93-a562-d82ebc752c4e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Brooklyn Sleeper Sofa
+      Value: "Community-driven site selection"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094330Z
+      Value: 20260617T184802Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"
+      Value: |
+        <div class="ck-content"><p>Canada's approach to selecting a site for the deep geological repository is community-driven. The NWMO will only proceed with a site where the host community is informed and willing to accept the project.</p><p>This process involves extensive engagement with communities, Indigenous peoples, and stakeholders to ensure everyone has access to the information needed to make informed decisions. Technical studies, social and economic assessments, and ongoing dialogue are all part of this collaborative approach.</p><p>Community-driven site selection reflects Canada's commitment to transparency, respect for Indigenous rights, and the principle that no community will be asked to host the repository without its consent.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "Designed for flexibility without compromise, the Brooklyn Sleeper Sofa reflects Forma Lux’s philosophy of purposeful design. With a smooth pull-out mechanism and soft, durable upholstery, it transitions effortlessly from daytime lounging to nighttime comfort. Ideal for apartments and guest rooms, Brooklyn balances practicality with refined aesthetics. Available in Indigo and Large size, it’s the perfect union of form, function, and quiet luxury — a true testament to how modern furniture can adapt beautifully to contemporary living."
+      Value: "Site selection for Canada's deep geological repository is community-driven, with extensive engagement ensuring informed and willing host communities."
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/5088bfb43f814f57bd15548a6f7b38c5?v=ea9d86c1" dam-id="O9R-vEgER8GZHbOh0UNb7g" width="2500" height="1667" alt="Rectangle 1447.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/67106/thumbnail" />
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/32ca193d8c5a495ea220161484b8da75?v=b42e0515" dam-id="MVEFCxCRSzCgGyPG6CvHBw" alt="imgi_12_SB Decommissioning webstory.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/92241/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "195afbe6-359a-4c44-b324-0c3b2f635d6b"
+  Value: "317b8865-55b8-4752-b4cb-ba8ceeb2e3b6"
 Languages:
 - Language: en
   Versions:
@@ -33,11 +33,11 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="external" url="" target="" text="More Info" title="" class=""/>
+        <link class="" id="078d4751-d125-408a-9ff2-f5417844b877" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/Products/Sofa" />
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p><meta charset="utf-8" /><span style="white-space:pre-wrap;">We stand behind every item we sell — with premium materials, exceptional comfort, and a satisfaction guarantee you can trust.</span></p></div>
+        <div class="ck-content"><p>The multi-year, community-driven process to identify a site for Canada's deep geological repository began in 2010. Twenty-two municipalities and Indigenous communities expressed interest in learning more.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -48,20 +48,20 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: Materials
+      Value: Site selection
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0fb9d78e-1dd1-443f-9466-f3acd543848c"
+      Value: "3e799f76-d016-44ce-9812-b97094db2af7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T082515Z
+      Value: 20260617T195548Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: Our Promise  to furniture 
+      Value: The site for Canada's used nuclear fuel repository
 - Language: "es-ES"
   Versions:
   - Version: 1

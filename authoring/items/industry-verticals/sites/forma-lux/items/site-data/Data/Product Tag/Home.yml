@@ -21,17 +21,17 @@ Languages:
         sitecore\ranula.gamage@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bd5c4f2-935a-4a70-af96-37933a73d40f"
+      Value: "5669c08f-3996-4194-93f0-2535f744d130"
     - ID: "9ce1cd5e-556b-491f-87a9-4027294b99f8"
       Hint: Tag
-      Value: Home
+      Value: Canada's plan
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250929T103138Z
+      Value: 20260617T184840Z
 - Language: "es-ES"
   Versions:
   - Version: 1

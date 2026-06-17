@@ -33,11 +33,11 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="external" url="" target="" text="More Info" title="" class=""/>
+        <link class="" id="11de8d97-8975-4999-b30d-930ffc3bba70" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more" url="/industry-verticals/forma-lux/Home/About Us" />
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p><meta charset="utf-8" /><span style="white-space:pre-wrap;">You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials</span></p></div>
+        <div class="ck-content"><p>The NWMO is implementing Canada's plan for the safe, long-term management of used nuclear fuel, to protect people and the environment for generations to come.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -48,20 +48,20 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
       Hint: PromoSubTitle
-      Value: 
+      Value: About the NWMO
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d57c1d2f-5231-43e1-8bb6-5b280508fff7"
+      Value: "5a44464f-8d58-432c-9f93-7b1080f7045e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260203T083553Z
+      Value: 20260617T184633Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
-      Value: We provide you  the best experience
+      Value: Canada's plan for used nuclear fuel
 - Language: "es-ES"
   Versions:
   - Version: 1

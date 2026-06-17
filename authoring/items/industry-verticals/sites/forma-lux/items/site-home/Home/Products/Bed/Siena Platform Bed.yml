@@ -11,7 +11,7 @@ SharedFields:
     {831305F5-99B0-4746-B09A-42C67FE37EC5}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: BED0004
+  Value: "NWMO-018"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -41,7 +41,7 @@ SharedFields:
   Value: "{16807766-6013-4944-9550-EBC3216AD248}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "768d381d-5422-4b68-8fd5-51e36f5b75de"
+  Value: "d6920b25-45eb-4273-858e-a7719b59dd74"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -70,19 +70,19 @@ Languages:
       Value: 20251016T130117Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Siena Platform Bed | Forma Lux – Minimalist Low-Profile Wooden Bed"
+      Value: Reconciliation framework | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A minimalist platform bed with a low-profile design"
+      Value: The NWMO's reconciliation framework guides engagement with Indigenous peoples based on respect, partnership, and Indigenous rights.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: "Siena Platform Bed, minimalist bed, low-profile bed, solid wood frame, modern platform bed, slatted base bed, contemporary bedroom furniture, Forma Lux shop"
+      Value: reconciliation framework, NWMO, Indigenous peoples, deep geological repository, used nuclear fuel, Indigenous rights, partnership
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 899.5
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Siena Platform Bed
+      Value: Reconciliation framework
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -93,26 +93,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: "Experience refined simplicity with the Siena Platform Bed by Forma Lux. Crafted from solid wood, its minimalist low-profile design and slatted base deliver timeless form and lasting support."
+      Value: Learn about the NWMO's reconciliation framework for engaging Indigenous peoples in Canada's plan for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7087f453-c926-4d39-a768-56d21e5bafb1"
+      Value: "f68c95e5-ec45-4e7a-a0f1-dee9f1214aeb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Siena Platform Bed
+      Value: Reconciliation framework
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093407Z
+      Value: 20260617T184812Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>The Siena Platform Bed features clean lines and a solid wood frame, making it ideal for modern interiors. Its low-profile design eliminates the need for a box spring, while the slatted base provides excellent mattress support.</p>"
+      Value: |
+        <div class="ck-content"><p>The NWMO's reconciliation framework guides how the organization engages with Indigenous peoples throughout Canada's plan for used nuclear fuel. It is built on respect for Indigenous rights, traditions, and governance, and a commitment to meaningful partnership.</p><p>The framework includes principles for engagement, protocols for working with Indigenous Knowledge Holders, and commitments to economic participation and capacity building in Indigenous communities. It applies across all aspects of the project, from site selection to regulatory processes.</p><p>A strong reconciliation framework ensures that Indigenous peoples are partners in Canada's plan, not simply stakeholders to be consulted.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: Pure form, honest materials, and enduring comfort define the Siena Platform Bed. With its low silhouette and precise geometry, Siena reflects Forma Lux’s modern aesthetic—elevated simplicity rooted in craftsmanship. The solid wood frame offers structural integrity and elegance, while the slatted base ensures breathable support. Available in Black and in Small, Medium, or Large sizes, Siena transforms minimalist design into a daily ritual of calm and comfort.
+      Value: The NWMO's reconciliation framework ensures Indigenous peoples are partners in Canada's plan for used nuclear fuel.
 - Language: "es-ES"
   Versions:
   - Version: 1

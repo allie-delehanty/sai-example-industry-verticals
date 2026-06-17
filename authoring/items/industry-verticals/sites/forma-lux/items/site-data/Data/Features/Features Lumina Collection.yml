@@ -16,6 +16,10 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "06c1be05-0572-4c4e-87db-519b03c19055"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Explore key topics about Canada's plan for the safe, long-term management of used nuclear fuel.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T103332Z
@@ -29,17 +33,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "76188722-e6b3-4fa7-bdf5-d080988e247c"
+      Value: "def237ff-c61f-43e1-95e7-46fe0e7b2343"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T103927Z
+      Value: 20260617T184623Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
-      Value: Crafted for Your Lifestyle
+      Value: Discover more
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -13,6 +13,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "06c1be05-0572-4c4e-87db-519b03c19055"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Learn about Canada's used nuclear fuel — what it is, how it is stored today, and why Canada has a plan for its safe, long-term management.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251128T084958Z
@@ -26,14 +30,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d51bda57-2eac-4ff8-bd9a-080879fb12cb"
+      Value: "cbc84dc1-b75e-4bbf-a5b3-1824b378245b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251229T083408Z
+      Value: 20260617T184621Z
+    - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
+      Hint: Title
+      Value: Canada's used nuclear fuel
 - Language: "es-ES"
   Versions:
   - Version: 1

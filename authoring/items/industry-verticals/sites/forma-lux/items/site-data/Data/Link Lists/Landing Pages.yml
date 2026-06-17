@@ -29,17 +29,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d9993d9-f0eb-42b3-95c5-bbafab3f9ef3"
+      Value: "6cbc0741-a7ee-4dde-9935-5b6dce0376d1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T094420Z
+      Value: 20260617T184633Z
     - ID: "dc9aaee9-fc44-458d-a9fb-bac61d8b0234"
       Hint: Title
-      Value: Landing Pages
+      Value: NWMO Projects
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -9,7 +9,7 @@ SharedFields:
   Value: "{831305F5-99B0-4746-B09A-42C67FE37EC5}"
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: LMP0005
+  Value: "NWMO-026"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -35,7 +35,7 @@ SharedFields:
   Value: "{260CF295-7D6B-4E12-805C-2596FFD1C3D7}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6119aea4-710c-4988-be65-687638aed6c8"
+  Value: "213215e7-abd2-4c2e-820c-67a9b9f67126"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -64,19 +64,19 @@ Languages:
       Value: 20251009T142342Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: Tertial Lamp | Forma Lux – Adjustable Modern Lamp for Home and Workspace
+      Value: Technical assessment reports | NWMO Reports
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: Illuminate your space with Tertial, the versatile and stylish lamp designed for modern living. Perfect for any room, Tertial provides adjustable lighting to suit your needs and enhance your home's ambiance.
+      Value: Technical assessment reports document scientific and engineering analyses underpinning Canada's repository plan.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Tertial Lamp, adjustable lamp, modern desk lamp, reading light, minimalist lighting, home office lamp, Forma Lux shop, versatile lighting
+      Value: technical assessment reports, NWMO, deep geological repository, used nuclear fuel, geoscience, safety analysis, Canada
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 29
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Tertial
+      Value: Technical assessment reports
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -87,27 +87,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Discover the Tertial Lamp by Forma Lux — a modern adjustable lamp with a sleek silhouette, designed for precision lighting and timeless style in any room.
+      Value: Learn about technical assessment reports supporting Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94109010-7cae-487e-875f-1cf2b07c1e79"
+      Value: "05c15ad2-d83f-4bfa-830b-b66182d6d594"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Tertial
+      Value: Technical assessment reports
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T093752Z
+      Value: 20260617T184819Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
-        <div class="ck-content"><p>Illuminate your space with the Tertial Lamp, a perfect blend of functionality and modern design that brings a warm, inviting atmosphere to any room. Crafted meticulously from high-quality materials, Tertial features an adjustable arm and head, allowing you to direct light precisely where you need it. Its sleek silhouette and minimalist aesthetic make it a versatile addition to both contemporary and classic interiors. Whether placed on your work desk, beside your reading chair, or on your bedside table, Tertial enhances your environment with its efficient lighting and elegant charm. With the Tertial Lamp, personalization meets practicality. Designed with ease in mind, the intuitive adjustment mechanism lets you seamlessly modify the lamp's height and angle to suit your activities, from focused work sessions to cozy reading evenings. The robust base ensures stability on any surface, while the energy-efficient bulb provides long-lasting, eco-friendly illumination that enhances your room's ambiance. Experience lighting that combines innovative engineering with timeless style—experience Tertial.</p></div>
+        <div class="ck-content"><p>Technical assessment reports document the scientific and engineering analyses that underpin Canada's plan for used nuclear fuel. The NWMO produces these reports to evaluate repository design, site suitability, environmental conditions, and long-term safety performance.</p><p>Reports cover topics including geoscience, hydrogeology, engineered barrier performance, and environmental monitoring. They are developed by multidisciplinary teams and reviewed against international standards and best practices from other countries implementing deep geological repositories.</p><p>Technical assessment reports provide the evidence base for regulatory submissions and inform community discussions about the safety and feasibility of the repository project.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "The Tertial Lamp embodies Forma Lux’s commitment to intelligent design and effortless functionality. With its adjustable arm and pivoting head, Tertial adapts seamlessly from focused work to relaxed reading. Its minimalist frame, available in Black or White, complements both modern and classic interiors, while the energy-efficient bulb delivers warm, consistent light. Built from durable materials and finished with refined precision, Tertial transforms illumination into an act of design — where every movement meets purpose and beauty."
+      Value: "Technical assessment reports evaluate repository design, site suitability, and long-term safety performance."
 - Language: "es-ES"
   Versions:
   - Version: 1

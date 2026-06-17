@@ -10,7 +10,10 @@ Languages:
     Fields:
     - ID: "10bfb2cd-d05a-4166-88a9-d325940f2b12"
       Hint: AuthorName
-      Value: Michael Andersson
+      Value: NWMO Media Relations
+    - ID: "1a916b63-1c71-41e3-b39c-c9942c4b76a7"
+      Hint: About
+      Value: Official news and media from the NWMO
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250911T104324Z
@@ -24,14 +27,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "023fe36f-d25c-4c19-bcba-7fb7dc78397d"
+      Value: "53074802-72c1-49e2-8b4d-4e102de80f7d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250923T121844Z
+      Value: 20260617T184630Z
 - Language: "es-ES"
   Versions:
   - Version: 1

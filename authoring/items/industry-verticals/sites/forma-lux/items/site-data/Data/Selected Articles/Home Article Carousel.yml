@@ -7,13 +7,16 @@ SharedFields:
 - ID: "9097fa39-7bba-4e25-92f0-0b25d187509d"
   Hint: ExploreLink
   Value: |
-    <link class="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" querystring="" anchor="" target="" title="" linktype="internal" text="Explorez plus" url="/industry-verticals/forma-lux/Home/Products" />
+    <link class="" id="e9a6e6f8-3dd6-4664-a6e0-1923816f94c6" querystring="" anchor="" target="" title="" linktype="internal" text="Read more" url="/industry-verticals/forma-lux/Home/Articles" />
 - ID: "a6a4a7d3-4017-4996-9264-27b1d3030273"
   Hint: Articles
   Value: |
-    {AEEF3A7C-6F36-4D86-8629-4EA57A0C7656}
-    {BAA0704B-C6B1-41FC-9FC5-01C79FF5DDC4}
-    {53DFD979-E868-4B4F-BB9E-366626D11E69}
+    {C4EE59A5-4A3B-449A-BD15-C22F21708CC2}
+    {A24F27F8-62F6-48D0-8D30-055CFAC9874B}
+    {DE6B53B4-FE8B-44D9-8F30-1CF37C1DE5CC}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c8f4814f-62fc-4a74-a7e0-0aecee346715"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +28,7 @@ Languages:
     - ID: "173353d6-b07d-442c-b2f0-5b95c498f794"
       Hint: Description
       Value: |
-        <div class="ck-content"><p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p></div>
+        <div class="ck-content"><p>Stay informed on the latest news and activities from the Nuclear Waste Management Organization.</p></div>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20250917T112159Z
@@ -39,17 +42,17 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "7e4e530b-eb83-4515-801c-4cc914d2605a"
       Hint: Title
-      Value: 50+ Beautiful room inspirations
+      Value: Related news
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a8767424-f1f9-4912-81a8-711ae5fb23ce"
+      Value: "0b2bed6b-4b51-47cd-b274-6ed8f4f8407a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103506Z
+      Value: 20260617T184843Z
 - Language: "es-ES"
   Versions:
   - Version: 1

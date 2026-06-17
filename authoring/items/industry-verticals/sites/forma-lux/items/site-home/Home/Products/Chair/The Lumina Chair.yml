@@ -12,7 +12,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: "FL-LC-1002"
+  Value: "NWMO-016"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -33,7 +33,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "452879ba-3ae0-4257-8634-84db0bc46145"
+  Value: "644a96ff-d75e-401b-8e94-0b352d2c1544"
 Languages:
 - Language: en
   Versions:
@@ -47,19 +47,19 @@ Languages:
       Value: 20251128T092723Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: The Lumina Chair
+      Value: Regulatory standards | NWMO
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: A modern classic, the Lumina Chair combines minimalist design with enduring comfort, featuring a solid oak frame and upholstered seat in soft, neutral tones.
+      Value: Regulatory standards from the CNSC govern design, construction, operation, and closure of the deep geological repository.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
+      Value: regulatory standards, CNSC, NWMO, deep geological repository, used nuclear fuel, nuclear safety, radiation protection
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 850
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: The Lumina Chair
+      Value: Regulatory standards
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -70,28 +70,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: Limina Chair, Forma Lux, luxury furniture, modern design, European craftsmanship, minimalist style, elegant seating, sustainable materials, timeless elegance, artful elegance, mindful living, architectural design, tranquil spaces, soul and substance, aesthetic excellence, Urban Visionary, Conscious Minimalist, Elevated Homemaker, Modern Collector, premium experiences, quiet design, art of living beautifully
+      Value: Learn about the regulatory standards that govern Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4838ab6b-b01e-419c-a68b-b6dc214ca85e"
+      Value: "0d51957f-4dad-41ab-a2c8-001fa98070b2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: The Lumina Chair
+      Value: Regulatory standards
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094650Z
+      Value: 20260617T184811Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
       Value: |
-        <div class="ck-content"><p>The Lumina Chair is designed as a companion to the collection’s signature sofa, embodying the same quiet elegance and timeless construction. Its handcrafted oak frame showcases natural grain and tone, while the cushioned seat and back provide relaxed support for everyday living. Refined yet approachable, this chair is equally suited for a serene reading corner or a conversational living space. Built to last, it’s a piece that blends beauty, comfort, and sustainable integrity.</p></div>
+        <div class="ck-content"><p>Regulatory standards govern every aspect of Canada's deep geological repository, from design and construction to operation and eventual closure. These standards are established by the Canadian Nuclear Safety Commission and align with international best practices.</p><p>The NWMO must demonstrate that the repository design, safety case, and operational plans meet or exceed all applicable regulatory standards. This includes standards for radiation protection, environmental safety, waste containment, and long-term performance.</p><p>Adherence to rigorous regulatory standards provides confidence that the repository will safely contain and isolate used nuclear fuel for generations to come.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: |
-        Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.
+      Value: Regulatory standards ensure the deep geological repository meets the highest requirements for safety and environmental protection.
 - Language: "es-ES"
   Versions:
   - Version: 1

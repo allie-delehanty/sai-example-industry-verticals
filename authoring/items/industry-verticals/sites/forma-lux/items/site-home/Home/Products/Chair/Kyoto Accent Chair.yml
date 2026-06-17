@@ -12,7 +12,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: CHR0002
+  Value: "NWMO-011"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -45,7 +45,7 @@ SharedFields:
   Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "38f627f1-70c7-499d-b73e-35fa7b33d506"
+  Value: "a8dee823-fe77-4adf-8ade-30ec35d36609"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -74,19 +74,19 @@ Languages:
       Value: 20251016T125259Z
     - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
       Hint: metadataTitle
-      Value: "Kyoto Accent Chair | Forma Lux – Japanese-Inspired Chair with Natural Wood Design"
+      Value: Licensing and approvals | NWMO Regulatory Process
     - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
       Hint: ShortDescription
-      Value: "A Japanese-inspired accent chair with clean lines and natural wood tones."
+      Value: The NWMO must obtain CNSC licences at each stage of the repository project, from site preparation through operation and closure.
     - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
       Hint: metadataKeywords
-      Value: Kyoto Accent Chair, Japanese furniture, accent chair, minimalist design, natural wood tones, cotton upholstery, Forma Lux shop, reading chair
+      Value: licensing and approvals, CNSC, NWMO, deep geological repository, used nuclear fuel, regulatory process, nuclear safety
     - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
       Hint: Price
-      Value: 289
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Kyoto Accent Chair
+      Value: Licensing and approvals
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -97,26 +97,27 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
       Hint: metadataDescription
-      Value: The Kyoto Accent Chair by Forma Lux draws on Japanese design principles with its low profile, angled legs, and soft cotton upholstery — a minimalist piece for serene, modern spaces.
+      Value: Learn about the licensing and approvals required for Canada's deep geological repository for used nuclear fuel.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "73b986aa-5f2d-4b0b-a5d2-869f9f85f19b"
+      Value: "1f8bdb76-37e9-4420-b819-42405991faf3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
       Hint: Title
-      Value: Kyoto Accent Chair
+      Value: Licensing and approvals
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T094442Z
+      Value: 20260617T184808Z
     - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
       Hint: LongDescription
-      Value: "<p>Inspired by traditional Japanese aesthetics, the Kyoto Accent Chair features a low-profile design with a wide seat and angled legs. Upholstered in soft cotton fabric, it’s perfect for reading nooks or minimalist interiors.</p>"
+      Value: |
+        <div class="ck-content"><p>Licensing and approvals are required at multiple stages of Canada's deep geological repository project. The NWMO must obtain licences from the Canadian Nuclear Safety Commission before proceeding with site preparation, construction, operation, and eventual closure.</p><p>Each licence application requires detailed documentation demonstrating that the project meets regulatory requirements for safety, environmental protection, and operational readiness. The CNSC reviews these applications through a transparent process that includes public participation opportunities.</p><p>The licensing framework ensures that the repository is built and operated to the highest standards, with independent regulatory oversight at every stage of the project lifecycle.</p></div>
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
-      Value: "Tranquility meets design precision in the Kyoto Accent Chair. Influenced by Japanese craftsmanship, Kyoto features angled wooden legs, a low, grounding profile, and soft cotton upholstery that invites quiet reflection. Ideal for reading nooks or minimalist interiors, it brings balance and harmony to any setting. Available in Gold, Black, Indigo, and White, and in Medium or Large sizes, this piece expresses Forma Lux’s philosophy: where intentional design and timeless materials create spaces of peace and beauty."
+      Value: Licensing and approvals from the CNSC ensure the repository meets rigorous safety and environmental standards at every project stage.
 - Language: "es-ES"
   Versions:
   - Version: 1
