@@ -25,9 +25,9 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
     >
       <ArticleCard.Root
         key={article.id}
-        className={`group border-border hover:shadow-accent/20 relative rounded-md border shadow-sm hover:shadow-md hover:transition-all hover:duration-300 hover:ease-linear ${className}`}
+        className={`group border-border hover:border-accent/40 bg-background relative overflow-hidden rounded-sm border shadow-sm transition-all hover:shadow-md ${className}`}
       >
-        <div className="bg-background-surface h-50 w-full overflow-hidden rounded-t-md">
+        <div className="bg-background-surface h-48 w-full overflow-hidden">
           <Image
             src={validImageUrl}
             className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105 lg:h-full lg:w-full"
@@ -38,12 +38,14 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
           />
         </div>
         <div className="relative m-4 flex-col justify-between">
-          <span className="text-foreground-light mt-4 text-xs font-light">{article.type}</span>
-          <ArticleCard.Title className="h-10 overflow-hidden text-base font-bold">
+          <span className="text-foreground-muted mt-2 text-xs font-semibold tracking-wider uppercase">
+            {article.type}
+          </span>
+          <ArticleCard.Title className="text-accent-dark mt-1 h-10 overflow-hidden text-base font-bold">
             {article.name || article.title}
           </ArticleCard.Title>
           <ArticleCard.Subtitle className="text-foreground-light mt-3 flex text-sm">
-            <div className="text-foreground-muted group-hover:text-accent right-0 flex items-center gap-1 text-sm font-medium transition-colors">
+            <div className="text-accent group-hover:text-accent-dark right-0 flex items-center gap-1 text-xs font-semibold tracking-wide uppercase transition-colors">
               {t('view') || 'View'} <ArrowRight className="size-3" />
             </div>
           </ArticleCard.Subtitle>

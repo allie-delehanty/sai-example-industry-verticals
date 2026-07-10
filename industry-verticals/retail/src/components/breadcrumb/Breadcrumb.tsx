@@ -84,7 +84,7 @@ export const Default = (props: BreadcrumbProps) => {
           <li key={homeAncestor.id} className="text-foreground-light flex items-center gap-4">
             <Link
               field={homeAncestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-accent whitespace-nowrap transition-colors"
               title={getNavItemTitle(homeAncestor, false)}
             >
               <span className="hidden max-md:inline">
@@ -110,7 +110,7 @@ export const Default = (props: BreadcrumbProps) => {
           >
             <Link
               field={ancestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-accent whitespace-nowrap transition-colors"
               title={getNavItemTitle(ancestor, false)}
             >
               {getNavItemTitle(ancestor)}
@@ -123,7 +123,7 @@ export const Default = (props: BreadcrumbProps) => {
           <li key={lastAncestor.id} className="text-foreground-light flex items-center gap-4">
             <Link
               field={lastAncestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-accent whitespace-nowrap transition-colors"
               title={getNavItemTitle(lastAncestor, false)}
             >
               {getNavItemTitle(lastAncestor)}

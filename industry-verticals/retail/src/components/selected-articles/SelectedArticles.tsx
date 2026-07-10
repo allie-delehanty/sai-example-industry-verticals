@@ -75,7 +75,7 @@ export const Default = (props: CarouselProps) => {
   );
 
   return (
-    <section className={`${props.params.styles} py-20`} id={id ? id : undefined}>
+    <section className={`${props.params.styles} py-16 lg:py-20`} id={id ? id : undefined}>
       <div className={cn(containerAlignment, 'relative overflow-hidden')}>
         <div
           className={cn('flex', 'flex-col', flexDirectionClass, 'items-center', 'w-full', 'gap-10')}
@@ -83,7 +83,7 @@ export const Default = (props: CarouselProps) => {
           <div className="w-full space-y-5 md:w-1/3">
             <h2 className="inline-block max-w-md">
               <Text field={props.fields.Title} />
-              {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
+              {!hideAccentLine && <AccentLine className="w-16" />}
             </h2>
 
             <div className="max-w-md">

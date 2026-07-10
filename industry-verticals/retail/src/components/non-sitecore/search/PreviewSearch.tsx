@@ -6,6 +6,7 @@ import { ArticleCard, PreviewSearch } from '@sitecore-search/ui';
 import React from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { Search } from 'lucide-react';
 import Spinner from './Spinner';
 import SuggestionBlock from './SuggestionBlock';
 import { DEFAULT_IMG_URL, PREVIEW_WIDGET_ID } from '@/constants/search';
@@ -102,18 +103,25 @@ export const PreviewSearchComponent = ({
 
   return (
     <PreviewSearch.Root>
-      <form ref={formRef} onSubmit={handleSubmit} className="flex-1">
+      <form ref={formRef} onSubmit={handleSubmit} className="flex flex-1">
         <PreviewSearch.Input
           name="query"
-          className="focus:ring-accent border-border w-full rounded-md border px-3 py-2 text-base focus:border-transparent focus:ring-2 focus:outline-none sm:px-4 sm:py-3 sm:text-lg"
+          className="border-border focus:border-accent focus:ring-accent/20 w-full rounded-l-sm rounded-r-none border border-r-0 px-3 py-2.5 text-sm focus:ring-2 focus:outline-none sm:px-4 sm:text-base"
           onChange={keyphraseHandler}
           autoComplete="off"
-          placeholder="Search content, products..."
+          placeholder="Search products, applications, resources..."
         />
+        <button
+          type="submit"
+          aria-label="Search"
+          className="bg-accent hover:bg-accent-dark text-background inline-flex items-center justify-center rounded-r-sm px-4 transition-colors"
+        >
+          <Search className="size-5" />
+        </button>
       </form>
 
       <PreviewSearch.Content
-        className="bg-background mt-0.5 flex h-100 justify-center overflow-hidden rounded-b-md pt-0 shadow-xl transition-opacity sm:w-(--radix-popover-trigger-width)"
+        className="border-border bg-background mt-0.5 flex h-100 justify-center overflow-hidden rounded-b-sm border border-t-0 pt-0 shadow-md transition-opacity sm:w-(--radix-popover-trigger-width)"
         style={contentWidth ? { width: `${contentWidth}px` } : undefined}
       >
         <Spinner loading={loading} />

@@ -26,16 +26,16 @@ export const Default = (props: RelatedProductsProps): JSX.Element => {
 
   return (
     <section className={`component related-products ${styles}`} id={id || undefined}>
-      <div className="container flex flex-col items-center p-8 md:p-10">
-        <h2 className="mb-10 inline-block">
+      <div className="container flex flex-col items-center px-4 py-12 md:py-16">
+        <h2 className="mb-8 inline-block text-center">
           <Text field={props.fields?.Title} />
-          {!hideAccentLine && <AccentLine className="mx-auto !h-4 w-[8ch]" />}
+          {!hideAccentLine && <AccentLine className="mx-auto w-16" />}
         </h2>
 
         {/* Product Carousel */}
         <ProductCarousel products={props.fields.ProductsList} autoPlay={autoPlay} loop={loop} />
 
-        <Link field={props.fields.ProductsLink} className="arrow-btn" />
+        <Link field={props.fields.ProductsLink} className="arrow-btn mt-8" />
       </div>
     </section>
   );

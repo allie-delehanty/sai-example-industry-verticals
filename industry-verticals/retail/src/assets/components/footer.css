@@ -1,0 +1,150 @@
+/* ATCC-inspired footer — distinct gray band, organic wave, editorial columns */
+
+.atcc-footer {
+  @apply relative isolate mt-8 overflow-visible;
+}
+
+.atcc-footer__wave {
+  @apply pointer-events-none relative z-10 -mb-px block leading-[0] text-[#ececec];
+}
+
+.atcc-footer__wave-svg {
+  @apply block w-full;
+}
+
+.atcc-footer__wave-svg--desktop {
+  @apply hidden h-14 md:block lg:h-20;
+}
+
+.atcc-footer__wave-svg--mobile {
+  @apply block h-10 md:hidden;
+}
+
+.atcc-footer__body {
+  @apply relative z-0 bg-[#ececec] pt-4 pb-12 md:pt-2 md:pb-16;
+}
+
+.atcc-footer__brand {
+  @apply mb-10 flex flex-col gap-4 border-b border-[#d8d8d8] pb-8 md:mb-12 md:flex-row md:items-start md:gap-10 md:pb-10;
+}
+
+.atcc-footer__logo {
+  @apply w-36 shrink-0 md:w-44;
+}
+
+.atcc-footer__description {
+  @apply text-foreground-light max-w-2xl text-sm leading-relaxed md:pt-1;
+}
+
+.atcc-footer__cols {
+  @apply grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8;
+}
+
+.atcc-footer__col {
+  @apply min-w-0;
+}
+
+.atcc-footer__title {
+  @apply text-foreground! mb-5 text-base! font-bold! tracking-normal!;
+}
+
+.atcc-footer__links {
+  @apply text-foreground-light text-sm;
+
+  /* Force link-list children into ATCC vertical list style inside footer */
+  .link-list {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply hidden;
+    }
+
+    ul {
+      @apply flex flex-col gap-3;
+    }
+
+    a {
+      @apply text-foreground-light hover:text-accent text-sm no-underline hover:underline;
+    }
+  }
+
+  .social-follow {
+    h5 {
+      @apply hidden;
+    }
+  }
+}
+
+.atcc-footer__aside {
+  @apply space-y-4;
+
+  .link-list {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply hidden;
+    }
+
+    ul {
+      @apply flex flex-col gap-3;
+    }
+
+    a {
+      @apply text-foreground-light hover:text-accent text-sm no-underline hover:underline;
+    }
+  }
+
+  .subscribe-banner,
+  .component.subscribe-banner {
+    @apply p-0!;
+
+    .container,
+    > div {
+      @apply max-w-none! px-0!;
+    }
+
+    h2 {
+      @apply text-foreground! mb-3 text-base! font-bold!;
+    }
+
+    input[type='email'] {
+      @apply border-border bg-background h-11 rounded-sm border text-sm;
+    }
+
+    button[type='submit'] {
+      @apply bg-accent-soft text-accent-dark hover:bg-accent hover:text-background h-11 rounded-sm px-4 text-xs font-semibold tracking-wide uppercase;
+    }
+  }
+
+  .social-follow {
+    h5 {
+      @apply text-foreground! mb-3 text-sm! font-bold!;
+    }
+  }
+}
+
+.atcc-footer__legal {
+  @apply border-t border-[#d8d8d8] bg-[#e4e4e4];
+}
+
+.atcc-footer__legal-inner {
+  @apply flex items-center justify-between gap-6 py-5 max-sm:flex-col max-sm:items-start;
+}
+
+.atcc-footer__copyright {
+  @apply text-foreground-muted text-xs;
+}
+
+.atcc-footer__legal-links {
+  @apply text-foreground-light flex flex-wrap items-center gap-6 text-xs;
+
+  a {
+    @apply hover:text-accent hover:underline;
+  }
+}

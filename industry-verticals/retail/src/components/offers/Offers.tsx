@@ -43,14 +43,14 @@ export const Default = (props: OfferProps) => {
   }
 
   return (
-    <div className={`component offers ${styles}`} id={id}>
-      <div className="mx-auto flex w-full max-w-3xl items-center justify-center gap-5 p-2">
+    <div className={`component offers bg-accent-dark text-background ${styles}`} id={id}>
+      <div className="mx-auto flex w-full max-w-3xl items-center justify-center gap-4 px-4 py-2.5 text-sm">
         <button
-          className={`swiper-btn-prev-${uid}`}
+          className={`swiper-btn-prev-${uid} text-background/80 hover:text-background`}
           name="previous-offer"
           aria-label="Previous offer"
         >
-          <ChevronLeft />
+          <ChevronLeft className="size-4" />
         </button>
 
         <Swiper
@@ -77,14 +77,21 @@ export const Default = (props: OfferProps) => {
           className="mx-0! w-full transition-all"
         >
           {datasource.map((offer) => (
-            <SwiperSlide key={offer.id} className="no-swiping text-center">
+            <SwiperSlide
+              key={offer.id}
+              className="no-swiping text-center font-medium tracking-wide"
+            >
               <Text field={offer.fields.OfferText} />
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <button className={`swiper-btn-next-${uid}`} name="next-offer" aria-label="Next offer">
-          <ChevronRight />
+        <button
+          className={`swiper-btn-next-${uid} text-background/80 hover:text-background`}
+          name="next-offer"
+          aria-label="Next offer"
+        >
+          <ChevronRight className="size-4" />
         </button>
       </div>
     </div>

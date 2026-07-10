@@ -5,7 +5,7 @@
   }
 }
 
-.fix-background {
+.fixed-background {
   > .component-content {
     @apply bg-cover bg-fixed bg-top-left bg-no-repeat;
   }
@@ -42,23 +42,46 @@
 
 .container-dark-background {
   > .component-content {
-    @apply border-accent;
+    @apply border-accent-dark;
   }
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-accent border-accent text-background;
+    @apply bg-accent-dark border-accent-dark text-background;
 
     * {
       @apply text-inherit;
     }
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-background;
+    }
+
+    p,
+    .text-foreground-light,
+    .text-foreground-muted {
+      @apply text-background/85;
+    }
+
     .arrow-btn {
-      @apply border-b-background;
+      @apply text-background hover:text-accent-soft;
 
       &::after {
-        @apply bg-background;
+        @apply text-inherit;
       }
+    }
+
+    .soft-btn {
+      @apply bg-accent-soft text-accent-dark hover:bg-background;
+    }
+
+    .eyebrow {
+      @apply text-accent-soft;
     }
   }
 }
@@ -117,11 +140,11 @@
 }
 
 .container-dark-background .shim {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 50px;
+  background: rgba(74, 45, 150, 0.55);
+  padding: 2rem;
 }
 
 .shim {
-  background: rgba(255, 255, 255, 0.4);
-  padding: 50px;
+  background: rgba(255, 255, 255, 0.55);
+  padding: 2rem;
 }

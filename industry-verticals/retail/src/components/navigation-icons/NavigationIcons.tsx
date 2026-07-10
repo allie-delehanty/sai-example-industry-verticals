@@ -63,10 +63,11 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
   return (
     <>
       <div className={`component navigation-icons ${props?.params?.styles?.trimEnd()}`} id={id}>
-        <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0">
+        <div className="flex items-center gap-2 p-3 lg:gap-4 [.component.header_&]:justify-end [.component.header_&]:px-0">
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
             className="hover:text-accent text-foreground p-2 transition-colors"
+            aria-label="Search"
           >
             <Search className="size-5" />
           </button>
@@ -91,8 +92,8 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
         </div>
       </div>
       {isSearchOpen && (
-        <div className="border-border bg-background absolute top-full right-0 left-0 z-50 border-b shadow-lg">
-          <div className="mx-auto max-w-7xl px-4 py-4">
+        <div className="border-border bg-background absolute top-full right-0 left-0 z-50 border-b shadow-md">
+          <div className="mx-auto max-w-5xl px-4 py-4">
             <div className="flex items-center gap-2">
               <PreviewSearch
                 rfkId={PREVIEW_WIDGET_ID}
@@ -102,7 +103,8 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
 
               <button
                 onClick={() => setIsSearchOpen(false)}
-                className="text-foreground-muted hover:text-foreground p-3 transition-colors"
+                className="text-foreground-muted hover:text-foreground p-2 transition-colors"
+                aria-label="Close search"
               >
                 <X className="size-5" />
               </button>

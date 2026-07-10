@@ -94,7 +94,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="hover:text-foreground-light whitespace-nowrap transition-colors"
+          className="hover:text-accent text-foreground after:bg-accent relative text-sm font-medium tracking-wide whitespace-nowrap transition-colors after:absolute after:right-0 after:bottom-[-0.35rem] after:left-0 after:h-0.5 after:origin-left after:scale-x-0 after:transition-transform hover:after:scale-x-100"
         >
           {getLinkContent(fields, logoSrc)}
         </Link>
@@ -131,9 +131,9 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
             isRootItem && 'lg:flex-row',
             hasDropdownMenu &&
               clsx(
-                'z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
-                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
-                'lg:bg-background lg:rounded-xl lg:shadow-md',
+                'max-lg:border-border z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
+                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-5 lg:transition-all lg:duration-300',
+                'lg:bg-background lg:border-border lg:rounded-sm lg:border lg:shadow-md',
                 isActive
                   ? 'max-lg:flex'
                   : 'max-lg:hidden lg:pointer-events-none lg:translate-y-2 lg:scale-95 lg:opacity-0'
@@ -236,7 +236,7 @@ export const Default = ({ params, fields }: NavigationProps) => {
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
+            'container flex flex-col items-center justify-center gap-x-5 gap-y-4 py-3 text-sm lg:flex-row lg:justify-start xl:gap-x-8',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >

@@ -10,8 +10,7 @@ import {
   Link,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
-import AccentLine from '@/assets/icons/accent-line/AccentLine';
-import { CommonStyles, HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
+import { HeroBannerStyles, LayoutStyles } from '@/types/styleFlags';
 import clsx from 'clsx';
 
 interface Fields {
@@ -30,8 +29,10 @@ const HeroBannerCommon = ({
   params,
   fields,
   children,
+  reverseLayout = false,
 }: HeroBannerProps & {
   children: React.ReactNode;
+  reverseLayout?: boolean;
 }) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
@@ -67,14 +68,23 @@ const HeroBannerCommon = ({
           <>
             <ContentSdkImage
               field={fields.Image}
-              className="h-full w-full object-cover md:object-bottom"
+              className="h-full w-full object-cover md:object-center"
               priority
             />
           </>
         )}
-        {/* Gradient overlay to fade image/video at bottom */}
+        {/* ATCC: purple wash sits behind the copy (right by default, left when reversed) */}
         {!hideGradientOverlay && (
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent from-85% to-white"></div>
+          <>
+            <div
+              className={clsx(
+                'max-lg:from-accent-dark/85 max-lg:via-accent-dark/50 max-lg:to-accent-dark/20 absolute inset-0 max-lg:bg-gradient-to-t',
+                reverseLayout
+                  ? 'lg:from-accent-dark/80 lg:via-accent-dark/45 lg:bg-gradient-to-r lg:to-transparent'
+                  : 'lg:from-accent-dark/80 lg:via-accent-dark/45 lg:bg-gradient-to-l lg:to-transparent'
+              )}
+            />
+          </>
         )}
       </div>
 
@@ -85,42 +95,41 @@ const HeroBannerCommon = ({
 
 export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
-    <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
-      {/* Content Container */}
+    <HeroBannerCommon
+      params={params}
+      fields={fields}
+      rendering={rendering}
+      reverseLayout={reverseLayout}
+    >
       <div className="relative w-full">
         <div className="container mx-auto px-4">
           <div
-            className={`flex min-h-238 w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
+            className={`flex min-h-[26rem] w-full py-14 md:min-h-[32rem] lg:w-[48%] lg:items-center lg:py-20 ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
           >
-            <div className="max-w-182">
+            <div className="max-w-lg">
               <div className={clsx({ shim: screenLayer })}>
-                {/* Title */}
-                <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
+                <h1 className="text-center text-3xl leading-[1.15] font-bold text-white normal-case md:text-4xl lg:text-left lg:text-[2.75rem] xl:text-5xl">
                   <ContentSdkText field={fields.Title} />
-                  {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch] lg:mx-0" />}
                 </h1>
 
-                {/* Description */}
-                <div className="mt-7 text-xl md:text-2xl">
+                <div className="mt-5 text-base leading-relaxed text-white/90 md:text-lg">
                   <ContentSdkRichText
                     field={fields.Description}
-                    className="text-center lg:text-left"
+                    className="text-center lg:text-left [&_*]:!text-white/90"
                   />
                 </div>
 
-                {/* CTA Link or Placeholder */}
-                <div className="mt-6 flex w-full justify-center lg:justify-start">
+                <div className="mt-8 flex w-full justify-center lg:justify-start">
                   {withPlaceholder ? (
                     <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                   ) : (
-                    <Link field={fields.CtaLink} className="arrow-btn" />
+                    <Link field={fields.CtaLink} className="soft-btn" />
                   )}
                 </div>
               </div>
@@ -134,38 +143,40 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
 
 export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const styles = params.styles || '';
-  const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
 
   return (
-    <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
-      {/* Content Container */}
+    <HeroBannerCommon
+      params={params}
+      fields={fields}
+      rendering={rendering}
+      reverseLayout={reverseLayout}
+    >
       <div className="relative w-full">
-        <div className="container mx-auto flex min-h-238 justify-center px-4">
+        <div className="container mx-auto flex min-h-[26rem] justify-center px-4 md:min-h-[32rem]">
           <div
-            className={`flex flex-col items-center py-10 lg:py-44 ${reverseLayout ? 'justify-end' : 'justify-start'}`}
+            className={`flex flex-col items-center py-14 lg:py-24 ${reverseLayout ? 'justify-end' : 'justify-start'}`}
           >
-            <div className={clsx({ shim: screenLayer })}>
-              {/* Title */}
-              <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] xl:text-[80px]">
+            <div className={clsx('max-w-2xl', { shim: screenLayer })}>
+              <h1 className="text-center text-3xl leading-[1.15] font-bold text-white normal-case md:text-4xl xl:text-5xl">
                 <ContentSdkText field={fields.Title} />
-                {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch]" />}
               </h1>
 
-              {/* Description */}
-              <div className="mt-7 text-xl md:text-2xl">
-                <ContentSdkRichText field={fields.Description} className="text-center" />
+              <div className="mt-5 text-base leading-relaxed text-white/90 md:text-lg">
+                <ContentSdkRichText
+                  field={fields.Description}
+                  className="text-center [&_*]:!text-white/90"
+                />
               </div>
 
-              {/* CTA Link or Placeholder */}
-              <div className="mt-6 flex w-full justify-center">
+              <div className="mt-8 flex w-full justify-center">
                 {withPlaceholder ? (
                   <Placeholder name={searchBarPlaceholderKey} rendering={rendering} />
                 ) : (
-                  <Link field={fields.CtaLink} className="arrow-btn" />
+                  <Link field={fields.CtaLink} className="soft-btn" />
                 )}
               </div>
             </div>

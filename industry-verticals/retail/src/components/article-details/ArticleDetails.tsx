@@ -71,7 +71,7 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
                 title={fields?.Title?.value || ''}
                 description={fields?.ShortDescription?.value || ''}
                 mediaUrl={fields?.Image?.value?.src || ''}
-                className="col-span-12 size-fit p-3 shadow-xl md:p-4 lg:col-span-1 lg:flex-col"
+                className="border-border col-span-12 size-fit rounded-sm border p-3 shadow-md md:p-4 lg:col-span-1 lg:flex-col"
               />
             )}
 

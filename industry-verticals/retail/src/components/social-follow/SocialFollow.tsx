@@ -45,16 +45,19 @@ export const Default = (props: SocialFollowProps) => {
 
   return (
     <div className={`component social-follow ${props?.params?.styles}`} id={id}>
-      <h5 className="text-accent mb-5 text-lg">
+      <h5 className="text-foreground mb-5 text-sm font-bold tracking-wide">
         <Text field={props.fields.SocialTitle} />
       </h5>
-      <div className="flex flex-col gap-y-4">
+      <div className="flex flex-col gap-y-3">
         {socialLinks.map(({ icon, field, key }) => (
           <div key={key} className="flex items-center gap-2">
             {field?.value?.href && (
               <>
-                <FontAwesomeIcon icon={icon} className="text-foreground text-xl" />
-                <ContentSdkLink field={field} className="text-foreground hover:underline" />
+                <FontAwesomeIcon icon={icon} className="text-accent text-base" />
+                <ContentSdkLink
+                  field={field}
+                  className="text-foreground-light hover:text-accent text-sm hover:underline"
+                />
               </>
             )}
           </div>
@@ -71,24 +74,29 @@ export const Horizontal = (props: SocialFollowProps) => {
     { icon: FacebookIcon, field: props.fields.FacebookLink, key: 'facebook' },
     { icon: TwitterIcon, field: props.fields.TwitterLink, key: 'twitter' },
     { icon: InstagramIcon, field: props.fields.InstagramLink, key: 'instagram' },
-    { icon: LinkedinIcon, field: props.fields.InstagramLink, key: 'linkedin' },
-    { icon: YoutubeIcon, field: props.fields.InstagramLink, key: 'youtube' },
+    { icon: LinkedinIcon, field: props.fields.LinkedinLink, key: 'linkedin' },
+    { icon: YoutubeIcon, field: props.fields.YoutubeLink, key: 'youtube' },
   ];
 
   return (
     <div className={`component social-follow ${props?.params?.styles}`} id={id}>
-      <h5 className="text-foreground mb-5 text-lg">
+      <h5 className="text-foreground mb-4 text-sm font-bold tracking-wide">
         <Text field={props.fields.SocialTitle} />
       </h5>
 
-      <div className="flex gap-2">
-        {socialLinks.map(({ icon: Icon, field, key }) => (
-          <div key={key} className="flex items-center gap-4">
-            <ContentSdkLink field={field} className="text-foreground">
+      <div className="flex flex-wrap gap-3">
+        {socialLinks.map(({ icon: Icon, field, key }) =>
+          field?.value?.href ? (
+            <ContentSdkLink
+              key={key}
+              field={field}
+              className="border-border text-accent hover:border-accent hover:bg-accent-soft flex size-10 items-center justify-center rounded-full border transition-colors"
+              aria-label={key}
+            >
               <Icon />
             </ContentSdkLink>
-          </div>
-        ))}
+          ) : null
+        )}
       </div>
     </div>
   );
