@@ -1,5 +1,4 @@
-import type React from 'react';
-import { LinkFieldValue, useSitecore } from '@sitecore-content-sdk/nextjs';
+import { LinkFieldValue } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 
 type BreadcrumbPage = {
@@ -26,22 +25,11 @@ type BreadcrumbProps = ComponentProps & {
 };
 
 /**
- * Breadcrumb UI is hidden site-wide for the GoTo marketing experience
- * (page titles in the trail often won't match demo renaming).
- * Rendering stays registered so CMS editors still see a placeholder in edit mode.
+ * Breadcrumb UI is fully suppressed for the GoTo marketing experience
+ * (trail labels won't match renamed demo content). Component stays registered
+ * so existing layout placements don't error — they simply render nothing.
  */
 export const Default = (props: BreadcrumbProps) => {
-  const { params } = props;
-  const { styles, RenderingIdentifier: id } = params;
-  const { page } = useSitecore();
-
-  if (!page.mode?.isEditing) {
-    return null;
-  }
-
-  return (
-    <div className={`component breadcrumb ${styles}`} id={id}>
-      [BREADCRUMB NAVIGATION]
-    </div>
-  );
+  void props;
+  return null;
 };
