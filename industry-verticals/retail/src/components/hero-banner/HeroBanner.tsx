@@ -27,7 +27,13 @@ interface HeroBannerProps extends ComponentProps {
   fields: Fields;
 }
 
+const EMPTY_LINK_FIELD: LinkField = { value: {} };
+
 const hasSecondaryCta = (fields?: Fields) => Boolean(fields?.SecondaryCtaLink?.value?.href);
+
+/** Sitecore <Link> requires a defined field; fall back when SecondaryCtaLink is absent. */
+const getSecondaryCtaField = (fields?: Fields): LinkField =>
+  fields?.SecondaryCtaLink ?? EMPTY_LINK_FIELD;
 
 const HeroBannerCommon = ({
   params,
@@ -248,7 +254,7 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
                   />
                   {(hasSecondaryCta(fields) || isPageEditing) && (
                     <Link
-                      field={fields.SecondaryCtaLink}
+                      field={getSecondaryCtaField(fields)}
                       className="main-btn-outline border-background text-background hover:bg-background hover:text-foreground inline-flex w-auto! min-w-36 px-7"
                     />
                   )}
@@ -343,7 +349,7 @@ export const YellowSplash = ({ params, fields, rendering }: HeroBannerProps) => 
                   <Link field={fields.CtaLink} className="main-btn w-auto! min-w-44 px-8" />
                   {(hasSecondaryCta(fields) || isPageEditing) && (
                     <Link
-                      field={fields.SecondaryCtaLink}
+                      field={getSecondaryCtaField(fields)}
                       className="main-btn-outline bg-background/80 w-auto! min-w-36 px-8"
                     />
                   )}
@@ -419,7 +425,7 @@ export const LeftMedia = ({ params, fields, rendering }: HeroBannerProps) => {
                     <Link field={fields.CtaLink} className="main-btn w-auto! min-w-44 px-8" />
                     {(hasSecondaryCta(fields) || isPageEditing) && (
                       <Link
-                        field={fields.SecondaryCtaLink}
+                        field={getSecondaryCtaField(fields)}
                         className="main-btn-outline bg-background/85 w-auto! min-w-36 px-8"
                       />
                     )}
@@ -497,7 +503,7 @@ export const SplitBand = ({ params, fields, rendering }: HeroBannerProps) => {
                   />
                   {(hasSecondaryCta(fields) || isPageEditing) && (
                     <Link
-                      field={fields.SecondaryCtaLink}
+                      field={getSecondaryCtaField(fields)}
                       className="main-btn-outline border-background text-background hover:bg-background hover:text-foreground inline-flex w-auto! min-w-36 px-7"
                     />
                   )}
