@@ -17,6 +17,9 @@ const meta = {
   title: 'Global Elements/Header',
   component: Header,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'fullscreen',
+  },
 } satisfies Meta<StoryProps>;
 export default meta;
 
@@ -24,6 +27,8 @@ type Story = StoryObj<StoryProps>;
 
 const baseParams = {
   ...CommonParams,
+  CtaText: 'Explore Products',
+  CtaLink: '/',
 };
 
 const baseRendering = {
@@ -74,6 +79,45 @@ export const WithPlaceholderData: Story = {
               },
             ],
             [`header-right-${baseParams.DynamicPlaceholderId}`]: [
+              {
+                ...CommonRendering,
+                componentName: 'NavigationIcons',
+                params: CommonParams,
+              },
+            ],
+          },
+        }}
+      />
+    );
+  },
+};
+
+export const WithoutCta: Story = {
+  render: () => {
+    const params = { ...baseParams, HideCta: '1' };
+    return (
+      <Header
+        params={params}
+        rendering={{
+          ...baseRendering,
+          params,
+          placeholders: {
+            [`header-left-${params.DynamicPlaceholderId}`]: [
+              {
+                ...CommonRendering,
+                componentName: 'LanguageSwitcher',
+                params: CommonParams,
+              },
+            ],
+            [`header-nav-${params.DynamicPlaceholderId}`]: [
+              {
+                ...CommonRendering,
+                componentName: 'Navigation',
+                params: { ...CommonParams, Logo: logoParam },
+                fields: getNavigationFields() as unknown as ComponentFields,
+              },
+            ],
+            [`header-right-${params.DynamicPlaceholderId}`]: [
               {
                 ...CommonRendering,
                 componentName: 'NavigationIcons',

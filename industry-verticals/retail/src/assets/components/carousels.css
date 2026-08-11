@@ -1,9 +1,9 @@
 .article-carousel-pagination .swiper-pagination-bullet {
-  @apply relative m-1 h-4 w-4 rounded-full bg-gray-400;
+  @apply bg-foreground/25 relative m-1 h-3.5 w-3.5 rounded-full;
 }
 
 .article-carousel-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  @apply border-accent border-2 bg-transparent;
+  @apply border-foreground border-2 bg-transparent;
 }
 
 .article-carousel-pagination .swiper-pagination-bullet::after {

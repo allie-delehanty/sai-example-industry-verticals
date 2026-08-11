@@ -196,7 +196,7 @@ export const Default = (props: ArticleListingProps) => {
                   setSelectedCategory(null);
                   setCurrentPage(1);
                 }}
-                className={`flex-1 text-left ${!selectedCategory ? 'text-accent font-bold' : ''}`}
+                className={`flex-1 text-left ${!selectedCategory ? 'border-foreground border-b-2 font-bold' : ''}`}
               >
                 {t('show_all_text') || 'Show All'}
               </button>
@@ -210,7 +210,9 @@ export const Default = (props: ArticleListingProps) => {
                     setCurrentPage(1);
                   }}
                   className={`flex-1 text-left ${
-                    selectedCategory === category.name ? 'text-accent font-bold' : ''
+                    selectedCategory === category.name
+                      ? 'border-foreground border-b-2 font-bold'
+                      : ''
                   }`}
                 >
                   {category.name}

@@ -29,6 +29,7 @@
   }
 }
 
+/* Brand yellow band — black text only (GoTo rule) */
 .container-color-background {
   > .component-content {
     @apply border-background-accent;
@@ -36,29 +37,69 @@
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-background-accent border-background-accent;
-  }
-}
-
-.container-dark-background {
-  > .component-content {
-    @apply border-accent;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-accent border-accent text-background;
+    @apply bg-background-accent border-background-accent text-foreground;
 
     * {
       @apply text-inherit;
     }
 
     .arrow-btn {
-      @apply border-b-background;
+      @apply border-b-foreground text-foreground;
 
       &::after {
-        @apply bg-background;
+        @apply border-foreground;
       }
+    }
+
+    .main-btn {
+      @apply bg-foreground text-background;
+    }
+  }
+}
+
+/* Solid black band — GoTo dark sections */
+.container-dark-background {
+  > .component-content {
+    @apply border-foreground;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-foreground border-foreground text-background;
+
+    * {
+      @apply text-inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      @apply text-background;
+    }
+
+    .arrow-btn {
+      @apply border-b-accent text-background;
+
+      &::after {
+        @apply border-accent;
+      }
+    }
+
+    .main-btn {
+      @apply bg-accent text-foreground;
+      box-shadow: 3px 3px 0 0 var(--color-background);
+    }
+
+    .main-btn-outline {
+      @apply border-background text-background hover:bg-background hover:text-foreground;
+    }
+
+    .eyebrow {
+      @apply text-background/70;
     }
   }
 }
@@ -117,11 +158,26 @@
 }
 
 .container-dark-background .shim {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.45);
   padding: 50px;
 }
 
 .shim {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.55);
   padding: 50px;
+}
+
+/* GoTo geometric accent helpers */
+.goto-slash {
+  pointer-events: none;
+  position: absolute;
+  background: var(--color-accent);
+  transform: skewX(-18deg);
+}
+
+.goto-blob-green {
+  pointer-events: none;
+  position: absolute;
+  border-radius: 9999px;
+  background: var(--color-brand-green);
 }

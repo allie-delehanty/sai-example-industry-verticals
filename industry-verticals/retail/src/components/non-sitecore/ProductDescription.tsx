@@ -6,9 +6,11 @@ import { calculateAverageRating } from '@/helpers/productUtils';
 
 interface ProductDescriptionProps {
   product: Product;
+  /** When false, hides Number Price field (marketing PDP / cards). Field remains in datasource. */
+  showPrice?: boolean;
 }
 
-export const ProductDescription = ({ product }: ProductDescriptionProps) => {
+export const ProductDescription = ({ product, showPrice = false }: ProductDescriptionProps) => {
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
   const { currency } = useLocale();
@@ -16,34 +18,37 @@ export const ProductDescription = ({ product }: ProductDescriptionProps) => {
   const reviews = product?.Reviews || [];
   const reviewCount = reviews.length;
   const averageRating = calculateAverageRating(reviews);
+  const categoryName = product.Category?.fields?.CategoryName?.value;
 
   return (
     <>
-      <h1 className="pt-3 text-4xl font-bold lg:pt-0">
+      {categoryName && <p className="eyebrow-badge mb-4 w-fit">{categoryName}</p>}
+
+      <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
         <ContentSdkText field={product.Title} />
       </h1>
 
-      {(product?.Price?.value || isPageEditing) && (
-        <p className="text-xl">
+      {showPrice && (product?.Price?.value || isPageEditing) && (
+        <p className="text-foreground-muted mt-3 text-lg">
           {currency} <ContentSdkText field={product.Price} />
         </p>
       )}
 
-      {!!product?.Reviews?.length && (
-        <div className="flex items-center space-x-3">
-          <span className="text-foreground text-lg">{averageRating}</span>
-          <StarRating rating={averageRating} className="!text-accent" />
-          <div className="bg-foreground-muted h-7 w-px" />
-          <span className="text-foreground-muted text-sm">
-            {reviewCount} Customer Review{reviewCount !== 1 ? 's' : ''}
-          </span>
-        </div>
-      )}
-
       {(product?.ShortDescription?.value || isPageEditing) && (
-        <p className="text-foreground text-lg">
+        <p className="text-foreground-light mt-5 text-lg leading-relaxed md:text-xl">
           <ContentSdkText field={product.ShortDescription} />
         </p>
+      )}
+
+      {!!product?.Reviews?.length && (
+        <div className="mt-5 flex flex-wrap items-center gap-3">
+          <span className="text-foreground text-base font-semibold">{averageRating}</span>
+          <StarRating rating={averageRating} className="text-foreground" />
+          <div className="bg-foreground-muted h-5 w-px" />
+          <span className="text-foreground-muted text-sm">
+            {reviewCount} customer review{reviewCount !== 1 ? 's' : ''}
+          </span>
+        </div>
       )}
     </>
   );

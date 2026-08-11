@@ -29,8 +29,10 @@ export const HomeHighlightedComponent = (): JSX.Element => {
 
   return (
     <div className="container mx-auto px-4">
-      <div className="my-12 text-center">
-        <h2 className="text-foreground mb-4 text-3xl font-bold md:text-4xl">Get Inspired</h2>
+      <div className="my-12 text-left">
+        <h2 className="text-foreground mb-4 text-3xl font-extrabold tracking-tight md:text-4xl">
+          Get Inspired
+        </h2>
         <p className="text-foreground-muted text-xl">
           Discover amazing products and articles from our latest stories
         </p>

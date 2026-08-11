@@ -25,10 +25,10 @@ const PriceFacet = ({ min, max }: PriceFacetProps) => {
       <RangeFacet.Track className="bg-background-accent relative h-0.75 grow rounded-full">
         <RangeFacet.Range className="bg-accent absolute h-full rounded-full" />
       </RangeFacet.Track>
-      <RangeFacet.Start className="hover:bg-accent bg-background border-border block size-5 cursor-pointer rounded-full border text-center text-[10px] leading-5 shadow-sm focus:shadow-lg">
+      <RangeFacet.Start className="hover:bg-background-muted bg-background border-foreground block size-5 cursor-pointer rounded-full border text-center text-[10px] leading-5 shadow-sm focus:shadow-lg">
         {(value) => <span className="absolute top-7.5 left-0 text-sm">${value}</span>}
       </RangeFacet.Start>
-      <RangeFacet.End className="hover:bg-accent bg-background border-border block size-5 cursor-pointer rounded-full border text-center text-[10px] leading-5 shadow-sm focus:shadow-lg">
+      <RangeFacet.End className="hover:bg-background-muted bg-background border-foreground block size-5 cursor-pointer rounded-full border text-center text-[10px] leading-5 shadow-sm focus:shadow-lg">
         {(value) => <span className="absolute top-7.5 left-0 text-sm">${value}</span>}
       </RangeFacet.End>
     </SearchResultsFacetValueRange>
@@ -72,7 +72,7 @@ const SearchFacets = ({ facets }: SearchFacetsProps) => {
                     className="group flex cursor-pointer items-center text-sm"
                   >
                     <AccordionFacets.ItemCheckbox className="form-checkbox hover:border-accent aria-checked:bg-background-accent border-border h-5 w-5 flex-none cursor-pointer rounded border transition duration-500 ease-in-out">
-                      <AccordionFacets.ItemCheckboxIndicator className="text-accent size-5">
+                      <AccordionFacets.ItemCheckboxIndicator className="text-foreground size-5">
                         <CheckIcon />
                       </AccordionFacets.ItemCheckboxIndicator>
                     </AccordionFacets.ItemCheckbox>

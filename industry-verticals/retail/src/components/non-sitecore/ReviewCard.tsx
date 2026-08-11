@@ -45,7 +45,7 @@ const ReviewCard = (props: ReviewCardProps) => {
             <div className="wavy-bottom-right bg-background absolute top-5 -right-7 h-[30px] w-[30px]"></div>
           </div>
           <div className="!text-background-muted-light">
-            <div className="text-center text-xl leading-normal font-bold capitalize">
+            <div className="text-foreground text-center text-xl leading-normal font-bold">
               <Text field={props.fields.ReviewerName} />
             </div>
             <div className="text-center text-sm leading-normal font-normal">

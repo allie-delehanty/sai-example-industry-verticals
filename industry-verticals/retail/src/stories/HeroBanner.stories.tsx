@@ -1,6 +1,13 @@
 import { ComponentProps } from 'react';
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as HeroBanner, TopContent } from '../components/hero-banner/HeroBanner';
+import {
+  Default as HeroBanner,
+  TopContent,
+  BrandBlock,
+  YellowSplash,
+  LeftMedia,
+  SplitBand,
+} from '../components/hero-banner/HeroBanner';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { renderStorybookPlaceholder } from './helpers/renderStorybookPlaceholder';
 import { createLinkField, createRichTextField, createTextField } from './helpers/createFields';
@@ -84,11 +91,10 @@ const baseRendering = {
   },
 };
 
-// Mock fields for the HeroBanner component
 const createHeroBannerFields = () => ({
   Image: {
     value: {
-      src: 'https://placehold.co/1920x1080/CCCCCC/FFFFFF?text=Hero+Img',
+      src: 'https://placehold.co/1920x1080/000000/FFE900?text=Product',
       alt: 'Hero Banner Image',
       width: 1920,
       height: 1080,
@@ -97,9 +103,9 @@ const createHeroBannerFields = () => ({
   Video: {
     value: {},
   },
-  Title: createTextField('Discover Design That Speaks to You'),
+  Title: createTextField('AI-Powered Cloud Communications'),
   Description: createRichTextField(1),
-  CtaLink: createLinkField("See what's new"),
+  CtaLink: createLinkField('Explore Products'),
 });
 
 export const Default: Story = {
@@ -139,5 +145,78 @@ export const WithTopContent: Story = {
     const fields = createHeroBannerFields();
 
     return <TopContent params={params} rendering={baseRendering} fields={fields} />;
+  },
+};
+
+export const WithBrandBlock: Story = {
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && CommonStyles.HideAccentLine,
+        args.reverseLayout && LayoutStyles.Reversed,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
+    };
+
+    return (
+      <BrandBlock params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
+    );
+  },
+};
+
+export const WithYellowSplash: Story = {
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && CommonStyles.HideAccentLine,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
+    };
+
+    return (
+      <YellowSplash params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
+    );
+  },
+};
+
+export const WithLeftMedia: Story = {
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && CommonStyles.HideAccentLine,
+        args.withoutGradientOverlay && HeroBannerStyles.HideGradientOverlay,
+        args.screenLayer && HeroBannerStyles.ScreenLayer,
+        args.reverseLayout && LayoutStyles.Reversed,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
+    };
+
+    return (
+      <LeftMedia params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
+    );
+  },
+};
+
+export const WithSplitBand: Story = {
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && CommonStyles.HideAccentLine,
+        args.reverseLayout && LayoutStyles.Reversed,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
+    };
+
+    return (
+      <SplitBand params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
+    );
   },
 };

@@ -61,9 +61,9 @@ export const Default = (props: FeaturesProps) => {
     <FeatureWrapper props={props}>
       <div className="container grid grid-cols-1 py-20 lg:grid-cols-[1fr_2fr] lg:gap-10">
         <div className="mb-20 lg:mb-0">
-          <h2 className="inline-block max-w-md font-bold max-lg:text-[42px]">
+          <h2 className="inline-block max-w-md font-extrabold max-lg:text-[42px]">
             <Text field={featureSectionTitle.jsonValue} />
-            {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
+            {!hideAccentLine && <AccentLine className="w-[5ch]" />}
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
@@ -126,15 +126,15 @@ export const ThreeColGridCentered = (props: FeaturesProps) => {
           return (
             <div className="flex flex-col items-center justify-start 2xl:w-80" key={index}>
               {/* Image */}
-              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full">
+              <div className="bg-accent mb-7 flex h-20 w-20 items-center justify-center rounded-full [&_img]:brightness-0">
                 <Image field={image} />
               </div>
               {/* Title and Description */}
               <div className="flex flex-col items-center justify-center">
                 <div className="mb-2 leading-0.5">
-                  <Text tag="h5" className="text-accent" field={title} />
+                  <Text tag="h5" className="text-foreground" field={title} />
                 </div>
-                <div className="text-background-muted-light text-center">
+                <div className="text-foreground-muted text-center">
                   <Text field={description} />
                 </div>
               </div>
@@ -158,19 +158,19 @@ export const NumberedGrid = (props: FeaturesProps) => {
           const description = item?.featureDescription.jsonValue;
           return (
             <div
-              className="group text-background hover:bg-accent cursor-pointer rounded-xl p-6"
+              className="group hover:bg-accent cursor-pointer rounded-2xl p-6 transition-colors"
               key={index}
             >
               {/* Generated Number */}
-              <h1 className="group-hover:text-background text-background-muted-dark mb-2 text-7xl leading-24">
+              <h1 className="text-foreground-muted group-hover:text-foreground mb-2 text-7xl leading-24">
                 {generateIndexes(index)}
               </h1>
               {/* Title and Description */}
               <div>
-                <div className="text-accent group-hover:text-background mb-4 text-2xl leading-8 font-bold">
+                <div className="text-foreground mb-4 text-2xl leading-8 font-bold">
                   <Text field={title} />
                 </div>
-                <div className="text-background-muted-dark group-hover:text-background leading-7">
+                <div className="text-foreground-muted group-hover:text-foreground leading-7">
                   <Text field={description} />
                 </div>
               </div>

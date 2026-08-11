@@ -1,5 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, WithFullImage, PromoProps, WithQuote } from '../components/promo/Promo';
+import {
+  Default as Promo,
+  WithFullImage,
+  PromoProps,
+  WithQuote,
+  FeatureCard,
+  ProductSpotlight,
+  TextLead,
+  DarkBand,
+  StatCallout,
+} from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -87,10 +97,10 @@ const baseFields = {
   PromoImageOne: createImageField('placeholder'),
   PromoImageTwo: createImageField('placeholder'),
   PromoImageThree: createImageField('placeholder'),
-  PromoTitle: createTextField('We provide you the best experience'),
+  PromoTitle: createTextField('Unified Business Communications Software'),
   PromoDescription: createRichTextField(1, 'paragraphs'),
-  PromoSubTitle: createTextField('Materials'),
-  PromoMoreInfo: createLinkField('Read More'),
+  PromoSubTitle: createTextField('Product Update'),
+  PromoMoreInfo: createLinkField('Learn More'),
 };
 
 export const Default: Story = {
@@ -157,5 +167,124 @@ export const QuotePromo: Story = {
       styles: promoStyles,
     };
     return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const FeatureCardPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <FeatureCard params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const ProductSpotlightPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <ProductSpotlight params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const TextLeadPromo: Story = {
+  argTypes: {
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed,
+      args.ShowMultipleImages && PromoFlags.ShowMultipleImages,
+      args.HideShapes && PromoFlags.HidePromoShapes,
+      args.HideShadows && PromoFlags.HidePromoShadows,
+      args.HideCurveLine && CommonStyles.HideAccentLine
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <TextLead params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const DarkBandPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed,
+      args.HideCurveLine && CommonStyles.HideAccentLine
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <DarkBand params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const StatCalloutPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  args: {
+    ...defaultBackgroundColorArgs,
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    const fields = {
+      ...baseFields,
+      PromoSubTitle: createTextField('Trusted globally'),
+      PromoTitle: createTextField('85%'),
+      PromoDescription: createRichTextField(1, 'paragraphs'),
+    };
+    return <StatCallout params={params} rendering={baseRendering} fields={fields} />;
   },
 };

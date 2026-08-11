@@ -43,7 +43,7 @@ const ArticleItemCard = ({ className = '', article }: ArticleItemCardProps) => {
             {article.name || article.title}
           </ArticleCard.Title>
           <ArticleCard.Subtitle className="text-foreground-light mt-3 flex text-sm">
-            <div className="text-foreground-muted group-hover:text-accent right-0 flex items-center gap-1 text-sm font-medium transition-colors">
+            <div className="text-foreground-muted group-hover:text-foreground right-0 flex items-center gap-1 text-sm font-medium transition-colors">
               {t('view') || 'View'} <ArrowRight className="size-3" />
             </div>
           </ArticleCard.Subtitle>

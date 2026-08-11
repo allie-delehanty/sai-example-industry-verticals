@@ -65,7 +65,7 @@ SharedFields:
           p:after="*[1=2]"
           s:ds="0e875c09-1c1a-4b22-9cc1-33e14b2c02cd"
           s:id="{C56EFAE9-39E8-45EB-8B59-D4BF2B71914E}"
-          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideAccountIcon&amp;HideWishlistIcon=1&amp;HideCartIcon&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;HideAccountIcon&amp;HideWishlistIcon=1&amp;HideCartIcon=1&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
           s:ph="/headless-header/header-right-1" />
       </d>
     </r>

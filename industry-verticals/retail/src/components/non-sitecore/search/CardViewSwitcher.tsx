@@ -24,14 +24,14 @@ const CardViewSwitcherComponent = ({
       <CardViewSwitcher.Item
         value="grid"
         aria-label="Grid View"
-        className="focus:outline-accent bg-background text-foreground-light hover:text-foreground hover:bg-background-surface data-[state=on]:bg-accent mr-2 ml-0 flex size-7.5 items-center justify-center rounded-md data-[state=on]:text-white"
+        className="focus:outline-foreground bg-background text-foreground-light hover:text-foreground hover:bg-background-surface data-[state=on]:bg-foreground data-[state=on]:text-background mr-2 ml-0 flex size-7.5 items-center justify-center rounded-full"
       >
         <GridIcon />
       </CardViewSwitcher.Item>
       <CardViewSwitcher.Item
         value="list"
         aria-label="List View"
-        className="focus:outline-accent bg-background text-foreground-light hover:text-foreground hover:bg-background-surface data-[state=on]:bg-accent ml-0 flex size-7.5 items-center justify-center rounded-md data-[state=on]:text-white"
+        className="focus:outline-foreground bg-background text-foreground-light hover:text-foreground hover:bg-background-surface data-[state=on]:bg-foreground data-[state=on]:text-background ml-0 flex size-7.5 items-center justify-center rounded-full"
       >
         <ListIcon />
       </CardViewSwitcher.Item>

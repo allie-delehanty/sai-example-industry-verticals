@@ -8,6 +8,10 @@ interface ProductMetaDetalsProps {
   product: Product;
 }
 
+/**
+ * Product metadata — labels skewed to SaaS marketing (fields unchanged for CMS/demo).
+ * SKU → Product code, Category → Product family, Tags → Capabilities
+ */
 export const ProductMetaDetals = ({ product }: ProductMetaDetalsProps) => {
   const { page } = useSitecore();
   const { t } = useI18n();
@@ -24,11 +28,13 @@ export const ProductMetaDetals = ({ product }: ProductMetaDetalsProps) => {
 
   return (
     <>
-      <div className="text-foreground-light mx-0 border-t pt-10 text-sm sm:pb-6 lg:col-start-2 lg:mx-10">
+      <div className="text-foreground-light border-border mx-0 border-t pt-8 text-sm sm:pb-6 lg:col-start-2 lg:mx-10">
         <dl className="grid grid-cols-[auto_16px_1fr] gap-x-2 gap-y-4">
           {(product?.SKU?.value || isPageEditing) && (
             <>
-              <dt>{t('product_sku_label') || 'SKU'}</dt>
+              <dt className="text-foreground font-semibold">
+                {t('product_sku_label') || 'Product code'}
+              </dt>
               <dd className="text-center">:</dd>
               <dd>
                 <ContentSdkText field={product.SKU} />
@@ -38,7 +44,9 @@ export const ProductMetaDetals = ({ product }: ProductMetaDetalsProps) => {
 
           {product.Category?.fields?.CategoryName?.value && (
             <>
-              <dt>{t('product_category_label') || 'Category'}</dt>
+              <dt className="text-foreground font-semibold">
+                {t('product_category_label') || 'Product family'}
+              </dt>
               <dd className="text-center">:</dd>
               <dd>{product.Category?.fields?.CategoryName?.value}</dd>
             </>
@@ -46,13 +54,17 @@ export const ProductMetaDetals = ({ product }: ProductMetaDetalsProps) => {
 
           {Array.isArray(product?.Tags) && product.Tags.length > 0 && (
             <>
-              <dt>{t('product_tags_label') || 'Tags'}</dt>
+              <dt className="text-foreground font-semibold">
+                {t('product_tags_label') || 'Capabilities'}
+              </dt>
               <dd className="text-center">:</dd>
-              <dd>{product.Tags.map((t) => t.fields.Tag.value).join(', ')}</dd>
+              <dd>{product.Tags.map((tag) => tag.fields.Tag.value).join(', ')}</dd>
             </>
           )}
 
-          <dt className="flex items-center">{t('product_share_label') || 'Share'}</dt>
+          <dt className="text-foreground flex items-center font-semibold">
+            {t('product_share_label') || 'Share'}
+          </dt>
           <dd className="flex items-center justify-center">:</dd>
           <dd className="mr-1">
             <SocialShare

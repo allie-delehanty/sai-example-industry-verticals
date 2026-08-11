@@ -64,7 +64,7 @@ export const Default = (props: PromoProps): JSX.Element => {
 
   return (
     <section className={`${props.params.styles} py-20 max-md:space-y-8`} id={id}>
-      <div className="container space-y-4 text-center">
+      <div className="container space-y-4 text-left">
         <p className="eyebrow">
           <Text field={Eyebrow} />
         </p>

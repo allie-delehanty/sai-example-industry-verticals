@@ -15,35 +15,36 @@
   }
 }
 .highlighted-top > div {
-  @apply border-t;
+  @apply border-t-4;
 }
 
 .highlighted-bottom > div {
-  @apply border-b;
+  @apply border-b-4;
 }
 
 .highlighted-left > div {
-  @apply border-l;
+  @apply border-l-4;
 }
 
 .highlighted-right > div {
-  @apply border-r;
+  @apply border-r-4;
 }
 
+/* GoTo text CTA — underlined learn-more with chevron */
 .arrow-btn {
-  @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b leading-8;
+  @apply text-foreground hover:text-foreground/70 border-foreground inline-flex items-center justify-start gap-2 border-b pb-0.5 text-base leading-8 font-semibold transition-colors;
 
   &::after {
-    @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
+    @apply inline-block h-2.5 w-2.5 shrink-0 translate-y-[-1px] rotate-[-45deg] border-r-2 border-b-2 border-current content-[''];
   }
 }
 
 .carousel-btn {
-  @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
+  @apply text-foreground! bg-accent z-10 size-12 content-center rounded-full shadow-none transition-transform hover:scale-105;
 }
 
 .surface-btn {
-  @apply bg-background-surface text-accent flex size-6 items-center justify-center rounded font-bold transition-shadow hover:shadow-md;
+  @apply bg-background-surface text-foreground hover:bg-background-muted flex size-6 items-center justify-center rounded-full font-bold transition-shadow;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
@@ -55,13 +56,63 @@
 }
 
 .action-btn {
-  @apply text-accent hover:text-accent/80 hover:border-accent/80 border-accent flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold;
+  @apply text-foreground hover:text-foreground/70 border-foreground flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold transition-colors;
 }
 
+/*
+ * GoTo primary CTA — black pill.
+ * Yellow offset edge mirrors goto.com button treatment.
+ * Never put white text on yellow (brand rule).
+ */
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-foreground text-background hover:bg-foreground/90 relative flex w-full items-center justify-center rounded-full px-6 py-3 text-center text-base font-semibold transition-all;
+  box-shadow: 3px 3px 0 0 var(--color-accent);
+
+  &:hover {
+    box-shadow: 4px 4px 0 0 var(--color-accent);
+    transform: translate(-1px, -1px);
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+/* Yellow filled pill — black text only */
+.main-btn-accent {
+  @apply bg-accent text-foreground hover:bg-accent/90 relative inline-flex items-center justify-center rounded-full px-6 py-3 text-center text-base font-semibold transition-all;
+  box-shadow: 3px 3px 0 0 var(--color-foreground);
+
+  &:hover {
+    box-shadow: 4px 4px 0 0 var(--color-foreground);
+    transform: translate(-1px, -1px);
+  }
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+/* Ghost / secondary outline pill */
+.main-btn-outline {
+  @apply border-foreground text-foreground hover:bg-foreground hover:text-background inline-flex items-center justify-center rounded-full border-2 bg-transparent px-6 py-3 text-center text-base font-semibold transition-colors;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
   }
+}
+
+/* Compact header CTA */
+.header-cta {
+  @apply bg-foreground text-background hover:bg-foreground/90 inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold whitespace-nowrap transition-all;
+  box-shadow: 2px 2px 0 0 var(--color-accent);
+}
+
+.header-cta:hover {
+  box-shadow: 3px 3px 0 0 var(--color-accent);
+  transform: translate(-1px, -1px);
 }

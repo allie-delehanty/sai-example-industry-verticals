@@ -149,11 +149,11 @@ export const Default = (props: CarouselProps) => {
                                         </h6>
                                       </div>
                                     </div>
-                                    <div className="bg-accent inline-block p-2">
+                                    <div className="bg-accent inline-block rounded-full p-2">
                                       <ArrowRight
                                         size={16}
-                                        strokeWidth={1}
-                                        className="text-background"
+                                        strokeWidth={2}
+                                        className="text-foreground"
                                       />
                                     </div>
                                   </div>
@@ -213,7 +213,7 @@ export const Default = (props: CarouselProps) => {
                         <div className="inline-flex flex-row items-center gap-5">
                           <div className="flex items-center">
                             <button
-                              className={`swiper-btn-prev text-accent ${
+                              className={`swiper-btn-prev text-foreground ${
                                 currentIndex === 0 && 'article-carousel-btn-disabled'
                               }`}
                               disabled={currentIndex === 0}
@@ -228,7 +228,7 @@ export const Default = (props: CarouselProps) => {
                           <div className="flex items-center">
                             <button
                               disabled={currentIndex === articles.length - 1}
-                              className={`swiper-btn-prev text-accent ${
+                              className={`swiper-btn-prev text-foreground ${
                                 currentIndex === articles.length - 1 &&
                                 'article-carousel-btn-disabled'
                               }`}

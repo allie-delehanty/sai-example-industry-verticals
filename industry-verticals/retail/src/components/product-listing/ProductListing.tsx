@@ -58,11 +58,12 @@ export const Default = (props: ProductListingProps) => {
   });
 
   const sortOptions = [
-    { value: 'default', label: t('product-listing-sort-default') || 'Default' },
-    { value: 'price-asc', label: t('product-listing-sort-price-asc') || 'Price: Low to High' },
-    { value: 'price-desc', label: t('product-listing-sort-price-desc') || 'Price: High to Low' },
+    { value: 'default', label: t('product-listing-sort-default') || 'Featured' },
     { value: 'name-asc', label: t('product-listing-sort-name-asc') || 'Name: A to Z' },
     { value: 'name-desc', label: t('product-listing-sort-name-desc') || 'Name: Z to A' },
+    // Price sorts preserved for Number Price field / commerce demos
+    { value: 'price-asc', label: t('product-listing-sort-price-asc') || 'Price: Low to High' },
+    { value: 'price-desc', label: t('product-listing-sort-price-desc') || 'Price: High to Low' },
   ];
 
   const [displayCount, setDisplayCount] = useState(12);
@@ -106,12 +107,12 @@ export const Default = (props: ProductListingProps) => {
   return (
     <section className={`component product-listing ${props?.params.styles.trimEnd()}`} id={id}>
       {/* Sort and Filter */}
-      <div className="bg-background-accent">
+      <div className="bg-background-muted">
         <div className="container flex flex-col justify-between gap-5 py-5 sm:flex-row sm:items-center">
           <div>
             {t('product-listing-showing') || 'Showing'} {Math.min(products.length, startIndex + 1)}{' '}
             - {Math.min(endIndex, products.length)} {t('product-listing-of') || 'of'}{' '}
-            {products.length} {t('product-listing-results') || 'results'}
+            {products.length} {t('product-listing-results') || 'solutions'}
           </div>
 
           {/* Sort Options */}
