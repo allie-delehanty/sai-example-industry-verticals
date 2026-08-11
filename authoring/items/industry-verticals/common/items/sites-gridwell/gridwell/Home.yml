@@ -82,13 +82,16 @@ Languages:
       Value: <r />
     - ID: "13fe722e-a8c7-4432-a983-23fb28ffab05"
       Hint: metadataKeywords
-      Value: Gridwell, Texas power grid, energy reliability, grid operations, energy alerts, TXANS, energy emergency alerts, power conservation, electricity market, grid transparency, energy preparedness, Texas energy
+      Value: Armanino, accounting firm, advisory, tax, audit, consulting, CFO advisory, Sitecore demo
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260112T100950Z
     - ID: "32c603c2-c858-4138-8fcb-8e18a5ad8240"
       Hint: metadataTitle
-      Value: Gridwell | Reliable, Transparent Energy for Texas Communities
+      Value: Armanino Experience Preview | Accounting & Advisory
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
     - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
       Hint: Title
       Value: Home
@@ -102,17 +105,17 @@ Languages:
         sitecore\neli.kostadinova@sitecore.com
     - ID: "6b43d550-6d5f-46ce-ac84-3d9493c45bc6"
       Hint: metadataDescription
-      Value: "Gridwell ensures the reliable flow of electricity across Texas through real-time grid coordination, clear public communication, and innovative energy solutions. By combining advanced technology with transparency and preparedness, Gridwell empowers residents, businesses, and market participants to stay informed, conserve energy during critical periods, and trust the systems that keep their communities powered."
+      Value: "Explore an Armanino-inspired preview experience built on Sitecore: audit, tax, consulting, and digital transformation guidance aligned to how modern advisory firms communicate."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34bd2f97-cb2e-4026-896e-9462afaa81a7"
+      Value: "1d6de7c5-4862-425e-bf5a-45634864b580"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d3886445-9ee0-46a0-ae5e-8857dd6b395f"
       Hint: pageSummary
-      Value: Gridwell is the trusted operator of Texas’s power grid, responsible for balancing electricity supply and demand, maintaining system reliability, and communicating clearly with the public during normal operations and grid emergencies. Through timely alerts, energy conservation guidance, and transparent data, Gridwell helps Texans understand grid conditions, take informed action during extreme weather, and stay confident in the reliability of their energy system.
+      Value: "This preview homepage showcases how Armanino-style storytelling—clear advisory framing, confident typography, and intentional orange accents—can come to life on Sitecore without sacrificing structured enterprise content."
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260131T041921Z
+      Value: 20260501T182928Z
