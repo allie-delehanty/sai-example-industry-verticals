@@ -4,6 +4,7 @@ import {
   Default as HeroBanner,
   TopContent,
   BrandBlock,
+  BrandLight,
   YellowSplash,
   LeftMedia,
   SplitBand,
@@ -162,6 +163,24 @@ export const WithBrandBlock: Story = {
 
     return (
       <BrandBlock params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
+    );
+  },
+};
+
+export const WithBrandLight: Story = {
+  render: (args) => {
+    const params = {
+      ...baseParams,
+      styles: clsx(
+        baseParams.styles,
+        args.hideAccentLine && CommonStyles.HideAccentLine,
+        args.reverseLayout && LayoutStyles.Reversed,
+        args.withPlaceholder && HeroBannerStyles.WithPlaceholder
+      ),
+    };
+
+    return (
+      <BrandLight params={params} rendering={baseRendering} fields={createHeroBannerFields()} />
     );
   },
 };

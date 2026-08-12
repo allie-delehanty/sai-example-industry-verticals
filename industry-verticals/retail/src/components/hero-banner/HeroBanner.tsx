@@ -191,10 +191,14 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
 };
 
 /**
- * BrandBlock — GoTo homepage-style dark hero with yellow slash / green orb graphics.
- * Keeps Image/Video as product visual floating on the right on desktop.
+ * Shared Brand hero layout — dark (white text) or light (black text). Colors only differ.
  */
-export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
+const BrandHero = ({
+  params,
+  fields,
+  rendering,
+  theme,
+}: HeroBannerProps & { theme: 'dark' | 'light' }) => {
   const styles = params.styles || '';
   const hideAccentLine = styles.includes(CommonStyles.HideAccentLine);
   const withPlaceholder = styles.includes(HeroBannerStyles.WithPlaceholder);
@@ -202,6 +206,7 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
+  const isDark = theme === 'dark';
 
   if (!fields) {
     return isPageEditing ? (
@@ -215,7 +220,10 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
 
   return (
     <div
-      className={`component hero-banner brand-block ${styles} bg-foreground text-background relative overflow-hidden`}
+      className={clsx(
+        `component hero-banner brand-block ${styles} relative overflow-hidden`,
+        isDark ? 'bg-foreground text-background' : 'bg-background text-foreground'
+      )}
       id={params.RenderingIdentifier}
     >
       {/* Graphic language */}
@@ -236,11 +244,21 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
           )}
         >
           <div className="max-w-xl">
-            <h1 className="text-background text-4xl leading-[1.08] font-extrabold tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
+            <h1
+              className={clsx(
+                'text-4xl leading-[1.08] font-extrabold tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl',
+                isDark ? 'text-background' : 'text-foreground'
+              )}
+            >
               <ContentSdkText field={fields.Title} />
               {!hideAccentLine && <AccentLine className="!h-3 w-[5ch]" />}
             </h1>
-            <div className="text-background/80 mt-6 text-lg md:text-xl [&_*]:text-inherit">
+            <div
+              className={clsx(
+                'mt-6 text-lg md:text-xl [&_*]:text-inherit',
+                isDark ? 'text-background/80' : 'text-foreground-light'
+              )}
+            >
               <ContentSdkRichText field={fields.Description} />
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -250,12 +268,20 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
                 <>
                   <Link
                     field={fields.CtaLink}
-                    className="main-btn-accent inline-flex w-auto! min-w-40 px-7"
+                    className={clsx(
+                      'inline-flex w-auto! min-w-40 px-7',
+                      isDark ? 'main-btn-accent' : 'main-btn'
+                    )}
                   />
                   {(hasSecondaryCta(fields) || isPageEditing) && (
                     <Link
                       field={getSecondaryCtaField(fields)}
-                      className="main-btn-outline border-background text-background hover:bg-background hover:text-foreground inline-flex w-auto! min-w-36 px-7"
+                      className={clsx(
+                        'inline-flex w-auto! min-w-36 px-7',
+                        isDark
+                          ? 'main-btn-outline border-background text-background hover:bg-background hover:text-foreground'
+                          : 'main-btn-outline'
+                      )}
                     />
                   )}
                 </>
@@ -264,7 +290,12 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
           </div>
 
           <div className="relative">
-            <div className="ring-background/10 relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1">
+            <div
+              className={clsx(
+                'relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl ring-1',
+                isDark ? 'ring-background/10' : 'ring-foreground/10'
+              )}
+            >
               {!isPageEditing && fields?.Video?.value?.src ? (
                 <video
                   className="h-full w-full object-cover"
@@ -290,6 +321,16 @@ export const BrandBlock = ({ params, fields, rendering }: HeroBannerProps) => {
     </div>
   );
 };
+
+/**
+ * BrandBlock — dark background, white text (GoTo dark marketing hero).
+ */
+export const BrandBlock = (props: HeroBannerProps) => <BrandHero {...props} theme="dark" />;
+
+/**
+ * BrandLight — light background, black text (color inverse of BrandBlock).
+ */
+export const BrandLight = (props: HeroBannerProps) => <BrandHero {...props} theme="light" />;
 
 /**
  * YellowSplash — expressive yellow hero matching GoTo “Grow your business” moments.
