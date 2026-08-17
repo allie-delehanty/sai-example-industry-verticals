@@ -42,23 +42,56 @@
 
 .container-dark-background {
   > .component-content {
-    @apply border-accent;
+    @apply border-primary;
   }
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-accent border-accent text-background;
+    @apply bg-primary border-primary text-primary-foreground;
 
-    * {
-      @apply text-inherit;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    li,
+    label,
+    .eyebrow,
+    .field-title,
+    .field-title a {
+      @apply text-primary-foreground;
+    }
+
+    a {
+      @apply text-accent hover:text-white;
     }
 
     .arrow-btn {
-      @apply border-b-background;
+      @apply text-accent hover:text-white;
 
       &::after {
-        @apply bg-background;
+        @apply content-['>'];
       }
+    }
+
+    .main-btn,
+    .gold-btn {
+      @apply bg-accent text-accent-foreground;
+    }
+
+    .ghost-btn {
+      @apply hover:text-primary border-white text-white hover:bg-white;
+    }
+
+    input,
+    textarea,
+    select,
+    .form-input,
+    .form-textarea {
+      @apply placeholder:text-foreground-muted text-foreground bg-background;
     }
   }
 }
@@ -117,11 +150,11 @@
 }
 
 .container-dark-background .shim {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(73, 38, 135, 0.88);
   padding: 50px;
 }
 
 .shim {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.92);
   padding: 50px;
 }

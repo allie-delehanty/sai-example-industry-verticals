@@ -83,7 +83,7 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
       role="menuitem"
       className={clsx(
         fields?.Styles?.join(' '),
-        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-14',
+        'relative flex flex-col gap-x-8 gap-y-4 xl:gap-x-12',
         isRootItem && 'lg:flex-row',
         isLogoRootItem && 'shrink-0 max-lg:hidden',
         isLogoRootItem && isSimpleLayout && 'lg:mr-auto'
@@ -94,7 +94,10 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           field={getLinkField(fields)}
           editable={page.mode.isEditing}
           onClick={clickHandler}
-          className="hover:text-foreground-light whitespace-nowrap transition-colors"
+          className={clsx(
+            'hover:text-accent max-lg:text-primary-foreground whitespace-nowrap transition-colors',
+            (isTopLevelPage || isRootItem) && '[.component.header_&]:text-primary-foreground'
+          )}
         >
           {getLinkContent(fields, logoSrc)}
         </Link>
@@ -115,9 +118,10 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
           >
             <ChevronDown
               className={clsx(
-                'size-4 transition-transform duration-300',
+                'size-3.5 transition-transform duration-300',
                 isActive && 'rotate-180',
-                'navigation-dropdown-trigger'
+                'navigation-dropdown-trigger',
+                (isTopLevelPage || isRootItem) && '[.component.header_&]:text-primary-foreground'
               )}
             />
           </button>
@@ -127,13 +131,13 @@ const NavigationListItem: React.FC<NavigationListItemProps> = ({
         <ul
           role="menu"
           className={clsx(
-            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-14',
+            'flex flex-col items-center gap-x-8 gap-y-4 xl:gap-x-12',
             isRootItem && 'lg:flex-row',
             hasDropdownMenu &&
               clsx(
-                'z-110 text-base max-lg:border-b max-lg:pb-4 max-lg:text-sm',
-                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-6 lg:transition-all lg:duration-300',
-                'lg:bg-background lg:rounded-xl lg:shadow-md',
+                'z-110 text-base max-lg:border-b max-lg:border-white/20 max-lg:pb-4 max-lg:text-sm',
+                'lg:absolute lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-5 lg:transition-all lg:duration-300',
+                'lg:bg-background lg:text-foreground lg:rounded-sm lg:shadow-lg',
                 isActive
                   ? 'max-lg:flex'
                   : 'max-lg:hidden lg:pointer-events-none lg:translate-y-2 lg:scale-95 lg:opacity-0'
@@ -188,10 +192,10 @@ export const Default = ({ params, fields }: NavigationProps) => {
     ));
 
   return (
-    <div className={`component navigation bg-background ${styles}`} id={id}>
+    <div className={`component navigation ${styles}`} id={id}>
       <div
         className={clsx(
-          'relative z-150 container flex items-center py-4 lg:hidden',
+          'relative z-150 container flex items-center py-3 lg:hidden',
           !isSimpleLayout &&
             '[.component.header_&]:grid-cols-2 [.component.header_&]:px-0 [.component.header_&]:max-lg:grid',
           !isSimpleLayout ? 'flex-row-reverse' : '',
@@ -228,15 +232,15 @@ export const Default = ({ params, fields }: NavigationProps) => {
 
       <nav
         className={clsx(
-          'bg-background z-100 flex duration-300',
-          'max-lg:fixed max-lg:inset-0',
+          'z-100 flex duration-300',
+          'max-lg:bg-primary max-lg:text-primary-foreground max-lg:fixed max-lg:inset-0',
           !isMenuOpen && 'max-lg:-translate-y-full max-lg:opacity-0'
         )}
       >
         <ul
           role="menubar"
           className={clsx(
-            'container flex flex-col items-center justify-center gap-x-8 gap-y-4 py-6 text-lg lg:flex-row xl:gap-x-16',
+            'container flex flex-col items-center justify-center gap-x-6 gap-y-4 py-6 text-base lg:flex-row lg:py-4 xl:gap-x-10',
             isSimpleLayout && !hasLogoRootItem && 'lg:justify-end'
           )}
         >

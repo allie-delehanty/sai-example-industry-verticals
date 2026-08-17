@@ -1,5 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Promo, WithFullImage, PromoProps, WithQuote } from '../components/promo/Promo';
+import {
+  Default as Promo,
+  WithFullImage,
+  PromoProps,
+  WithQuote,
+  OverlayCard,
+  Banner,
+} from '../components/promo/Promo';
 import { CommonParams, CommonRendering } from './common/commonData';
 import {
   createImageField,
@@ -87,10 +94,10 @@ const baseFields = {
   PromoImageOne: createImageField('placeholder'),
   PromoImageTwo: createImageField('placeholder'),
   PromoImageThree: createImageField('placeholder'),
-  PromoTitle: createTextField('We provide you the best experience'),
+  PromoTitle: createTextField('Redefining Hospice Care'),
   PromoDescription: createRichTextField(1, 'paragraphs'),
-  PromoSubTitle: createTextField('Materials'),
-  PromoMoreInfo: createLinkField('Read More'),
+  PromoSubTitle: createTextField('Our Services'),
+  PromoMoreInfo: createLinkField('Learn More'),
 };
 
 export const Default: Story = {
@@ -157,5 +164,46 @@ export const QuotePromo: Story = {
       styles: promoStyles,
     };
     return <WithQuote params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const OverlayCardPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(
+      baseParams.styles,
+      args.BackgroundColor,
+      args.Reversed && LayoutStyles.Reversed
+    );
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <OverlayCard params={params} rendering={baseRendering} fields={baseFields} />;
+  },
+};
+
+export const BannerPromo: Story = {
+  argTypes: {
+    ShowMultipleImages: { table: { disable: true } },
+    HideCurveLine: { table: { disable: true } },
+    HideShapes: { table: { disable: true } },
+    HideShadows: { table: { disable: true } },
+    HideQuote: { table: { disable: true } },
+    Reversed: { table: { disable: true } },
+  },
+  render: (args) => {
+    const promoStyles = clsx(baseParams.styles, args.BackgroundColor);
+    const params = {
+      ...baseParams,
+      styles: promoStyles,
+    };
+    return <Banner params={params} rendering={baseRendering} fields={baseFields} />;
   },
 };

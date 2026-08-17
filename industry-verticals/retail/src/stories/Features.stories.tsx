@@ -7,6 +7,7 @@ import {
   ImageGrid,
   NumberedGrid,
   ThreeColGridCentered,
+  AudienceCards,
 } from '@/components/features/Features';
 import { createIGQLData } from './helpers/createIGQLData';
 import {
@@ -206,6 +207,35 @@ export const FeatureFourColGrid: Story = {
               featureDescription: createIGQLField(createTextField('Description')),
               featureImage: createIGQLField(createImageField('placeholder')),
               featureLink: createIGQLField(createLinkField('More Info')),
+            })),
+        })}
+      />
+    );
+  },
+};
+
+export const FeatureAudienceCards: Story = {
+  render: (args) => {
+    return (
+      <AudienceCards
+        rendering={baseRendering}
+        params={{
+          ...baseParams,
+          styles: `${baseParams.styles}
+            ${args.BackgroundColor}
+          `,
+        }}
+        fields={createIGQLData({
+          count: 3,
+          topLevelFields: {
+            title: createIGQLField(createTextField('Features Title')),
+          },
+          createItems: (count) =>
+            Array.from({ length: count }, () => ({
+              featureTitle: createIGQLField(createTextField('Title')),
+              featureDescription: createIGQLField(createTextField('Description')),
+              featureImage: createIGQLField(createImageField('placeholder')),
+              featureLink: createIGQLField(createLinkField('Learn More')),
             })),
         })}
       />

@@ -27,9 +27,9 @@ export const Default = (props: RelatedProductsProps): JSX.Element => {
   return (
     <section className={`component related-products ${styles}`} id={id || undefined}>
       <div className="container flex flex-col items-center p-8 md:p-10">
-        <h2 className="mb-10 inline-block">
+        <h2 className="text-primary in-[.container-dark-background]:text-primary-foreground mb-10 inline-block">
           <Text field={props.fields?.Title} />
-          {!hideAccentLine && <AccentLine className="mx-auto !h-4 w-[8ch]" />}
+          {!hideAccentLine && <AccentLine className="mx-auto" />}
         </h2>
 
         {/* Product Carousel */}

@@ -39,6 +39,16 @@ body {
   flex-wrap: wrap;
 }
 
+#header {
+  z-index: 200;
+}
+
+.component.header img {
+  filter: brightness(0) invert(1);
+  max-height: 2.25rem;
+  width: auto;
+}
+
 .sc-content-sdk-placeholder-error {
   background: #ff0000;
   outline: 5px solid #e36565;

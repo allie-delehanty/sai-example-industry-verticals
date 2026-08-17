@@ -5,11 +5,15 @@
   h4,
   h5,
   h6 {
-    @apply text-accent mb-4.5 text-lg;
+    @apply text-foreground mb-4.5 text-sm font-bold tracking-[0.08em] uppercase;
   }
 
   ul {
     @apply flex flex-row flex-wrap gap-4;
+  }
+
+  a {
+    @apply text-foreground-light hover:text-primary;
   }
 
   a:hover {
@@ -20,7 +24,7 @@
 /* list vertical */
 .link-list.list-vertical {
   ul {
-    @apply flex-col;
+    @apply flex-col gap-3;
   }
 }
 

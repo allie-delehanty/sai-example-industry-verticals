@@ -45,7 +45,7 @@ export const Default = (props: SocialFollowProps) => {
 
   return (
     <div className={`component social-follow ${props?.params?.styles}`} id={id}>
-      <h5 className="text-accent mb-5 text-lg">
+      <h5 className="text-foreground mb-5 text-sm font-bold tracking-[0.08em] uppercase">
         <Text field={props.fields.SocialTitle} />
       </h5>
       <div className="flex flex-col gap-y-4">
@@ -53,8 +53,11 @@ export const Default = (props: SocialFollowProps) => {
           <div key={key} className="flex items-center gap-2">
             {field?.value?.href && (
               <>
-                <FontAwesomeIcon icon={icon} className="text-foreground text-xl" />
-                <ContentSdkLink field={field} className="text-foreground hover:underline" />
+                <FontAwesomeIcon icon={icon} className="text-primary text-xl" />
+                <ContentSdkLink
+                  field={field}
+                  className="text-foreground-light hover:text-primary hover:underline"
+                />
               </>
             )}
           </div>
@@ -84,7 +87,10 @@ export const Horizontal = (props: SocialFollowProps) => {
       <div className="flex gap-2">
         {socialLinks.map(({ icon: Icon, field, key }) => (
           <div key={key} className="flex items-center gap-4">
-            <ContentSdkLink field={field} className="text-foreground">
+            <ContentSdkLink
+              field={field}
+              className="bg-primary text-primary-foreground hover:bg-primary-dark flex size-10 items-center justify-center rounded-full"
+            >
               <Icon />
             </ContentSdkLink>
           </div>

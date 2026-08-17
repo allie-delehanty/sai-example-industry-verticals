@@ -46,12 +46,15 @@ export const Default = (props: ReviewsProps) => {
             <Text field={sectionEyebrow} />
           </p>
           <div className="flex flex-col items-center justify-center gap-2">
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="section-title">
+            <h2
+              className="text-primary in-[.container-dark-background]:text-primary-foreground inline-block font-bold max-lg:text-4xl"
+              aria-label="section-title"
+            >
               <Text field={sectionTitle} />
             </h2>
-            <h2 className="inline-block font-bold max-lg:text-5xl" aria-label="accent-line">
-              {!hideAccentLine && <AccentLine className="w-full max-w-xs" />}
-            </h2>
+            <div aria-label="accent-line">
+              {!hideAccentLine && <AccentLine className="mx-auto" />}
+            </div>
           </div>
         </div>
 

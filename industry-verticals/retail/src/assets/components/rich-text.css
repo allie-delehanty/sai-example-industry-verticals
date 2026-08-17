@@ -14,6 +14,8 @@
   h3,
   h4,
   h5 {
+    @apply text-primary;
+
     &:not(:first-child) {
       @apply mt-[1em];
     }
@@ -21,6 +23,10 @@
     &:not(:last-child) {
       @apply mb-[0.5em];
     }
+  }
+
+  a {
+    @apply text-primary font-semibold underline-offset-2 hover:underline;
   }
 
   p,
@@ -55,8 +61,30 @@
       @apply relative list-none;
 
       &:before {
-        @apply absolute top-0.5 -left-4.5 w-4 font-[FontAwesome] text-sm content-['\f046'];
+        @apply text-primary absolute top-0.5 -left-4.5 w-4 font-[FontAwesome] text-sm content-['\f046'];
       }
     }
+  }
+}
+
+.container-dark-background .content,
+.container-dark-background .rich-text,
+.container-dark-background .ck-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-primary-foreground;
+  }
+
+  a {
+    @apply text-accent hover:text-white;
+  }
+
+  p,
+  ul,
+  ol {
+    @apply text-primary-foreground/85;
   }
 }

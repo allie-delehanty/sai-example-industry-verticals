@@ -76,10 +76,10 @@ export const Default = (props: BreadcrumbProps) => {
   return (
     <nav
       aria-label="breadcrumb"
-      className={`component breadcrumb bg-background-muted ${styles}`}
+      className={`component breadcrumb bg-background border-border border-b ${styles}`}
       id={id}
     >
-      <ol className="container flex items-center gap-4 overflow-auto py-4 lg:py-7">
+      <ol className="container flex items-center gap-3 overflow-auto py-3 text-sm lg:py-4">
         {homeAncestor && (
           <li key={homeAncestor.id} className="text-foreground-light flex items-center gap-4">
             <Link
@@ -133,7 +133,7 @@ export const Default = (props: BreadcrumbProps) => {
         )}
 
         <li
-          className="border-foreground border-l py-2 pl-4 whitespace-nowrap lg:ml-4 lg:pl-8"
+          className="text-primary border-primary border-l py-1 pl-4 font-semibold whitespace-nowrap lg:ml-2 lg:pl-4"
           title={getNavItemTitle(item, false)}
         >
           {getNavItemTitle(item)}

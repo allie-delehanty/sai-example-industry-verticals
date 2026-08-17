@@ -75,12 +75,12 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               />
             )}
 
-            <div className="col-span-12 aspect-video w-full overflow-hidden rounded-lg lg:col-span-10 lg:col-start-2">
+            <div className="col-span-12 aspect-video w-full overflow-hidden rounded-sm lg:col-span-10 lg:col-start-2">
               <ContentSdkImage field={fields.Image} className="h-full w-full object-cover" />
             </div>
 
             <div className="col-span-12 mt-8 lg:col-span-8 lg:col-start-3">
-              <h2>
+              <h2 className="text-primary">
                 <ContentSdkText field={fields.Title} />
               </h2>
 

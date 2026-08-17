@@ -1,26 +1,33 @@
 @theme {
-  --color-foreground: #1e1e1e;
-  --color-foreground-light: #505050;
-  --color-foreground-muted: #9f9f9f;
+  /* VITAS-inspired healthcare palette */
+  --color-foreground: #2c2c2c;
+  --color-foreground-light: #4a4a4a;
+  --color-foreground-muted: #6b6b6b;
 
-  --color-background: #fff;
-  --color-background-accent: #faf3ea;
-  --color-background-muted: #f7f7f7;
-  --color-background-muted-light: #7a7a7a;
-  --color-background-muted-dark: #666;
+  --color-background: #ffffff;
+  --color-background-accent: #f6f3fa;
+  --color-background-muted: #f4f4f4;
+  --color-background-muted-light: #6b6b6b;
+  --color-background-muted-dark: #3a1e6c;
   --color-background-surface: #fafafa;
 
-  --color-accent: #c1a25f;
+  --color-primary: #492687;
+  --color-primary-foreground: #ffffff;
+  --color-primary-dark: #381e6a;
+  --color-primary-light: #6b3fa8;
 
-  --color-success: #2ec1ac;
-  --color-danger: #e97171;
+  --color-accent: #fbcb79;
+  --color-accent-foreground: #492687;
 
-  --color-border: #e8e8e8;
+  --color-success: #2e8f7a;
+  --color-danger: #c44545;
 
-  --font-heading: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
+  --color-border: #e2dee8;
 
-  --radius-base: 0.5rem;
+  --font-heading: 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --radius-base: 0.25rem;
 
   /*
   This does not show in the theme editor

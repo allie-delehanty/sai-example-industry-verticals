@@ -25,7 +25,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
   return (
     <Link href={url} passHref>
       <div
-        className={`flex min-h-123 w-full flex-col overflow-hidden rounded-2xl hover:drop-shadow-sm ${className}`}
+        className={`border-border flex min-h-123 w-full flex-col overflow-hidden rounded-sm border hover:shadow-md ${className}`}
       >
         {/* Product Image */}
         <div className="bg-background-surface flex h-72 w-full items-center justify-center p-6">

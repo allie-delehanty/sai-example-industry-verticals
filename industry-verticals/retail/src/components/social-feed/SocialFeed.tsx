@@ -68,7 +68,7 @@ export const Default = (props: PromoProps): JSX.Element => {
         <p className="eyebrow">
           <Text field={Eyebrow} />
         </p>
-        <h2>
+        <h2 className="text-primary in-[.container-dark-background]:text-primary-foreground">
           <Text field={Heading} />
         </h2>
       </div>

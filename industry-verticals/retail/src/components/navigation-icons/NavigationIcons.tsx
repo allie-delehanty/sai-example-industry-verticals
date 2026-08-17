@@ -7,7 +7,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import { Popover, PopoverContent, PopoverTrigger } from '@/shadcn/components/ui/popover';
 import { PopoverClose } from '@radix-ui/react-popover';
 import { MiniCart } from '../non-sitecore/MiniCart';
-import { LinkField } from '@sitecore-content-sdk/nextjs';
+import { Link, LinkField } from '@sitecore-content-sdk/nextjs';
 import PreviewSearch from '../non-sitecore/search/PreviewSearch';
 import { PREVIEW_WIDGET_ID } from '@/constants/search';
 
@@ -30,7 +30,7 @@ const IconDropdown = ({
 } & React.PropsWithChildren) => (
   <Popover>
     <PopoverTrigger
-      className="text-foreground hover:text-accent data-[state=open]:text-accent transition-colors"
+      className="text-foreground hover:text-accent data-[state=open]:text-accent [.component.header_&]:text-primary-foreground transition-colors"
       aria-label={label}
     >
       {icon}
@@ -60,15 +60,18 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
     setIsSearchOpen(false);
   }, [pathname, searchParams]);
 
+  const referLabel = t('header_cta') || 'REFER';
+
   return (
     <>
       <div className={`component navigation-icons ${props?.params?.styles?.trimEnd()}`} id={id}>
-        <div className="flex items-center gap-3 p-4 lg:gap-5 [.component.header_&]:justify-end [.component.header_&]:px-0">
+        <div className="flex items-center gap-2 p-3 lg:gap-3 [.component.header_&]:justify-end [.component.header_&]:px-0">
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
-            className="hover:text-accent text-foreground p-2 transition-colors"
+            className="text-foreground border-foreground/40 hover:border-accent hover:text-accent [.component.header_&]:text-primary-foreground flex size-9 items-center justify-center rounded-full border transition-colors [.component.header_&]:border-white/70"
+            aria-label="Search"
           >
-            <Search className="size-5" />
+            <Search className="size-4" />
           </button>
 
           {showAccountIcon && (
@@ -87,6 +90,22 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
             <IconDropdown icon={<ShoppingCart className="size-5" />} label="Cart">
               <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
             </IconDropdown>
+          )}
+
+          {props.fields?.CheckoutPage?.value?.href ? (
+            <Link
+              field={props.fields.CheckoutPage}
+              className="gold-btn !text-accent-foreground hidden px-4 py-2 text-xs sm:inline-flex"
+            >
+              {referLabel}
+            </Link>
+          ) : (
+            <a
+              href="/"
+              className="gold-btn !text-accent-foreground hidden px-4 py-2 text-xs sm:inline-flex"
+            >
+              {referLabel}
+            </a>
           )}
         </div>
       </div>

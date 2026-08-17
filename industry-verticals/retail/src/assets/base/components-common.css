@@ -11,7 +11,7 @@
 .highlighted-left,
 .highlighted-right {
   > div {
-    @apply border-accent! my-6 p-6;
+    @apply border-primary! my-6 p-6;
   }
 }
 .highlighted-top > div {
@@ -23,27 +23,27 @@
 }
 
 .highlighted-left > div {
-  @apply border-l;
+  @apply border-l-4;
 }
 
 .highlighted-right > div {
-  @apply border-r;
+  @apply border-r-4;
 }
 
 .arrow-btn {
-  @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b leading-8;
+  @apply text-primary hover:text-primary-light inline-flex items-center justify-start gap-2 text-sm font-semibold tracking-wide uppercase;
 
   &::after {
-    @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
+    @apply inline-block content-['>'];
   }
 }
 
 .carousel-btn {
-  @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
+  @apply text-primary! bg-background border-border z-10 size-11 content-center rounded-full border shadow-sm;
 }
 
 .surface-btn {
-  @apply bg-background-surface text-accent flex size-6 items-center justify-center rounded font-bold transition-shadow hover:shadow-md;
+  @apply bg-background-surface text-primary flex size-6 items-center justify-center rounded-sm font-bold transition-shadow hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
@@ -55,13 +55,30 @@
 }
 
 .action-btn {
-  @apply text-accent hover:text-accent/80 hover:border-accent/80 border-accent flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold;
+  @apply text-primary hover:text-primary-light flex h-10 items-center gap-3 bg-transparent text-lg font-semibold;
 }
 
-.main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+.main-btn,
+.gold-btn {
+  @apply bg-accent text-accent-foreground hover:bg-accent/90 inline-flex items-center justify-center rounded-sm px-6 py-3 text-center text-sm font-bold tracking-[0.08em] uppercase transition-all;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
   }
+}
+
+.primary-btn {
+  @apply bg-primary text-primary-foreground hover:bg-primary-dark inline-flex items-center justify-center rounded-sm px-6 py-3 text-center text-sm font-bold tracking-[0.08em] uppercase transition-all;
+
+  &[disabled] {
+    @apply pointer-events-none opacity-60;
+  }
+}
+
+.ghost-btn {
+  @apply border-primary text-primary hover:bg-primary inline-flex items-center justify-center rounded-sm border bg-transparent px-6 py-3 text-center text-sm font-bold tracking-[0.08em] uppercase transition-all hover:text-white;
+}
+
+.ghost-btn-light {
+  @apply text-primary inline-flex items-center justify-center rounded-sm border border-white bg-white px-6 py-3 text-center text-sm font-bold tracking-[0.08em] uppercase transition-all hover:bg-transparent hover:text-white;
 }

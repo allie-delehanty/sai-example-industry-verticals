@@ -3,11 +3,17 @@
 
   h1,
   .field-title {
-    @apply cursor-pointer no-underline;
+    @apply text-foreground cursor-pointer no-underline;
 
     > a,
     > span {
-      @apply no-underline;
+      @apply text-inherit no-underline;
     }
   }
+}
+
+.container-dark-background .title h1,
+.container-dark-background .title .field-title,
+.container-dark-background .title .field-title a {
+  @apply text-primary-foreground;
 }
