@@ -1,0 +1,56 @@
+﻿---
+ID: "ffd67226-390a-4316-b20e-d34976548f1f"
+Parent: "d7bee783-0ed9-4fb5-9cf2-6c7fef0b2f86"
+Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Promos/AI That Knows When Customers Need More"
+SharedFields:
+- ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
+  Hint: PromoImageOne
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/1af467e1df1544dbbe7cb8d8add23287?v=61b142d2" dam-id="M5013A0zSb--Aa1efpnDKA" width="1340" height="902" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/94646/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "de46fd4e-a108-447d-93a5-9192c1b5c9f6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260813T011454Z
+    - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
+      Hint: PromoMoreInfo
+      Value: |
+        <link linktype="internal" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
+    - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
+      Hint: PromoDescription
+      Value: |
+        <div class="ck-content"><div style="font-family:'Segoe UI';font-size:14px;font-style:normal;font-weight:400;line-height:20px;"><p>Customers expect fast answers, but not every conversation can be solved through automation alone. When interactions become urgent, complex, or sensitive, support teams need visibility into the moments that require a human touch.</p><p>AI Escalation Insights continuously monitors customer conversations across channels, helping organizations identify when intervention is needed. Teams can route customers to the right expert faster while preserving the context needed to deliver a seamless experience.</p><p>By combining intelligent automation with human expertise, businesses can improve customer satisfaction, reduce operational friction, and build trust in every interaction.</p></div></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
+      Hint: PromoSubTitle
+      Value: Detect → Prioritize → Escalate → Resolve
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "474f1ab7-9f42-453c-888d-f368bfbaa4ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260813T011606Z
+    - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
+      Hint: PromoTitle
+      Value: AI That Knows When Customers Need More

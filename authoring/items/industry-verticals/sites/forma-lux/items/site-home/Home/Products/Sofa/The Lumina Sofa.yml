@@ -9,7 +9,7 @@ SharedFields:
   Value: "{FD74A159-FC1F-48F8-88C8-5703D830E00D}"
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: " FL-LS-1001"
+  Value: "GT-MEET-PRO"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -39,7 +39,7 @@ SharedFields:
     <Image src="https://starter-verticals-2.sitecoresandbox.cloud/api/public/content/79456-LandingPageHero-2000x600?v=d12fa4b1" dam-id="JMRbUeLzRJ-bFXbryWogfQ" width="2000" height="600" alt="lumina-sofa-3.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/79456/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5ac4f71f-e5d2-4a40-9cdb-4bcf2ca0d7ba"
+  Value: "3ddadbcf-2e72-4bd9-8572-5deeef1e9345"
 Languages:
 - Language: en
   Versions:
@@ -97,6 +97,62 @@ Languages:
     - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
       Hint: pageSummary
       Value: The Lumina Sofa is the centerpiece of the Lumina Collection — an expression of balance, craftsmanship, and enduring comfort. Built on a solid hardwood frame and upholstered in soft, durable fabric, its modular design allows for flexible configurations that adapt to any living space. Every line and detail reflects Forma Lux’s belief that luxury should be intentional, sustainable, and designed to last.
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260812T164454Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: GoTo Meeting Pro
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Advanced meeting features for growing teams and frequent hosts.
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: GoTo Meeting Pro, video meetings, collaboration
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 19
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Lumina Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: Advanced online meeting software for growing teams.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4fc4717-8c8b-429e-bfa8-1a2c7bd87e24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260812T164454Z
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: GoTo Meeting Pro
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260812T164455Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>GoTo Meeting Pro adds capacity and collaboration tools for teams that meet often—draw attendees in with clearer video, smoother sharing, and organizer controls that keep meetings productive.</p>
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: More capacity and control for teams that live in meetings.
 - Language: "es-ES"
   Versions:
   - Version: 1

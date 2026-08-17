@@ -12,7 +12,7 @@ SharedFields:
     {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
 - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
   Hint: SKU
-  Value: "FL-LC-1002"
+  Value: "GT-CONN"
 - ID: "63c1b6e8-05bb-459d-ae43-a7d06951eb25"
   Hint: ogImage
   Value: |
@@ -33,7 +33,7 @@ SharedFields:
   Value: "{1F4F7164-0F0C-4CAB-8F44-7B7C85AD9C1A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "452879ba-3ae0-4257-8634-84db0bc46145"
+  Value: "1e9e3854-9f7d-4385-b886-ad89cb8bed43"
 Languages:
 - Language: en
   Versions:
@@ -92,6 +92,62 @@ Languages:
       Hint: pageSummary
       Value: |
         Introducing "The Lumina Chair" by Forma Lux, where timeless elegance meets sophisticated craftsmanship. This chair embodies the brand's ethos of shaping tranquil spaces with soul and substance, seamlessly integrating modern European design with sustainable practices. The Lumina Chair transforms any room into a serene haven, providing a refined experience that resonates with the elegance and authenticity of Forma Lux.
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260812T164433Z
+    - ID: "2f1d30bc-161c-4474-8c72-c959c64a77d3"
+      Hint: metadataTitle
+      Value: GoTo Connect
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "AI-powered cloud communications that simplifies how people everywhere connect."
+    - ID: "44690751-4b7b-4d8f-a4d5-06af6ce0ff68"
+      Hint: metadataKeywords
+      Value: GoTo Connect, UCaaS, cloud communications
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 25
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Lumina Chair
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "61dc9244-b7fd-404a-955f-0a073109276b"
+      Hint: metadataDescription
+      Value: "All-in-one AI-powered cloud communications from GoTo."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "146d8f40-f96f-4d40-9910-0221bc505046"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260812T164433Z
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: GoTo Connect
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260812T164433Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>GoTo Connect is all-in-one, AI-powered cloud communications for small, mid-sized, and distributed businesses—with the flexibility to add enhancements as you grow.</p>"
+    - ID: "e5b1f5b3-a36d-4fd3-8df7-c9878ebfb6cf"
+      Hint: pageSummary
+      Value: Unified communications platform that simplifies how people connect.
 - Language: "es-ES"
   Versions:
   - Version: 1

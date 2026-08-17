@@ -27,7 +27,7 @@ Languages:
       Value: 20251128T103332Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Designed to minimize waste and maximize lifespan with modular parts and replaceable covers.
+      Value: "GoTo Connect ensures hassle-free collaboration through integrated tools like messaging, voice, and video conferencing."
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,21 +38,21 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Sustainable Living
+      Value: Effortless Collaboration
     - ID: "69536d16-4033-4ebf-9416-436f0f5a3cb6"
       Hint: FeatureLink
       Value: |
-        <link linktype="external" url="" target="" text="Discover More" title="" class=""/>
+        <link linktype="external" url="" text="Explore Features"/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cd82365-aac2-4ed8-94db-88d494642b35"
+      Value: "cf0619bc-8b26-4600-ab09-ead86f31f70e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\allie.delehanty@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251128T103702Z
+      Value: 20260813T144226Z
 - Language: "es-ES"
   Versions:
   - Version: 1
