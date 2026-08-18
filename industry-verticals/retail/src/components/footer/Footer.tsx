@@ -11,6 +11,7 @@ import {
   Text,
   TextField,
 } from '@sitecore-content-sdk/nextjs';
+import NextLink from 'next/link';
 import React from 'react';
 import { Phone, CircleHelp } from 'lucide-react';
 
@@ -90,13 +91,13 @@ export const Default = (props: FooterProps) => {
               <Phone className="size-5" aria-hidden="true" />
               800.582.9533
             </a>
-            <a
+            <NextLink
               href="/faq"
               className="text-primary-foreground hover:text-accent flex items-center gap-2 text-lg font-semibold"
             >
               <CircleHelp className="size-5" aria-hidden="true" />
               Frequently Asked Questions
-            </a>
+            </NextLink>
           </div>
         </div>
       </div>
