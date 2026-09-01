@@ -1,0 +1,89 @@
+﻿---
+ID: "adb413f4-438d-4ddc-ab61-ec7a66753fc2"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/What to Expect During Your First Meeting with VITAS"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/95764-HomepagePromoCTAs-1100x740?v=f1bfd9d9" dam-id="HB3siJPWQXmowLKVoykKbA" width="1100" height="740" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95764/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C7F098C6-D9DC-44C3-A23A-9CD15E6628EE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "efa84cab-2b04-4dec-a6e0-0b0bb22478f2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{576F6278-65BD-45B5-958B-463AF90859FF}"
+              s:ds="3268ed6c-d485-4edb-a534-d2d12813cd93"
+              s:id="{E3CCF1D0-7855-4898-8BDE-77F83C6A487C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+              s:ph="/headless-main/sxa-articlecontent/article-details-1" />
+          </d>
+        </r>
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Your first conversation with VITAS is an opportunity to ask questions, share your loved one's needs, and understand what support may be available. Knowing what to expect can help your family feel prepared for the discussion.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T152028Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: What to Expect During Your First Meeting with VITAS
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Contacting VITAS does not mean your family has to make every decision immediately. The first meeting is a chance to talk openly about your loved one's condition, priorities, and goals for care while learning how hospice may be able to help.</p><p>A VITAS admissions specialist may speak with the patient, family, and current physician to help determine whether hospice eligibility requirements are met. The discussion may also cover where care would take place, what support the family needs, and what matters most to the patient.</p><p>It can be helpful to bring questions and any information your family already has about the patient's medical history, current symptoms, medications, physicians, insurance coverage, and care preferences.</p><p>During the conversation, families may want to ask:</p><ul><li>What services would be included in the plan of care?</li><li>Who would be part of the hospice care team?</li><li>How would pain and other symptoms be managed?</li><li>What support is available for family caregivers?</li><li>Who should the family contact when questions or changes arise?</li><li>What happens if the patient's needs change?</li></ul><p>The VITAS team can explain the next steps and answer questions about beginning care. If hospice is appropriate and the family chooses to move forward, the care team works with the patient, family, and physicians to develop a plan centered on the patient's needs and wishes.</p><p>Taking time to prepare for the first meeting can make the conversation feel more manageable and help your family make an informed decision together.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Your first conversation with VITAS is an opportunity to ask questions, share your loved one's needs, and understand what support may be available. Knowing what to expect can help your family feel prepared for the discussion.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Your first conversation with VITAS is an opportunity to ask questions, share your loved one's needs, and understand what support may be available. Knowing what to expect can help your family feel prepared for the discussion.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec61daf6-2eda-4b5c-8f15-b8c5e259db6a"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: What to Expect During Your First Meeting with VITAS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T163458Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: What to Expect During Your First Meeting with VITAS

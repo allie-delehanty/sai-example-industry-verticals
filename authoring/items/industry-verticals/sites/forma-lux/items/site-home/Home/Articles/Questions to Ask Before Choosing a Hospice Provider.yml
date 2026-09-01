@@ -1,0 +1,71 @@
+﻿---
+ID: "c14f3fa3-923e-4857-973c-a60b5b4dc663"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Questions to Ask Before Choosing a Hospice Provider"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/95764-HomepagePromoCTAs-1100x740?v=f1bfd9d9" dam-id="HB3siJPWQXmowLKVoykKbA" width="1100" height="740" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95764/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F3DBED4C-C376-42D8-93C1-801C2DA505CF}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b4da0380-e2f3-4f94-bca3-19f05665a729"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: The right hospice provider should support both the patient and the family. Use these questions to compare providers, understand available services, and choose care with greater confidence.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T191558Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Questions to Ask Before Choosing a Hospice Provider
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Choosing a hospice provider is an important decision. Although hospice programs provide core services, the experience, availability, programs, and approach to care can differ from one provider to another.</p><p>Before making a decision, ask questions that help your family understand how care will be delivered and what support will be available as needs change.</p><ul><li>How quickly can care begin after a referral or request for an evaluation?</li><li>Is support available 24 hours a day, including nights, weekends, and holidays?</li><li>Who will be part of the patient's interdisciplinary care team?</li><li>How often will team members visit, and how are visits adjusted when needs change?</li><li>How does the provider manage pain, breathing difficulties, agitation, and other urgent symptoms?</li><li>What medications, supplies, and medical equipment are related to the hospice plan of care?</li><li>What education and support are available for family caregivers?</li><li>Can the provider support care at home, in a nursing facility, or in an inpatient setting when appropriate?</li><li>How does the provider coordinate with the patient's current physician and other care providers?</li><li>What emotional, spiritual, social work, and bereavement support is available?</li><li>How are insurance coverage, benefits, and possible costs explained?</li><li>Whom should the family contact when there is a question or change in condition?</li></ul><p>Families may also want to ask about the provider's licensing, accreditation, experience, and approach to specialized needs. Clear answers can help you understand not only what services are offered, but how the provider will respond during difficult moments.</p><p>Take notes, involve the patient whenever possible, and make space for the questions that matter most to your family. The goal is to choose a provider that listens carefully, communicates clearly, and builds a plan around the patient's needs and wishes.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: The right hospice provider should support both the patient and the family. Use these questions to compare providers, understand available services, and choose care with greater confidence.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: The right hospice provider should support both the patient and the family. Use these questions to compare providers, understand available services, and choose care with greater confidence.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8891a9a7-fc54-4a0b-b783-dadb9903cb30"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Questions to Ask Before Choosing a Hospice Provider
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T191627Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Questions to Ask Before Choosing a Hospice Provider

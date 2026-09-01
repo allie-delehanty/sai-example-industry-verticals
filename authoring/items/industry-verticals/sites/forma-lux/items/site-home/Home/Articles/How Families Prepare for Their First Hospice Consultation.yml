@@ -1,0 +1,71 @@
+﻿---
+ID: "86701be7-7ca1-4554-b56c-24619551d0f1"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/How Families Prepare for Their First Hospice Consultation"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/69e4499cd17a4cdd80cba7d88cdbb41d?v=dc49c184" dam-id="O0BZGCdlT1itIp2_mhnEMg" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95737/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9D8E0AD1-FFF2-4BE0-BCB6-753CCD66402C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "582a3dd9-73c7-4919-b354-8088e1fca2a1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: A first hospice consultation is a chance to ask questions and understand available support. A little preparation can help your family have a more focused conversation about your loved one's needs and wishes.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T191558Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How Families Prepare for Their First Hospice Consultation
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Reaching out to a hospice provider can feel like a significant step, but the first consultation is primarily a conversation. It gives the patient and family an opportunity to describe what is happening, learn how hospice works, and decide whether an evaluation or additional discussion would be helpful.</p><p>You do not need to have every answer before the consultation. Gathering a few details can make the conversation easier and help the hospice representative understand your loved one's situation.</p><p>Before the conversation, consider gathering:</p><ul><li>The patient's current diagnoses and recent changes in health</li><li>A list of medications, treatments, and medical equipment</li><li>Recent hospitalizations, emergency visits, or changes in daily function</li><li>The names and contact information of current physicians and care providers</li><li>Insurance information</li><li>Advance directives or documented care preferences, if available</li><li>Questions from the patient, family, or primary caregiver</li><li>Information about where the patient would prefer to receive care</li></ul><p>Your family may also want to discuss:</p><ul><li>What comfort and quality of life mean to the patient</li><li>Which family members or caregivers should participate in care decisions</li><li>What support caregivers may need at home</li><li>Any cultural, spiritual, communication, or personal preferences the care team should understand</li><li>Concerns about symptoms, safety, costs, or what happens next</li></ul><p>During the consultation, ask the hospice representative to explain eligibility, services, care settings, caregiver support, and how the team responds when symptoms or needs change. It is also appropriate to ask what the next step would be if the family decides to move forward.</p><p>A consultation does not obligate your family to begin hospice care. It is a way to gather information, clarify priorities, and understand what support may be available for your loved one and family.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: A first hospice consultation is a chance to ask questions and understand available support. A little preparation can help your family have a more focused conversation about your loved one's needs and wishes.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: A first hospice consultation is a chance to ask questions and understand available support. A little preparation can help your family have a more focused conversation about your loved one's needs and wishes.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b18277a-bd73-4f79-b9c5-45d37e68a3db"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: How Families Prepare for Their First Hospice Consultation
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T191627Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: How Families Prepare for Their First Hospice Consultation

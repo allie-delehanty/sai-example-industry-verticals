@@ -1,0 +1,71 @@
+﻿---
+ID: "7058b69c-9577-44c9-a159-21d77cd18324"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/How to Begin Hospice Care"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/890fa24cdf3a45ceb2288c9dd57c1c16?v=20598c0e" dam-id="WJiOe793RW20hvHXzUXkFQ" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95738/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C14CF8F3-7391-42BA-A5A6-FBE668D300CE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f09af14f-a792-44a6-b287-acfb449812e6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: When your family is ready to explore hospice care, knowing the first steps can make the process feel less overwhelming. Learn how to start the conversation, understand eligibility, and move toward a care plan.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T152028Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How to Begin Hospice Care
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Beginning hospice care often starts with a phone call. A patient, family member, caregiver, or healthcare professional can contact a hospice provider to ask questions and request an evaluation.</p><p>The first step is to share information about the patient's illness, recent changes, symptoms, and goals for care. A hospice admissions specialist can then work with the patient and current physician to help determine whether hospice eligibility requirements are met.</p><p>If hospice is appropriate, the next steps may include:</p><ul><li>Reviewing available services and levels of care</li><li>Discussing where the patient would prefer to receive care</li><li>Confirming coverage and completing admission documents</li><li>Identifying the patient's priorities and family caregiver needs</li><li>Coordinating with the patient's physician and hospice physician</li><li>Developing an individualized plan of care</li><li>Arranging needed medications, supplies, or medical equipment</li><li>Scheduling visits from members of the hospice team</li></ul><p>Once admission is complete, the hospice team begins coordinating care around the patient's needs. Team members may include a physician, nurse, hospice aide, social worker, chaplain, volunteer, and bereavement specialist. Visits are scheduled based on the plan of care, and the family receives information about whom to contact with questions or changes in symptoms.</p><p>Hospice care is centered on the patient and family. Sharing your loved one's wishes, routines, concerns, and goals helps the team provide support that reflects what matters most.</p><p>You do not have to navigate the process alone. A conversation with VITAS can help your family understand whether hospice is the right next step and what support is available.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: When your family is ready to explore hospice care, knowing the first steps can make the process feel less overwhelming. Learn how to start the conversation, understand eligibility, and move toward a care plan.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: When your family is ready to explore hospice care, knowing the first steps can make the process feel less overwhelming. Learn how to start the conversation, understand eligibility, and move toward a care plan.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc8f8377-bf10-45a2-b4db-aeed8eaf0d8c"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: How to Begin Hospice Care
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T152048Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: How to Begin Hospice Care

@@ -1,0 +1,62 @@
+﻿---
+ID: "a7fab1b6-5828-4e2a-823b-c146594c663e"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/What services does hospice include"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/890fa24cdf3a45ceb2288c9dd57c1c16?v=20598c0e" dam-id="WJiOe793RW20hvHXzUXkFQ" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95738/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-250"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{363B2141-576C-459F-BBB6-3FDF7C52D8D8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "029dcfc1-4d92-40e9-9436-3bb3f3a5ceaa"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260819T200513Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Signs your family member is ready for hospice
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Many people assume hospice care focuses only on the patient. In reality, hospice provides a comprehensive layer of support for both patients and the families caring for them.</p><p>The goal of hospice is to improve quality of life by managing symptoms, providing comfort, and helping individuals remain as independent and supported as possible.</p><p>Hospice services commonly include:</p><ul><li><strong>Pain and Symptom Management:</strong> Hospice clinicians work closely with patients and families to manage symptoms such as pain, shortness of breath, fatigue, nausea, anxiety, and other conditions affecting comfort.</li><li><strong>Nursing Care:</strong> Nurses provide ongoing assessments, care coordination, education, and support while working alongside physicians and the broader care team.</li><li><strong>Emotional and Spiritual Support:</strong> Serious illness impacts more than physical health. Hospice teams often include social workers, chaplains, counselors, and bereavement specialists who provide emotional and spiritual support based on individual needs.</li><li><strong>Family and Caregiver Support:</strong> Caregivers often face physical and emotional challenges. Hospice professionals provide guidance, education, and resources to help families feel informed and supported throughout the journey.</li><li><strong>Medical Equipment and Supplies:</strong> Depending on eligibility and coverage, hospice care may include equipment, medications, and supplies related to the patient's terminal diagnosis.</li></ul><p>Hospice is centered around comfort, dignity, and helping patients and families make the most of their time together.</p><p>If you're unsure whether hospice care is appropriate, speaking with a hospice professional can help you better understand available options and determine what level of support may be right for your situation.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Understand how hospice supports patients and families through medical care, symptom management, emotional support, and caregiver assistance.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fac2e3d-ae9c-46a9-89ec-e9dc35608863"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "What Services Does Hospice Include?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T145057Z

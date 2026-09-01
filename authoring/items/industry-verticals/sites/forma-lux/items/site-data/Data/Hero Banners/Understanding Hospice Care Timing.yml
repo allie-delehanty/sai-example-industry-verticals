@@ -1,0 +1,56 @@
+﻿---
+ID: "effa8b44-31ec-42cc-89cb-69b5cbaa63c7"
+Parent: "e79d8586-d4b5-42f5-aec1-ae82c4f47f0f"
+Template: "ac18eef2-f134-4985-8b74-6ad16cca6577"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Hero Banners/Understanding Hospice Care Timing"
+SharedFields:
+- ID: "00b71f70-411d-4ea1-a423-74ed20b60157"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/95743-LandingPageHero-2000x600?v=b91c2bef" dam-id="OQgi1_dfQMmYwXljG3ITaw" width="2000" height="600" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95743/thumbnail" />
+- ID: "d74790ee-7289-4a66-b921-71da75df6cde"
+  Hint: Video
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1afd9206-c938-43d4-833d-37a1ed71db44"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dec177a-1a9b-41cf-a60c-d89f28fa41e8"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p>Making decisions for a loved one can feel overwhelming. Learn what hospice care includes, when it may be appropriate, and how VITAS helps patients and families focus on comfort, support, and quality of life.</p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260819T195049Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26553880-6464-4108-9914-2f9f44d11765"
+    - ID: "985b877b-bfee-473e-aada-0a9f156dfecc"
+      Hint: Title
+      Value: Understanding When It's Time for Hospice Care
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T184250Z
+    - ID: "e3c72e5d-cbf1-4af8-8a73-dc4d3c8590f3"
+      Hint: CtaLink
+      Value: |
+        <link linktype="internal" id="9d30e1a0b8934e45840e0e6fb82e3f25" anchor="" querystring="" target="" class="" text="Get Support" title=""/>

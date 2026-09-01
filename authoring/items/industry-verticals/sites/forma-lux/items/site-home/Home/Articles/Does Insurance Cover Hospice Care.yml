@@ -1,0 +1,74 @@
+﻿---
+ID: "b70ee666-9e33-405c-a455-4fa3e3bd8ffe"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Does Insurance Cover Hospice Care"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/69e4499cd17a4cdd80cba7d88cdbb41d?v=dc49c184" dam-id="O0BZGCdlT1itIp2_mhnEMg" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95737/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A05B7F06-D7B5-4564-B6FE-42D782C2C792}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "931a158a-28ad-45cb-ba23-0de86e23101e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Understanding hospice care is emotional enough without worrying about the cost. Learn what hospice services are typically covered by insurance and what questions to ask as you explore care options.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T150214Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Does Insurance Cover Hospice Care?"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>One of the most common questions families have when considering hospice care is whether insurance will cover the services their loved one may need. The good news is that hospice care is often covered by many insurance plans, helping families focus on what matters most: comfort, dignity, and quality of life.</p><p>While coverage can vary depending on your specific plan and circumstances, many patients qualify for hospice benefits through Medicare, Medicaid, Veterans Affairs benefits, or private insurance providers.</p><p>Hospice care often includes a range of support services, such as:</p><ul><li>Visits from nurses and care teams</li><li>Symptom and pain management</li><li>Medical equipment and supplies related to the hospice diagnosis</li><li>Emotional and spiritual support</li><li>Assistance for family caregivers</li><li>Bereavement support for loved ones</li></ul><p>Because every situation is unique, it's important to understand what benefits may be available and how coverage applies to your loved one's specific care needs.</p><p>If you're unsure whether hospice care is covered, a conversation with a hospice advisor can help clarify available options, explain benefits, and answer questions about eligibility and costs.</p><p>Making decisions about end-of-life care can be difficult, but understanding the financial aspects of hospice care can provide peace of mind and help families move forward with confidence.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Understanding hospice care is emotional enough without worrying about the cost. Learn what hospice services are typically covered by insurance and what questions to ask as you explore care options.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Understanding hospice care is emotional enough without worrying about the cost. Learn what hospice services are typically covered by insurance and what questions to ask as you explore care options.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0a68606-aaf3-406e-803e-743d826729a1"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Does Insurance Cover Hospice Care?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T150600Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Does Insurance Cover Hospice Care?"

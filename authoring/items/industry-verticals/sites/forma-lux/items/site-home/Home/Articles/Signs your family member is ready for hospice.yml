@@ -1,0 +1,62 @@
+﻿---
+ID: "9d30e1a0-b893-4e45-840e-0e6fb82e3f25"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Signs your family member is ready for hospice"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/95764-HomepagePromoCTAs-1100x740?v=f1bfd9d9" dam-id="HB3siJPWQXmowLKVoykKbA" width="1100" height="740" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95764/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-250"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F1565232-0050-4D42-A860-BF1931A4CB55}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "687a5fe5-6b6f-4b86-bc87-4cbc65e84287"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260819T200513Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Signs your family member is ready for hospice
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Recognizing when hospice care may be appropriate is not always easy. Many families notice changes over time and wonder whether additional support could help improve comfort and quality of life for their loved one.</p><p>Hospice care may be considered when a physician determines that a patient has a life expectancy of six months or less if the illness runs its expected course and when care goals have shifted from curing disease to maximizing comfort and quality of life.</p><p>Some common signs that it may be time to explore hospice care include:</p><ul><li>Frequent hospitalizations or emergency room visits</li><li>Increased pain or symptom burden</li><li>Declining physical strength or mobility</li><li>Difficulty completing daily activities independently</li><li>Unintended weight loss or reduced appetite</li><li>Increased sleeping or fatigue</li><li>Cognitive decline, confusion, or memory changes</li><li>A desire to focus on comfort rather than aggressive treatment</li></ul><p>Every individual and family experiences this journey differently. Exploring hospice care does not mean giving up hope. For many families, it means gaining additional support, guidance, and resources during an important stage of life.</p><p>If you're unsure whether hospice care is appropriate, speaking with a hospice professional can help you better understand available options and determine what level of support may be right for your situation.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Learn how changes in health, increasing symptom burden, and frequent hospitalizations may indicate it is time to explore hospice care.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1aeb6633-c1c1-43dd-b707-4a82d474abd0"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "What Are the Signs Hospice May Be Appropriate?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T145137Z

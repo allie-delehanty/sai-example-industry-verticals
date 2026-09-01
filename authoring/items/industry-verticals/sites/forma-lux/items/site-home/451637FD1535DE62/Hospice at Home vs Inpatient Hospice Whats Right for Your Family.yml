@@ -1,0 +1,71 @@
+﻿---
+ID: "8808586c-2387-43bf-94ea-1c21e0b5c55a"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Hospice at Home vs Inpatient Hospice Whats Right for Your Family"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/95764-HomepagePromoCTAs-1100x740?v=f1bfd9d9" dam-id="HB3siJPWQXmowLKVoykKbA" width="1100" height="740" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95764/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{94D0A7E4-FCDA-4E0A-AB3D-08C00FF09DA4}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "44e1106e-bfe3-4be4-81d8-8418ee12e1f2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: One of the most important decisions families face is where hospice care will take place. Learn the differences between hospice care at home and inpatient hospice care so you can choose the option that best supports your loved one's needs and wishes.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T150852Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Hospice at Home vs. Inpatient Hospice: What's Right for Your Family?"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>When considering hospice care, many families wonder where that care will take place. While every situation is unique, understanding the differences between hospice care at home and inpatient hospice care can help you make an informed decision.</p><p>For many patients, receiving hospice care at home allows them to remain in familiar surroundings with the people, routines, and comforts they know best. Family members often appreciate the ability to spend meaningful time together while receiving support from a dedicated hospice care team.</p><p>Hospice care at home may be a good option when:</p><ul><li>The patient wishes to remain in their home environment</li><li>Family members or caregivers are available to provide day-to-day support</li><li>Symptoms can be managed safely with hospice team guidance</li><li>Comfort and familiarity are important priorities</li></ul><p>In some situations, a patient may require a higher level of care to manage complex symptoms or medical needs. Inpatient hospice care provides around-the-clock support from healthcare professionals in a specialized setting focused on comfort and quality of life.</p><p>Inpatient hospice care may be considered when:</p><ul><li>Symptom management requires close medical attention</li><li>Pain or discomfort cannot be adequately managed at home</li><li>Caregiver support is temporarily unavailable</li><li>Additional clinical resources are needed to ensure comfort</li></ul><p>The right choice depends on many factors, including a patient's medical needs, personal preferences, family support system, and overall goals of care. For some families, care may begin at home and evolve over time as needs change.</p><p>The good news is that you don't have to determine the best option on your own. Hospice professionals can help assess your loved one's situation, answer questions, and guide you toward the care setting that best supports their comfort and wellbeing.</p><p>Making the decision about where care takes place can feel overwhelming, but understanding your options can help your family move forward with confidence and peace of mind.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: One of the most important decisions families face is where hospice care will take place. Learn the differences between hospice care at home and inpatient hospice care so you can choose the option that best supports your loved one's needs and wishes.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: One of the most important decisions families face is where hospice care will take place. Learn the differences between hospice care at home and inpatient hospice care so you can choose the option that best supports your loved one's needs and wishes.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 5 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a925bef-4df5-4f41-bcf9-f09f76f643b9"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Hospice at Home vs. Inpatient Hospice: What's Right for Your Family?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T150918Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Hospice at Home vs. Inpatient Hospice: What's Right for Your Family?"

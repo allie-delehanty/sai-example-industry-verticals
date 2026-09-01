@@ -148,35 +148,51 @@ SharedFields:
     
 - ID: "bd13b584-36a1-4c4e-aa1c-b4689ee2fae8"
   Hint: CustomCSS
-  Value: 
+  Value: |
+    --color-foreground: #1f1f1f;
+    --color-foreground-light: #3f3f3f;
+    --color-foreground-muted: #6f6f6f;
+    --color-foreground-secondary: #9b9b9b;
+    --color-background: #ffffff;
+    --color-background-accent: #fff3e6;
+    --color-background-muted: #f6f4f1;
+    --color-accent: #f28c28;
+    --color-accent-dark: #b86116;
+    --color-success: #1f7a3f;
+    --color-warning: #c47a00;
+    --color-danger: #b3261e;
+    --color-border: #dedbd6;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --radius-base: 0.125rem;
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a4aec945-e2ce-4406-b456-f96f0946c4cf"
+  Value: "5e7d1d6b-8073-4ca9-b07c-94a7a7c96f1f"
 - ID: "f4f80dc4-7985-4bba-a11e-4daebba94481"
   Hint: ThemeDefaults
   Value: |
-    --color-foreground: #111828;
-    --color-foreground-light: #4a5565;
-    --color-foreground-muted: #384354;
-    --color-foreground-secondary: #99a1af;
+    --color-foreground: #1a1a1a;
+    --color-foreground-light: #4b5563;
+    --color-foreground-muted: #6b7280;
+    --color-foreground-secondary: #9ca3af;
     
-    --color-background: #fff;
-    --color-background-accent: #dbf3f5;
-    --color-background-muted: #f5f5f5;
+    --color-background: #ffffff;
+    --color-background-accent: #fff4e6;
+    --color-background-muted: #f8fafc;
     
-    --color-accent: #3cbed1;
-    --color-accent-dark: #228091;
+    --color-accent: #E38B21;
+    --color-accent-dark: #b86d15;
     
-    --color-success: #2ec1ac;
-    --color-warning: #f5a623;
-    --color-danger: #e7000b;
+    --color-success: #15803d;
+    --color-warning: #ca8a04;
+    --color-danger: #b91c1c;
     
-    --color-border: #e5e5e5;
+    --color-border: #e5e7eb;
     
-    --font-heading: 'Open Sans', sans-serif;
+    --font-heading: 'Merriweather', serif;
     --font-body: 'Open Sans', sans-serif;
     
-    --radius-base: 0.5rem;
+    --radius-base: 0.25rem;
 Languages:
 - Language: en
   Versions:
@@ -187,11 +203,11 @@ Languages:
       Value: 20251117T220631Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1765809c-73da-48b7-aaa5-f5602408eb43"
+      Value: "42e3f8c2-5c72-4ca8-9631-1a1044c664b5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\INIwVuCCf0fzziGGBdz0UepKJ8K6him7
+        sitecore\7XrYwrV35fuCXoag0lirZeMoYOaT6L73
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260128T153157Z
+      Value: 20260504T145233Z

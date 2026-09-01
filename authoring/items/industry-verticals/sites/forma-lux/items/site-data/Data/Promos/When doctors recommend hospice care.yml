@@ -1,0 +1,55 @@
+﻿---
+ID: "5faeb678-130f-4036-8253-6110a5d60504"
+Parent: "d7bee783-0ed9-4fb5-9cf2-6c7fef0b2f86"
+Template: "08213afb-9cb4-4c1f-a5da-865b9a095601"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Promos/When doctors recommend hospice care"
+SharedFields:
+- ID: "0d9bfa5d-ac4d-4dca-8477-78801227cf5c"
+  Hint: PromoImageTwo
+  Value: 
+- ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
+  Hint: PromoImageOne
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/96338-LandingPageHero-2000x600?v=053ddb09" dam-id="wMS4MvvGRNWrYnAj-6RagQ" width="2000" height="600" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/96338/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6fdb57e9-65be-484e-850e-c3ab9a8ea273"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260819T195147Z
+    - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
+      Hint: PromoDescription
+      Value: |
+        <div class="ck-content"><p>"We felt overwhelmed trying to figure out what was best for our loved one. VITAS gave us clear information, answered our questions, and helped us feel more confident about the decisions we needed to make."</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "79332b7d-ea7f-47d7-a9c2-bfaae4806296"
+      Hint: PromoSubTitle
+      Value: WHY FAMILIES CHOOSE VITAS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b351bc53-602b-4681-8366-63e050015313"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T163104Z
+    - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
+      Hint: PromoTitle
+      Value: Support Beyond Care

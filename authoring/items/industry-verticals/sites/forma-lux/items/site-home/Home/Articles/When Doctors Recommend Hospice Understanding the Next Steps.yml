@@ -1,0 +1,71 @@
+﻿---
+ID: "c2c46dcc-e96b-4565-a818-a9f74275fae5"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/When Doctors Recommend Hospice Understanding the Next Steps"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/69e4499cd17a4cdd80cba7d88cdbb41d?v=dc49c184" dam-id="O0BZGCdlT1itIp2_mhnEMg" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95737/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D1273086-79D5-45EA-8311-99A5413BF2E8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7e5707bd-4eb5-4cc6-be36-30c5c3d0c811"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Hearing a doctor recommend hospice care can bring up many emotions and questions. Understanding what happens next can help you make informed decisions and feel more confident as you explore care options for your loved one.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T150852Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "When Doctors Recommend Hospice: Understanding the Next Steps"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>For many families, the recommendation for hospice care comes during a difficult and emotional time. While it can be hard to hear, a hospice recommendation is often made when a physician believes a patient may benefit from care that focuses on comfort, quality of life, and support rather than curative treatment.</p><p>If a doctor has suggested hospice care, it's natural to have questions. You may wonder what hospice involves, whether it's the right choice, or what steps your family should take next.</p><p>Common questions families ask include:</p><ul><li>What does hospice care actually provide?</li><li>Is my loved one eligible for hospice services?</li><li>Can hospice care be provided at home?</li><li>Will insurance cover hospice care?</li><li>Can we stop hospice care if circumstances change?</li><li>How will hospice support family caregivers?</li></ul><p>The next step is often a conversation with a hospice provider who can explain available services, answer questions, and assess your loved one's unique situation. This discussion does not obligate you to begin care immediately. Instead, it provides an opportunity to learn about your options and better understand what support may be available.</p><p>During an assessment, a hospice professional will review your loved one's condition, discuss goals of care, and help determine whether hospice is an appropriate fit. They can also explain what care looks like day-to-day and how family members are supported throughout the journey.</p><p>Many families find that learning more about hospice helps ease concerns and correct common misconceptions. Hospice is not about giving up hope. Rather, it is about focusing on comfort, dignity, and making the most of the time that remains.</p><p>While no one can make this decision for your family, understanding the next steps can make the process feel less overwhelming. Taking time to ask questions, explore your options, and speak with hospice professionals can help ensure your loved one's wishes and needs remain at the center of every decision.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Hearing a doctor recommend hospice care can bring up many emotions and questions. Understanding what happens next can help you make informed decisions and feel more confident as you explore care options for your loved one.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Hearing a doctor recommend hospice care can bring up many emotions and questions. Understanding what happens next can help you make informed decisions and feel more confident as you explore care options for your loved one.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 5 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c474b27d-3da7-4fd8-97b5-28a15e825e59"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "When Doctors Recommend Hospice: Understanding the Next Steps"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T150918Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "When Doctors Recommend Hospice: Understanding the Next Steps"

@@ -1,0 +1,62 @@
+﻿---
+ID: "bf5d98e6-802e-4c4e-bad1-87ad60468c78"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/How do I start the conversation"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/69e4499cd17a4cdd80cba7d88cdbb41d?v=dc49c184" dam-id="O0BZGCdlT1itIp2_mhnEMg" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95737/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-250"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EACCEE2E-A3FA-41D0-822D-2F07928F3751}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "527a9f35-838b-45dc-9928-4ab8e6257e82"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260819T200513Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Signs your family member is ready for hospice
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Starting a conversation about hospice care can feel overwhelming. Many families worry that bringing up hospice means giving up hope, but hospice is truly about ensuring comfort, support, and quality of life for both patients and their loved ones.</p><p>Hospice care is designed to improve quality of life by managing symptoms, providing comfort, and supporting patients and families throughout this difficult chapter.</p><p>Hospice services commonly include:</p><ul><li><strong>Pain and Symptom Management:</strong> Hospice clinicians work closely with patients and families to manage symptoms such as pain, shortness of breath, fatigue, nausea, anxiety, and other conditions affecting comfort.</li><li><strong>Nursing Care:</strong> Nurses provide ongoing assessments, care coordination, education, and support while working alongside physicians and the broader care team.</li><li><strong>Emotional and Spiritual Support:</strong> Serious illness impacts more than physical health. Hospice teams often include social workers, chaplains, counselors, and bereavement specialists who provide emotional and spiritual support based on individual needs.</li><li><strong>Family and Caregiver Support:</strong> Caregivers often face physical and emotional challenges. Hospice professionals provide guidance, education, and resources to help families feel informed and supported throughout the journey.</li><li><strong>Medical Equipment and Supplies:</strong> Depending on eligibility and coverage, hospice care may include equipment, medications, and supplies related to the patient's terminal diagnosis.</li></ul><p>If you're unsure how to approach the topic of hospice care, start by listening to your loved one’s concerns and priorities. Ask open-ended questions such as, "How have you been feeling lately?" or "What concerns you most about the future?" These conversations create space for sharing fears, goals, and thoughts without pressure.</p><p>Remember that hospice is not about taking options away. Hospice provides specialized care, emotional support, and resources designed to help patients and families navigate this chapter with dignity and compassion.</p><p>Hospice is centered around comfort, dignity, and helping patients and families make the most of their time together. If you're uncertain whether hospice care is appropriate, a hospice professional can help you understand available options and determine what level of support is right for your situation.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Talking about hospice can feel difficult, but you don't have to navigate the conversation alone. Learn how hospice supports patients and families with compassion, confidence, and assistance in medical care, symptom management, emotional support, and caregiving.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6688a56d-edb0-4b77-975d-fd84d94c94d4"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "How Do I Start the Conversation About Hospice Care With a Loved One?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T145032Z

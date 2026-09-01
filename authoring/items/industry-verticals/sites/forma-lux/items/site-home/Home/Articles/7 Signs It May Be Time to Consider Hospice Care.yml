@@ -1,0 +1,71 @@
+﻿---
+ID: "5ad83a37-8088-49ea-adb4-204f7ebb814e"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/7 Signs It May Be Time to Consider Hospice Care"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/890fa24cdf3a45ceb2288c9dd57c1c16?v=20598c0e" dam-id="WJiOe793RW20hvHXzUXkFQ" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95738/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D25A1045-564A-4DFA-A560-723395CC3C1A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ca4391fd-040e-4344-afe6-4014f036809c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Recognizing when a loved one may benefit from hospice care can be difficult. These common signs can help families know when it may be time to ask questions and request a hospice evaluation.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T191558Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 7 Signs It May Be Time to Consider Hospice Care
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Families often wonder how they will know when it is time to consider hospice care. There is rarely one single moment that makes the decision obvious. Instead, families may notice a pattern of changes that suggests their loved one needs more comfort, support, and help managing a serious illness.</p><p>The following signs do not determine hospice eligibility on their own, but they may indicate that it is time to talk with a physician or hospice provider.</p><ol><li><strong>More frequent hospital or emergency room visits.</strong> Repeated hospitalizations or emergency visits may signal that an illness is becoming harder to manage with the current care plan.</li><li><strong>Symptoms are becoming more difficult to manage.</strong> Increasing pain, shortness of breath, nausea, anxiety, or other symptoms may create a need for more specialized comfort-focused support.</li><li><strong>A noticeable decline in daily activities.</strong> A loved one may need more help bathing, dressing, eating, walking, or moving safely from one place to another.</li><li><strong>Less interest in food or ongoing weight loss.</strong> Changes in appetite, eating, or weight can occur as a serious illness progresses and may be important to discuss with the care team.</li><li><strong>Increasing weakness, fatigue, or time spent sleeping.</strong> A loved one may have less energy for familiar routines, conversations, or activities and may spend more time resting.</li><li><strong>Treatments are no longer helping as expected.</strong> A physician may explain that treatment is no longer controlling the illness or that the burden of treatment is outweighing its benefit.</li><li><strong>The focus of care is shifting toward comfort.</strong> The patient and family may begin prioritizing comfort, time together, and quality of life rather than additional curative treatment.</li></ol><p>If several of these signs feel familiar, your family does not have to make a decision alone. A hospice evaluation can provide more information about eligibility, available services, and whether hospice may be appropriate now or in the future.</p><p>Asking for an evaluation does not require a commitment to begin hospice care. It is an opportunity to understand your options and make an informed decision centered on your loved one's goals and wishes.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Recognizing when a loved one may benefit from hospice care can be difficult. These common signs can help families know when it may be time to ask questions and request a hospice evaluation.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: Recognizing when a loved one may benefit from hospice care can be difficult. These common signs can help families know when it may be time to ask questions and request a hospice evaluation.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 5 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1cf4c81-73f8-479c-bb95-325944366a89"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: 7 Signs It May Be Time to Consider Hospice Care
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T191619Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: 7 Signs It May Be Time to Consider Hospice Care

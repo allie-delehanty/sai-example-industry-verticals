@@ -1,0 +1,71 @@
+﻿---
+ID: "7ed16cce-f577-4b71-9aac-ff835385fd4d"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/Preparing for a Hospice Assessment"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260820T000000Z
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/69e4499cd17a4cdd80cba7d88cdbb41d?v=dc49c184" dam-id="O0BZGCdlT1itIp2_mhnEMg" width="962" height="641" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/95737/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EA0A09E9-0D36-46BC-9EE7-1CE49466E7C6}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "450f917d-fed0-4e9d-920c-fd5873c4c639"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: A hospice assessment can help determine whether care is appropriate and what support your loved one may need. Gathering a few details beforehand can make the conversation easier and more productive.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260820T152028Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Preparing for a Hospice Assessment
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>A hospice assessment is an opportunity for a hospice professional to learn about your loved one's condition, current needs, and goals for care. It also gives your family time to ask questions and better understand what hospice support could look like.</p><p>Before the assessment, consider gathering information that may help the hospice team understand the patient's situation. You do not need to have every answer. Bring what is available and use the conversation to identify anything else that may be needed.</p><p>Helpful information may include:</p><ul><li>The patient's diagnoses and recent changes in health</li><li>Current symptoms, pain levels, or concerns about comfort</li><li>A list of medications and medical equipment currently in use</li><li>Contact information for the patient's physicians and care providers</li><li>Insurance information</li><li>Advance directives or written care preferences, if available</li><li>The patient's preferred setting for care</li><li>Questions from the patient, family, or primary caregiver</li></ul><p>Families may also want to decide who should participate in the conversation. This could include the patient, close family members, a chosen decision-maker, or the person who would serve as the primary caregiver at home.</p><p>During the assessment, the hospice professional can discuss eligibility, explain available services, and learn about the patient's physical, emotional, psychosocial, and spiritual needs. The family can also ask about visit schedules, medications, equipment, caregiver support, and how to reach the team when help is needed.</p><p>Preparing ahead does not commit your family to hospice care. It simply helps create a more complete, informed conversation about the options available to your loved one.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: A hospice assessment can help determine whether care is appropriate and what support your loved one may need. Gathering a few details beforehand can make the conversation easier and more productive.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: A hospice assessment can help determine whether care is appropriate and what support your loved one may need. Gathering a few details beforehand can make the conversation easier and more productive.
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "784e1e86-4d2b-4d83-a634-5e60f80b455a"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Preparing for a Hospice Assessment
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260820T152054Z
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Preparing for a Hospice Assessment

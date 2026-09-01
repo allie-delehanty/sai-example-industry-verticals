@@ -1,0 +1,177 @@
+﻿---
+ID: "a17e1508-4df9-4354-94c7-6189c35a8399"
+Parent: "756c92c4-91ca-4db3-8a25-01a3a22ae20f"
+Template: "2f814f03-c3ef-4229-854c-cbced6d24704"
+Path: "/sitecore/content/industry-verticals/nova-medical/Home/Doctors/Sarah Patel"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{04DAB234-21F3-4B8B-A65D-8113346D1DA1}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "3527eae5-3652-413f-bf81-1fe0688fe4ae"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sarah Patel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260821T150021Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sarah Patel
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4384ca3a-2a46-4d10-ae21-2705f7ecaa29"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260821T150022Z
+    - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
+      Hint: Title
+      Value: Sarah Patel
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17f193f8-30f6-46f1-b96d-52ff7d1e980a"
+      Hint: pageSummary
+      Value: "Board-certified pulmonologist specializing in lung and respiratory care."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260821T150025Z
+    - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Dr. Sarah Patel is a board-certified pulmonologist with extensive expertise in diagnosing and managing a broad spectrum of lung and respiratory conditions. Her clinical focus encompasses chronic obstructive pulmonary disease (COPD), asthma, pulmonary fibrosis, sleep-related breathing disorders, and chronic respiratory infections. Dr. Patel is committed to empowering patients by developing evidence-based, personalized treatment plans that incorporate education and preventive care strategies. She is dedicated to ensuring patients fully understand their symptoms and treatment options, enabling them to make informed decisions about their care. Additionally, Dr. Patel adopts a collaborative approach, working closely with patients to devise long-term strategies for optimizing lung health and managing complex respiratory conditions effectively. Her compassionate care and wealth of knowledge provide patients with the tools and support needed to lead healthier lives.</p></div>
+    - ID: "3d5c2024-49b4-4918-bfff-5911d8b60b29"
+      Hint: metadataDescription
+      Value: "Board-certified pulmonologist specializing in personalized treatment plans, education, and preventive care for respiratory conditions."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sarah Patel
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
+      Hint: JobTitle
+      Value: Pulmonologist
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
+      Hint: FullName
+      Value: Sarah Patel
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f5a90194-e7ed-4b04-9ded-15e3971b742d"
+    - ID: "b6c4de28-a3f5-40a7-9e67-ffb12c9c44ad"
+      Hint: metadataTitle
+      Value: Sarah Patel, Pulmonologist
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260821T150025Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260821T153958Z
+    - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
+      Hint: Photo
+      Value: |
+        <image src="https://ze-dam.sitecoresandbox.cloud/api/public/content/645fc635d8fc4c22b43e30fbb4818a2f?v=7438b6ee" dam-id="nbPAa3S-QG2Z-ZpaptUBxg" width="1024" height="1253" dam-content-type="Image" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/96505/thumbnail" alt="Dr. Sarah Patel, pulmonologist, wearing a white lab coat and stethoscope, smiling against a white background" />
+    - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
+      Hint: Title
+      Value: Sarah Patel, Pulmonologist
+- Language: "es-MX"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "9db2133d-8e0c-438d-bade-002d62c4d0e4"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sarah Patel
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17f193f8-30f6-46f1-b96d-52ff7d1e980a"
+      Hint: pageSummary
+      Value: Neumóloga certificada que se especializa en cuidado pulmonar y respiratorio.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260821T150025Z
+    - ID: "3ac1a186-26b7-4845-9048-443c0dd0e487"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>La Dra. Sarah Patel es una neumóloga certificada que se especializa en el diagnóstico y tratamiento de enfermedades pulmonares y respiratorias. Está dedicada a ayudar a los pacientes a mejorar su calidad de vida mediante planes de tratamiento personalizados, educación y cuidado preventivo. La Dra. Patel trata una amplia gama de afecciones respiratorias, incluyendo enfermedad pulmonar obstructiva crónica (EPOC), asma, fibrosis pulmonar, trastornos respiratorios relacionados con el sueño e infecciones respiratorias crónicas. Trabaja estrechamente con los pacientes para ayudarles a comprender mejor sus síntomas y desarrollar estrategias para la salud pulmonar a largo plazo. A través de un enfoque colaborativo y compasivo, la Dra. Patel empodera a los pacientes para que asuman un papel activo en el manejo de su salud mientras brinda el apoyo y la experiencia necesarios para enfrentar condiciones respiratorias complejas.</p></div>
+    - ID: "3d5c2024-49b4-4918-bfff-5911d8b60b29"
+      Hint: metadataDescription
+      Value: Neumóloga certificada que se especializa en planes de tratamiento personalizados, educación y cuidado preventivo para afecciones respiratorias.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sarah Patel
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "58a94784-3297-4c4a-a2b4-e4f87d015f50"
+      Hint: JobTitle
+      Value: Neumóloga
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "65d340d2-4eb3-4593-9bdd-9a66c4dcfab7"
+      Hint: FullName
+      Value: Sarah Patel
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f211594d-7db0-4b94-b849-1da76f495d0e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6c4de28-a3f5-40a7-9e67-ffb12c9c44ad"
+      Hint: metadataTitle
+      Value: Sarah Patel, Neumóloga
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\allie.delehanty@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260821T150025Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260821T152250Z
+    - ID: "ea706e77-5d62-426e-bbb3-68805298e75c"
+      Hint: Photo
+      Value: |
+        <image height="1253" dam-content-type="Image" alt="La Dra. Sarah Patel, neumóloga, con bata blanca y estetoscopio, sonriendo frente a un fondo blanco" width="1024" thumbnailsrc="https://starter-verticals-2.sitecoresandbox.cloud/api/gateway/96505/thumbnail" dam-id="nbPAa3S-QG2Z-ZpaptUBxg" src="https://ze-dam.sitecoresandbox.cloud/api/public/content/645fc635d8fc4c22b43e30fbb4818a2f?v=7438b6ee" />
+    - ID: "fb359b0f-3087-41f2-aae3-2dd492eb2c60"
+      Hint: Title
+      Value: Sarah Patel, Neumóloga
